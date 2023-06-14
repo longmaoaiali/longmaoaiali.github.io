@@ -1,14 +1,12 @@
 ---
 layout:     post
 title:      Git指令整理
-subtitle:   不适合阅读的整理的一些个人常用的 Git 指令
-date:       2017-02-15
-author:     BY
-header-img: img/post-bg-ios9-web.jpg
+subtitle:   常用的 Git 指令
+date:       2023-06-14
+author:     BuBu
+header-img: img/purple_background.jpg
 catalog: true
 tags:
-    - Mac
-    - 终端
     - Git
 ---
 
@@ -272,6 +270,48 @@ tags:
 	# 暂时将未提交的变化移除，稍后再移入
 	$ git stash
 	$ git stash pop
+	
+#### 代码回退 
+
+默认参数 `-soft`,所有commit的修改都会退回到git缓冲区
+参数`--hard`，所有commit的修改直接丢弃
+
+	$ git reset --hard HEAD^ 		回退到上个版本
+	$ git reset --hard commit_id	退到/进到 指定commit_id
+推送到远程	
+
+	$ git push origin HEAD --force
+
+如果遇到报错，使用参数 `-f`,强行推送到远程	
+
+	$ git push -f  
+
+
+`git push -f` 会直接覆盖掉回退的代码，更建议使用`git revert`	
+
+	$ git revert e7c8599d29b61579ef31789309b4e691d6d3a83f
+	$ git push origin main
+	
+
+#### 可以吃的后悔药->版本穿梭
+
+当你回滚之后，又后悔了，想恢复到新的版本怎么办？
+
+用`git reflog`打印你记录你的每一次操作记录
+
+	$ git reflog
+	
+	输出：
+	c7edbfe HEAD@{0}: reset: moving to c7edbfefab1bdbef6cb60d2a7bb97aa80f022687
+	470e9c2 HEAD@{1}: reset: moving to 470e9c2
+	b45959e HEAD@{2}: revert: Revert "add img"
+	470e9c2 HEAD@{3}: reset: moving to 470e9c2
+	2c26183 HEAD@{4}: reset: moving to 2c26183
+	0f67bb7 HEAD@{5}: revert: Revert "add img"
+	
+找到你操作的id如：`b45959e`，就可以回退到这个版本
+	
+	$ git reset --hard b45959e
 	
 #### 其他
 
