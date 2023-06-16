@@ -20,10 +20,11 @@ tags:
 
 # Wi-Fi6 11AX
 
-#### How to Configure APUT to transmit M-BA in SU PPDU as the response of frames in TB PPDU During WFA HE-4.41.1.
+#### WFA HE-4.41.1.
 
 	Test Item：4.41.1 Basic HE UL MU frame exchange sequence for 2.4 GHz, 20 MHz test
 	Applicability: Mandatory
+	Issue: How to Configure APUT to transmit M-BA in SU PPDU as the response of frames in TB PPDU During?
 	
 	Refer to Wi-Fi6_CERTIFIED_6_Test_Plan_v1.0_0.pdf
 	M-BA implies Basic Trigger to solicit HE TB PPDU from the STAs.
