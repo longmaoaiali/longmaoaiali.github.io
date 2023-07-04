@@ -15,6 +15,7 @@ tags:
 
 ----------
 ### 1.Acronyms
+
 **MLD**: Multi-Link Device.  
 **MLO**: Multi-Link Operation. MLO defines a set of procedures allowing communication over (#18068)one or more links between MLDs. An MLD manages such communication over (#18068)one or more links. Communication across links <font color="#FF0000">using different frequency bands or channels </font> can occur simultaneously or not depending on the capabilities of both the AP MLD and the non-AP MLD.    
 **NSTR**: Nonsimultaneous transmit and receive (NSTR) operation.  
@@ -29,6 +30,7 @@ tags:
 ### 2.Concept of MLO
 
 #### 2.1.What is MLO? 
+
 Multi-Link Operation (MLO) enables data flows to be sent across multiple OTA channels to a Multi-Link device.  
 Communication across links <font color="#FF0000">using different frequency bands or channels </font>.  
 <font color="#FF8C00">MLO Block Diagram:  </font> 
@@ -48,29 +50,36 @@ Communication across links <font color="#FF0000">using different frequency bands
 ### 3.MLO modes
  
 #### 3.1.STR (simultaneous Tx and Rx)
+
 An MLD that is capable of simultaneous Tx /Rx on multiple links for the given set of links.  
 <font color="#FF8C00">STR mode:  </font> 
 <img src="/img/post/2023-07-04-MLO-STR.png"/>
 
 #### 3.2.Non-STR (NSTR)
+
 An MLD that is not capable of simultaneous Tx /Rx on multiple links for the given set of links, it can only do Tx/Tx or Rx/Rx on all links.  
 <font color="#FF8C00">NSTR mode:  </font> 
 <img src="/img/post/2023-07-04-MLO-NSTR.png"/>
 
 #### 3.3.Multi-link channel access mode(Transmission Modes)
+
 Three modes of transmission under considerations: Basic mode, Asynchronous mode, Synchronous mode.
 
 ##### 3.3.1.Basic Mode
+
 Basic (Multi-Primary with single link transmission): STA/AP counts down on both links. Transmits only on the link that wins the medium. Other link 
 gets blocked by in-device-interference > -62dBm.
 A STA that is affiliated with an MLD shall contend for the WM on its link independently from the other STA(s) affiliated with the same MLD, unless explicitly stated otherwise in the sub clauses below.
 
 ##### 3.3.2.Asynchronous Mode
+
 Asynchronous mode: STA/AP counts down on both links. PPDU start/end can happen independently on each link. Possible when the device can support simultaneous Tx/Rx.
 
 ##### 3.3.3.Synchronous Mode
+
 Synchronous PPDU: To avoid that a device transmit and receive frames on multi-link simultaneously, it synchronizes the ending times of the PPDU 
 transmissions on multi-link. Two types, depending on regulatory rule.  
+
 - PIFS access allowed. For fairness reasons, ED(energy detection) on 2nd link is checked at -72dBm.  
 <font color="#FF8C00">Sync PPDU with PIFS Access:  </font> 
 <img src="/img/post/2023-07-04-Sync-PPDU-with-PIFS-Access.png"/>
@@ -151,7 +160,7 @@ Separate group-keys for broadcast /groupcast packets.
 ### 5.MLO MAC Layer Architecture
  
 <font color="#FF8C00">MLO MAC Layer Architecture:  </font> 
-<img src="/img/post/2023-07-04-MLO-MAC-Layer-Architecture.png"/>
+<img src="/img/post/2023-07-04-MLO-MAC-Layer-Architecture.png"/>  
 
 MLO MAC Layer Consists of two logical entities:
     
@@ -159,6 +168,7 @@ MLO MAC Layer Consists of two logical entities:
 - STA /AP (Lower MAC): Responsible for time critical functions  
 
 #### 5.1.MLD Management Entity Upper MAC
+
 - Single interface to upper layer  
 - MSDU Buffering, Re-sequencing, replay-attach check  
 - Single BA session: Shared sequence # space per TID, tracks BA score-board  
@@ -166,6 +176,7 @@ MLO MAC Layer Consists of two logical entities:
 - Management signaling, Association, AID assignment  
 
 #### 5.2.Lower MAC  
+
 - Channel contention (CCA, EDCA Back-off etc.)  
 - Time critical control responses (Acknowledgements, CTS etc.)  
 - Power-save states (Doze, Awake)  
@@ -173,6 +184,7 @@ MLO MAC Layer Consists of two logical entities:
 - PPDU formation & transmission (MCS, SS#, PPDU duration etc.)  
 
 #### 5.3.Beacon is sent per link basis
+
 - All power save and other things are taking place in per-link basis. So, beacons are sent on per-link basis.  
 - For the discovery, you need to discover the whole multi-link device. So, the beacons in one link need to carry the info about the other link.  
 
@@ -194,7 +206,6 @@ Independent BA response on each link.
 #### 6.2.Tx Side BA procedure
 
 The transmitting MLD consolidates (ORs) the BA reports from different STAs to update the common BA scoreboard and make decisions regarding. Advancing the Tx window and Retransmitting failed MPDUs.   
-
 <font color="#FF8C00">BA procedure with multi-link:  </font> 
 <img src="/img/post/2023-07-04-BA-procedure-with-multi-link.png"/>  
 
