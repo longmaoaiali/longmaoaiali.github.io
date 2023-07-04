@@ -87,12 +87,10 @@ Synchronous PPDU: To avoid that a device transmit and receive frames on multi-li
 transmissions on multi-link.   
 There are two types Sync PPDU with PIFS Access and Sync PPDU without PIFS Access, depending on regulatory rule.
 
-PIFS access allowed. For fairness reasons, ED(energy detection) on 2nd link is checked at -72dBm.  
-<font color="#FF8C00">Sync PPDU with PIFS Access:  </font> 
+PIFS access allowed. For fairness reasons, ED(energy detection) on 2nd link is checked at -72dBm. <font color="#FF8C00">Sync PPDU with PIFS Access:  </font> 
 <img src="/img/post/2023-07-04-Sync-PPDU-with-PIFS-Access.png"/>
 
-PIFS access NOT allowed. Start times may be different. End time is aligned.   
-<font color="#FF8C00">Sync PPDU without PIFS Access:  </font> 
+PIFS access NOT allowed. Start times may be different. End time is aligned. <font color="#FF8C00">Sync PPDU without PIFS Access:  </font> 
 <img src="/img/post/2023-07-04-Sync-PPDU-without-PIFS-Access.png"/>
 
 ##### 3.3.4.Why do we need Sync PPDU?
