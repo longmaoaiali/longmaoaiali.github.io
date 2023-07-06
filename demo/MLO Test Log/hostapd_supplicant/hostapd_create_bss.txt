@@ -1,0 +1,221 @@
+root@OpenWrt:/# cat /tmp/qcawificfg80211_commands.txt 
+grep -q fast_boot_vap_mode /ini/internal/global_i.ini && sed -i '/fast_boot_vap_mode=/c fast_boot_vap_mode=0' /ini/internal/global_i.ini || echo "$(awk '/.*\[.*\].*/ && !s { s = 1; print "'$2'='$3'"}1' $file)" > /ini/internal/global_i.ini
+grep -q fast_boot_vap_mode /ini/internal/global_i.ini && sed -i '/fast_boot_vap_mode=/c fast_boot_vap_mode=0' /ini/internal/global_i.ini || echo "$(awk '/.*\[.*\].*/ && !s { s = 1; print "'$2'='$3'"}1' $file)" > /ini/internal/global_i.ini
+echo -n /ini > /sys/module/firmware_class/parameters/path
+grep -q sawf /ini/internal/QCN9000_i.ini && sed -i '/sawf=/c sawf=0' /ini/internal/QCN9000_i.ini || echo "$(awk '/.*\[.*\].*/ && !s { s = 1; print "'$2'='$3'"}1' $file)" > /ini/internal/QCN9000_i.ini
+grep -q sawf /ini/internal/QCA9574_i.ini && sed -i '/sawf=/c sawf=0' /ini/internal/QCA9574_i.ini || echo "$(awk '/.*\[.*\].*/ && !s { s = 1; print "'$2'='$3'"}1' $file)" > /ini/internal/QCA9574_i.ini
+grep -q sawf /ini/internal/QCN9224_i.ini && sed -i '/sawf=/c sawf=0' /ini/internal/QCN9224_i.ini || echo "$(awk '/.*\[.*\].*/ && !s { s = 1; print "'$2'='$3'"}1' $file)" > /ini/internal/QCN9224_i.ini
+grep -q dp_sawf_stats /ini/internal/QCN9000_i.ini && sed -i '/dp_sawf_stats=/c dp_sawf_stats=0' /ini/internal/QCN9000_i.ini || echo "$(awk '/.*\[.*\].*/ && !s { s = 1; print "'$2'='$3'"}1' $file)" > /ini/internal/QCN9000_i.ini
+grep -q dp_sawf_stats /ini/internal/QCA9574_i.ini && sed -i '/dp_sawf_stats=/c dp_sawf_stats=0' /ini/internal/QCA9574_i.ini || echo "$(awk '/.*\[.*\].*/ && !s { s = 1; print "'$2'='$3'"}1' $file)" > /ini/internal/QCA9574_i.ini
+grep -q dp_sawf_stats /ini/internal/QCN9224_i.ini && sed -i '/dp_sawf_stats=/c dp_sawf_stats=0' /ini/internal/QCN9224_i.ini || echo "$(awk '/.*\[.*\].*/ && !s { s = 1; print "'$2'='$3'"}1' $file)" > /ini/internal/QCN9224_i.ini
+grep -q cfg80211_config /ini/global.ini && sed -i '/cfg80211_config=/c cfg80211_config=1' /ini/global.ini || echo cfg80211_config=1 >> /ini/global.ini
+grep -q dp_tx_allow_per_pkt_vdev_id_check /ini/internal/QCA8074_i.ini && sed -i '/dp_tx_allow_per_pkt_vdev_id_check=/c dp_tx_allow_per_pkt_vdev_id_check=0' /ini/internal/QCA8074_i.ini || echo "$(awk '/.*\[.*\].*/ && !s { s = 1; print "'$2'='$3'"}1' $file)" > /ini/internal/QCA8074_i.ini
+grep -q dp_tx_allow_per_pkt_vdev_id_check /ini/internal/QCA8074V2_i.ini && sed -i '/dp_tx_allow_per_pkt_vdev_id_check=/c dp_tx_allow_per_pkt_vdev_id_check=0' /ini/internal/QCA8074V2_i.ini || echo "$(awk '/.*\[.*\].*/ && !s { s = 1; print "'$2'='$3'"}1' $file)" > /ini/internal/QCA8074V2_i.ini
+grep -q dp_tx_allow_per_pkt_vdev_id_check /ini/internal/QCA6018_i.ini && sed -i '/dp_tx_allow_per_pkt_vdev_id_check=/c dp_tx_allow_per_pkt_vdev_id_check=0' /ini/internal/QCA6018_i.ini || echo "$(awk '/.*\[.*\].*/ && !s { s = 1; print "'$2'='$3'"}1' $file)" > /ini/internal/QCA6018_i.ini
+grep -q dp_tx_allow_per_pkt_vdev_id_check /ini/internal/QCA5018_i.ini && sed -i '/dp_tx_allow_per_pkt_vdev_id_check=/c dp_tx_allow_per_pkt_vdev_id_check=0' /ini/internal/QCA5018_i.ini || echo "$(awk '/.*\[.*\].*/ && !s { s = 1; print "'$2'='$3'"}1' $file)" > /ini/internal/QCA5018_i.ini
+grep -q dp_tx_allow_per_pkt_vdev_id_check /ini/internal/QCN9000_i.ini && sed -i '/dp_tx_allow_per_pkt_vdev_id_check=/c dp_tx_allow_per_pkt_vdev_id_check=0' /ini/internal/QCN9000_i.ini || echo "$(awk '/.*\[.*\].*/ && !s { s = 1; print "'$2'='$3'"}1' $file)" > /ini/internal/QCN9000_i.ini
+grep -q max_peers /ini/global.ini && sed -i '/max_peers=/c max_peers=0' /ini/global.ini || echo max_peers=0 >> /ini/global.ini
+grep -q qwrap_enable /ini/global.ini && sed -i '/qwrap_enable=/c qwrap_enable=0' /ini/global.ini || echo qwrap_enable=0 >> /ini/global.ini
+grep -q wds_ext /ini/global.ini && sed -i '/wds_ext=/c wds_ext=0' /ini/global.ini || echo wds_ext=0 >> /ini/global.ini
+grep -q nss_wifi_radio_scheme_enable /ini/global.ini && sed -i '/nss_wifi_radio_scheme_enable=/c nss_wifi_radio_scheme_enable=1' /ini/global.ini || echo nss_wifi_radio_scheme_enable=1 >> /ini/global.ini
+grep -q nss_wifi_olcfg /ini/global.ini && sed -i '/nss_wifi_olcfg=/c nss_wifi_olcfg=0' /ini/global.ini || echo nss_wifi_olcfg=0 >> /ini/global.ini
+grep -q dp_rx_hash /ini/global.ini && sed -i '/dp_rx_hash=/c dp_rx_hash=1' /ini/global.ini || echo dp_rx_hash=1 >> /ini/global.ini
+grep -q logger_enable_mask /ini/global.ini && sed -i '/logger_enable_mask=/c logger_enable_mask=0' /ini/global.ini || echo logger_enable_mask=0 >> /ini/global.ini
+grep -q externalacs_enable /ini/global.ini && sed -i '/externalacs_enable=/c externalacs_enable=0' /ini/global.ini || echo externalacs_enable=0 >> /ini/global.ini
+insmod mem_manager
+insmod qdf mem_debug_disabled=1
+insmod umac enable_pktlog_support=1
+insmod telemetry_agent
+insmod qca_spectral
+echo -1000 > /proc/279/oom_score_adj
+echo -1000 > /proc/1342/oom_score_adj
+insmod qca_ol
+insmod smart_antenna
+insmod wifi_3_0
+grep -q fast_boot_vap_mode /ini/internal/global_i.ini && sed -i '/fast_boot_vap_mode=/c fast_boot_vap_mode=0' /ini/internal/global_i.ini || echo "$(awk '/.*\[.*\].*/ && !s { s = 1; print "'$2'='$3'"}1' $file)" > /ini/internal/global_i.ini
+grep -q fast_boot_vap_mode /ini/internal/global_i.ini && sed -i '/fast_boot_vap_mode=/c fast_boot_vap_mode=0' /ini/internal/global_i.ini || echo "$(awk '/.*\[.*\].*/ && !s { s = 1; print "'$2'='$3'"}1' $file)" > /ini/internal/global_i.ini
+grep -q fast_boot_vap_mode /ini/internal/global_i.ini && sed -i '/fast_boot_vap_mode=/c fast_boot_vap_mode=0' /ini/internal/global_i.ini || echo "$(awk '/.*\[.*\].*/ && !s { s = 1; print "'$2'='$3'"}1' $file)" > /ini/internal/global_i.ini
+insmod monitor
+grep -q fast_boot_vap_mode /ini/internal/global_i.ini && sed -i '/fast_boot_vap_mode=/c fast_boot_vap_mode=0' /ini/internal/global_i.ini || echo "$(awk '/.*\[.*\].*/ && !s { s = 1; print "'$2'='$3'"}1' $file)" > /ini/internal/global_i.ini
+grep -q fast_boot_vap_mode /ini/internal/global_i.ini && sed -i '/fast_boot_vap_mode=/c fast_boot_vap_mode=0' /ini/internal/global_i.ini || echo "$(awk '/.*\[.*\].*/ && !s { s = 1; print "'$2'='$3'"}1' $file)" > /ini/internal/global_i.ini
+insmod ath_pktlog
+grep -q dp_mon_2chain_ring /ini/internal/QCA8074_i.ini && sed -i '/dp_mon_2chain_ring=/c dp_mon_2chain_ring=1' /ini/internal/QCA8074_i.ini || echo "$(awk '/.*\[.*\].*/ && !s { s = 1; print "'$2'='$3'"}1' $file)" > /ini/internal/QCA8074_i.ini
+grep -q dp_mon_2chain_ring /ini/internal/QCA8074V2_i.ini && sed -i '/dp_mon_2chain_ring=/c dp_mon_2chain_ring=1' /ini/internal/QCA8074V2_i.ini || echo "$(awk '/.*\[.*\].*/ && !s { s = 1; print "'$2'='$3'"}1' $file)" > /ini/internal/QCA8074V2_i.ini
+grep -q dp_mon_2chain_ring /ini/internal/QCA6018_i.ini && sed -i '/dp_mon_2chain_ring=/c dp_mon_2chain_ring=1' /ini/internal/QCA6018_i.ini || echo "$(awk '/.*\[.*\].*/ && !s { s = 1; print "'$2'='$3'"}1' $file)" > /ini/internal/QCA6018_i.ini
+grep -q dp_mon_2chain_ring /ini/internal/QCA5018_i.ini && sed -i '/dp_mon_2chain_ring=/c dp_mon_2chain_ring=1' /ini/internal/QCA5018_i.ini || echo "$(awk '/.*\[.*\].*/ && !s { s = 1; print "'$2'='$3'"}1' $file)" > /ini/internal/QCA5018_i.ini
+grep -q dp_mon_2chain_ring /ini/internal/QCN9000_i.ini && sed -i '/dp_mon_2chain_ring=/c dp_mon_2chain_ring=1' /ini/internal/QCN9000_i.ini || echo "$(awk '/.*\[.*\].*/ && !s { s = 1; print "'$2'='$3'"}1' $file)" > /ini/internal/QCN9000_i.ini
+grep -q dp_mon_2chain_ring /ini/internal/QCN6122_i.ini && sed -i '/dp_mon_2chain_ring=/c dp_mon_2chain_ring=1' /ini/internal/QCN6122_i.ini || echo "$(awk '/.*\[.*\].*/ && !s { s = 1; print "'$2'='$3'"}1' $file)" > /ini/internal/QCN6122_i.ini
+grep -q dp_mon_2chain_ring /ini/internal/QCA9574_i.ini && sed -i '/dp_mon_2chain_ring=/c dp_mon_2chain_ring=1' /ini/internal/QCA9574_i.ini || echo "$(awk '/.*\[.*\].*/ && !s { s = 1; print "'$2'='$3'"}1' $file)" > /ini/internal/QCA9574_i.ini
+grep -q dp_mon_2chain_ring /ini/internal/QCN9224_i.ini && sed -i '/dp_mon_2chain_ring=/c dp_mon_2chain_ring=1' /ini/internal/QCN9224_i.ini || echo "$(awk '/.*\[.*\].*/ && !s { s = 1; print "'$2'='$3'"}1' $file)" > /ini/internal/QCN9224_i.ini
+grep -q dp_reo_rings_map /ini/internal/QCN9000_i.ini && sed -i '/dp_reo_rings_map=/c dp_reo_rings_map=0xC' /ini/internal/QCN9000_i.ini || echo "$(awk '/.*\[.*\].*/ && !s { s = 1; print "'$2'='$3'"}1' $file)" > /ini/internal/QCN9000_i.ini
+grep -q dp_napi_scale_factor /ini/internal/QCN9000_i.ini && sed -i '/dp_napi_scale_factor=/c dp_napi_scale_factor=2' /ini/internal/QCN9000_i.ini || echo "$(awk '/.*\[.*\].*/ && !s { s = 1; print "'$2'='$3'"}1' $file)" > /ini/internal/QCN9000_i.ini
+grep -q dp_napi_scale_factor /ini/internal/QCN9224_i.ini && sed -i '/dp_napi_scale_factor=/c dp_napi_scale_factor=2' /ini/internal/QCN9224_i.ini || echo "$(awk '/.*\[.*\].*/ && !s { s = 1; print "'$2'='$3'"}1' $file)" > /ini/internal/QCN9224_i.ini
+grep -q dp_napi_scale_factor /ini/internal/QCA9574_i.ini && sed -i '/dp_napi_scale_factor=/c dp_napi_scale_factor=2' /ini/internal/QCA9574_i.ini || echo "$(awk '/.*\[.*\].*/ && !s { s = 1; print "'$2'='$3'"}1' $file)" > /ini/internal/QCA9574_i.ini
+grep -q dp_rxdma_refill_ring /ini/internal/QCN9000_i.ini && sed -i '/dp_rxdma_refill_ring=/c dp_rxdma_refill_ring=2048' /ini/internal/QCN9000_i.ini || echo "$(awk '/.*\[.*\].*/ && !s { s = 1; print "'$2'='$3'"}1' $file)" > /ini/internal/QCN9000_i.ini
+grep -q dp_rxdma_refill_ring /ini/internal/QCA9574_i.ini && sed -i '/dp_rxdma_refill_ring=/c dp_rxdma_refill_ring=2048' /ini/internal/QCA9574_i.ini || echo "$(awk '/.*\[.*\].*/ && !s { s = 1; print "'$2'='$3'"}1' $file)" > /ini/internal/QCA9574_i.ini
+grep -q dp_rx_hash /ini/internal/QCA9574_i.ini && sed -i '/dp_rx_hash=/c dp_rx_hash=0xF' /ini/internal/QCA9574_i.ini || echo "$(awk '/.*\[.*\].*/ && !s { s = 1; print "'$2'='$3'"}1' $file)" > /ini/internal/QCA9574_i.ini
+grep -q fast_boot_vap_mode /ini/internal/global_i.ini && sed -i '/fast_boot_vap_mode=/c fast_boot_vap_mode=0' /ini/internal/global_i.ini || echo "$(awk '/.*\[.*\].*/ && !s { s = 1; print "'$2'='$3'"}1' $file)" > /ini/internal/global_i.ini
+wlanconfig wifi0 service_class disable 1
+wlanconfig wifi0 service_class disable 2
+wlanconfig wifi0 service_class disable 3
+wlanconfig wifi0 service_class disable 4
+wlanconfig wifi0 service_class disable 5
+wlanconfig wifi0 service_class disable 6
+wlanconfig wifi0 service_class disable 7
+wlanconfig wifi0 service_class disable 8
+wlanconfig wifi0 service_class disable 9
+grep -q fast_boot_vap_mode /ini/internal/global_i.ini && sed -i '/fast_boot_vap_mode=/c fast_boot_vap_mode=0' /ini/internal/global_i.ini || echo "$(awk '/.*\[.*\].*/ && !s { s = 1; print "'$2'='$3'"}1' $file)" > /ini/internal/global_i.ini
+grep -q fast_boot_vap_mode /ini/internal/global_i.ini && sed -i '/fast_boot_vap_mode=/c fast_boot_vap_mode=0' /ini/internal/global_i.ini || echo "$(awk '/.*\[.*\].*/ && !s { s = 1; print "'$2'='$3'"}1' $file)" > /ini/internal/global_i.ini
+grep -q fast_boot_vap_mode /ini/internal/global_i.ini && sed -i '/fast_boot_vap_mode=/c fast_boot_vap_mode=0' /ini/internal/global_i.ini || echo "$(awk '/.*\[.*\].*/ && !s { s = 1; print "'$2'='$3'"}1' $file)" > /ini/internal/global_i.ini
+grep -q fast_boot_vap_mode /ini/internal/global_i.ini && sed -i '/fast_boot_vap_mode=/c fast_boot_vap_mode=0' /ini/internal/global_i.ini || echo "$(awk '/.*\[.*\].*/ && !s { s = 1; print "'$2'='$3'"}1' $file)" > /ini/internal/global_i.ini
+grep -q fast_boot_vap_mode /ini/internal/global_i.ini && sed -i '/fast_boot_vap_mode=/c fast_boot_vap_mode=0' /ini/internal/global_i.ini || echo "$(awk '/.*\[.*\].*/ && !s { s = 1; print "'$2'='$3'"}1' $file)" > /ini/internal/global_i.ini
+grep -q fast_boot_vap_mode /ini/internal/global_i.ini && sed -i '/fast_boot_vap_mode=/c fast_boot_vap_mode=0' /ini/internal/global_i.ini || echo "$(awk '/.*\[.*\].*/ && !s { s = 1; print "'$2'='$3'"}1' $file)" > /ini/internal/global_i.ini
+grep -q fast_boot_vap_mode /ini/internal/global_i.ini && sed -i '/fast_boot_vap_mode=/c fast_boot_vap_mode=0' /ini/internal/global_i.ini || echo "$(awk '/.*\[.*\].*/ && !s { s = 1; print "'$2'='$3'"}1' $file)" > /ini/internal/global_i.ini
+grep -q fast_boot_vap_mode /ini/internal/global_i.ini && sed -i '/fast_boot_vap_mode=/c fast_boot_vap_mode=0' /ini/internal/global_i.ini || echo "$(awk '/.*\[.*\].*/ && !s { s = 1; print "'$2'='$3'"}1' $file)" > /ini/internal/global_i.ini
+grep -q fast_boot_vap_mode /ini/internal/global_i.ini && sed -i '/fast_boot_vap_mode=/c fast_boot_vap_mode=0' /ini/internal/global_i.ini || echo "$(awk '/.*\[.*\].*/ && !s { s = 1; print "'$2'='$3'"}1' $file)" > /ini/internal/global_i.ini
+grep -q fast_boot_vap_mode /ini/internal/global_i.ini && sed -i '/fast_boot_vap_mode=/c fast_boot_vap_mode=0' /ini/internal/global_i.ini || echo "$(awk '/.*\[.*\].*/ && !s { s = 1; print "'$2'='$3'"}1' $file)" > /ini/internal/global_i.ini
+grep -q fast_boot_vap_mode /ini/internal/global_i.ini && sed -i '/fast_boot_vap_mode=/c fast_boot_vap_mode=0' /ini/internal/global_i.ini || echo "$(awk '/.*\[.*\].*/ && !s { s = 1; print "'$2'='$3'"}1' $file)" > /ini/internal/global_i.ini
+grep -q fast_boot_vap_mode /ini/internal/global_i.ini && sed -i '/fast_boot_vap_mode=/c fast_boot_vap_mode=0' /ini/internal/global_i.ini || echo "$(awk '/.*\[.*\].*/ && !s { s = 1; print "'$2'='$3'"}1' $file)" > /ini/internal/global_i.ini
+grep -q fast_boot_vap_mode /ini/internal/global_i.ini && sed -i '/fast_boot_vap_mode=/c fast_boot_vap_mode=0' /ini/internal/global_i.ini || echo "$(awk '/.*\[.*\].*/ && !s { s = 1; print "'$2'='$3'"}1' $file)" > /ini/internal/global_i.ini
+grep -q fast_boot_vap_mode /ini/internal/global_i.ini && sed -i '/fast_boot_vap_mode=/c fast_boot_vap_mode=0' /ini/internal/global_i.ini || echo "$(awk '/.*\[.*\].*/ && !s { s = 1; print "'$2'='$3'"}1' $file)" > /ini/internal/global_i.ini
+grep -q fast_boot_vap_mode /ini/internal/global_i.ini && sed -i '/fast_boot_vap_mode=/c fast_boot_vap_mode=0' /ini/internal/global_i.ini || echo "$(awk '/.*\[.*\].*/ && !s { s = 1; print "'$2'='$3'"}1' $file)" > /ini/internal/global_i.ini
+echo -n /ini > /sys/module/firmware_class/parameters/path
+grep -q sawf /ini/internal/QCN9000_i.ini && sed -i '/sawf=/c sawf=0' /ini/internal/QCN9000_i.ini || echo "$(awk '/.*\[.*\].*/ && !s { s = 1; print "'$2'='$3'"}1' $file)" > /ini/internal/QCN9000_i.ini
+grep -q sawf /ini/internal/QCA9574_i.ini && sed -i '/sawf=/c sawf=0' /ini/internal/QCA9574_i.ini || echo "$(awk '/.*\[.*\].*/ && !s { s = 1; print "'$2'='$3'"}1' $file)" > /ini/internal/QCA9574_i.ini
+grep -q sawf /ini/internal/QCN9224_i.ini && sed -i '/sawf=/c sawf=0' /ini/internal/QCN9224_i.ini || echo "$(awk '/.*\[.*\].*/ && !s { s = 1; print "'$2'='$3'"}1' $file)" > /ini/internal/QCN9224_i.ini
+grep -q dp_sawf_stats /ini/internal/QCN9000_i.ini && sed -i '/dp_sawf_stats=/c dp_sawf_stats=0' /ini/internal/QCN9000_i.ini || echo "$(awk '/.*\[.*\].*/ && !s { s = 1; print "'$2'='$3'"}1' $file)" > /ini/internal/QCN9000_i.ini
+grep -q dp_sawf_stats /ini/internal/QCA9574_i.ini && sed -i '/dp_sawf_stats=/c dp_sawf_stats=0' /ini/internal/QCA9574_i.ini || echo "$(awk '/.*\[.*\].*/ && !s { s = 1; print "'$2'='$3'"}1' $file)" > /ini/internal/QCA9574_i.ini
+grep -q dp_sawf_stats /ini/internal/QCN9224_i.ini && sed -i '/dp_sawf_stats=/c dp_sawf_stats=0' /ini/internal/QCN9224_i.ini || echo "$(awk '/.*\[.*\].*/ && !s { s = 1; print "'$2'='$3'"}1' $file)" > /ini/internal/QCN9224_i.ini
+grep -q cfg80211_config /ini/global.ini && sed -i '/cfg80211_config=/c cfg80211_config=1' /ini/global.ini || echo cfg80211_config=1 >> /ini/global.ini
+grep -q dp_tx_allow_per_pkt_vdev_id_check /ini/internal/QCA8074_i.ini && sed -i '/dp_tx_allow_per_pkt_vdev_id_check=/c dp_tx_allow_per_pkt_vdev_id_check=0' /ini/internal/QCA8074_i.ini || echo "$(awk '/.*\[.*\].*/ && !s { s = 1; print "'$2'='$3'"}1' $file)" > /ini/internal/QCA8074_i.ini
+grep -q dp_tx_allow_per_pkt_vdev_id_check /ini/internal/QCA8074V2_i.ini && sed -i '/dp_tx_allow_per_pkt_vdev_id_check=/c dp_tx_allow_per_pkt_vdev_id_check=0' /ini/internal/QCA8074V2_i.ini || echo "$(awk '/.*\[.*\].*/ && !s { s = 1; print "'$2'='$3'"}1' $file)" > /ini/internal/QCA8074V2_i.ini
+grep -q dp_tx_allow_per_pkt_vdev_id_check /ini/internal/QCA6018_i.ini && sed -i '/dp_tx_allow_per_pkt_vdev_id_check=/c dp_tx_allow_per_pkt_vdev_id_check=0' /ini/internal/QCA6018_i.ini || echo "$(awk '/.*\[.*\].*/ && !s { s = 1; print "'$2'='$3'"}1' $file)" > /ini/internal/QCA6018_i.ini
+grep -q dp_tx_allow_per_pkt_vdev_id_check /ini/internal/QCA5018_i.ini && sed -i '/dp_tx_allow_per_pkt_vdev_id_check=/c dp_tx_allow_per_pkt_vdev_id_check=0' /ini/internal/QCA5018_i.ini || echo "$(awk '/.*\[.*\].*/ && !s { s = 1; print "'$2'='$3'"}1' $file)" > /ini/internal/QCA5018_i.ini
+grep -q dp_tx_allow_per_pkt_vdev_id_check /ini/internal/QCN9000_i.ini && sed -i '/dp_tx_allow_per_pkt_vdev_id_check=/c dp_tx_allow_per_pkt_vdev_id_check=0' /ini/internal/QCN9000_i.ini || echo "$(awk '/.*\[.*\].*/ && !s { s = 1; print "'$2'='$3'"}1' $file)" > /ini/internal/QCN9000_i.ini
+grep -q max_peers /ini/global.ini && sed -i '/max_peers=/c max_peers=0' /ini/global.ini || echo max_peers=0 >> /ini/global.ini
+grep -q qwrap_enable /ini/global.ini && sed -i '/qwrap_enable=/c qwrap_enable=0' /ini/global.ini || echo qwrap_enable=0 >> /ini/global.ini
+grep -q wds_ext /ini/global.ini && sed -i '/wds_ext=/c wds_ext=0' /ini/global.ini || echo wds_ext=0 >> /ini/global.ini
+grep -q nss_wifi_radio_scheme_enable /ini/global.ini && sed -i '/nss_wifi_radio_scheme_enable=/c nss_wifi_radio_scheme_enable=1' /ini/global.ini || echo nss_wifi_radio_scheme_enable=1 >> /ini/global.ini
+grep -q nss_wifi_olcfg /ini/global.ini && sed -i '/nss_wifi_olcfg=/c nss_wifi_olcfg=0' /ini/global.ini || echo nss_wifi_olcfg=0 >> /ini/global.ini
+grep -q dp_rx_hash /ini/global.ini && sed -i '/dp_rx_hash=/c dp_rx_hash=1' /ini/global.ini || echo dp_rx_hash=1 >> /ini/global.ini
+grep -q logger_enable_mask /ini/global.ini && sed -i '/logger_enable_mask=/c logger_enable_mask=0' /ini/global.ini || echo logger_enable_mask=0 >> /ini/global.ini
+grep -q externalacs_enable /ini/global.ini && sed -i '/externalacs_enable=/c externalacs_enable=0' /ini/global.ini || echo externalacs_enable=0 >> /ini/global.ini
+cfg80211tool wifi1 setCountryID 840
+cfg80211tool wifi1 bsta_fixed_idmask 255
+cfg80211tool wifi1 set_bcnburst 1
+cfg80211tool wifi1 ce_debug_stats 1
+cfg80211tool wifi1 sIgmpDscpOvrid 1
+cfg80211tool wifi1 sIgmpDscpTidMap 6
+cfg80211tool wifi1 enable_ol_stats 1
+cfg80211tool wifi1 setHwaddr 00:03:7f:12:59:d7
+cfg80211tool wifi1 txbf_snd_int 100
+cfg80211tool wifi1 obss_rssi_th 35
+cfg80211tool wifi1 obss_rxrssi_th 35
+cfg80211tool wifi1 discon_time 10
+cfg80211tool wifi1 reconfig_time 60
+sysctl -w dev.nss.n2hcfg.n2h_queue_limit_core0=2048
+sysctl -w dev.nss.n2hcfg.n2h_queue_limit_core1=2048
+grep -q fast_boot_vap_mode /ini/internal/global_i.ini && sed -i '/fast_boot_vap_mode=/c fast_boot_vap_mode=0' /ini/internal/global_i.ini || echo "$(awk '/.*\[.*\].*/ && !s { s = 1; print "'$2'='$3'"}1' $file)" > /ini/internal/global_i.ini
+ifconfig wifi1 up
+cfg80211tool wifi1 get_rxchainmask
+wlanconfig ath1 create wlandev wifi1 wlanmode ap -cfg80211
+iw phy phy1 interface add ath1 type __ap mld_addr 00:0A:F5:22:12:31
+cfg80211tool ath1 channel 52 0
+cfg80211tool ath1 hide_ssid 0
+cfg80211tool ath1 wds 0
+cfg80211tool ath1 backhaul 0
+cfg80211tool ath1 en_6g_sec_comp 1
+cfg80211tool ath1 uapsd 1
+cfg80211tool ath1 stafwd 0
+cfg80211tool ath1 set_cactimeout 0
+cfg80211tool ath1 mscs 0
+cfg80211tool ath1 scs 0
+cfg80211tool ath1 dscp_action_policy 0
+grep -q fast_boot_vap_mode /ini/internal/global_i.ini && sed -i '/fast_boot_vap_mode=/c fast_boot_vap_mode=0' /ini/internal/global_i.ini || echo "$(awk '/.*\[.*\].*/ && !s { s = 1; print "'$2'='$3'"}1' $file)" > /ini/internal/global_i.ini
+grep -q fast_boot_vap_mode /ini/internal/global_i.ini && sed -i '/fast_boot_vap_mode=/c fast_boot_vap_mode=0' /ini/internal/global_i.ini || echo "$(awk '/.*\[.*\].*/ && !s { s = 1; print "'$2'='$3'"}1' $file)" > /ini/internal/global_i.ini
+grep -q fast_boot_vap_mode /ini/internal/global_i.ini && sed -i '/fast_boot_vap_mode=/c fast_boot_vap_mode=0' /ini/internal/global_i.ini || echo "$(awk '/.*\[.*\].*/ && !s { s = 1; print "'$2'='$3'"}1' $file)" > /ini/internal/global_i.ini
+echo -n /ini > /sys/module/firmware_class/parameters/path
+grep -q sawf /ini/internal/QCN9000_i.ini && sed -i '/sawf=/c sawf=0' /ini/internal/QCN9000_i.ini || echo "$(awk '/.*\[.*\].*/ && !s { s = 1; print "'$2'='$3'"}1' $file)" > /ini/internal/QCN9000_i.ini
+grep -q sawf /ini/internal/QCA9574_i.ini && sed -i '/sawf=/c sawf=0' /ini/internal/QCA9574_i.ini || echo "$(awk '/.*\[.*\].*/ && !s { s = 1; print "'$2'='$3'"}1' $file)" > /ini/internal/QCA9574_i.ini
+grep -q sawf /ini/internal/QCN9224_i.ini && sed -i '/sawf=/c sawf=0' /ini/internal/QCN9224_i.ini || echo "$(awk '/.*\[.*\].*/ && !s { s = 1; print "'$2'='$3'"}1' $file)" > /ini/internal/QCN9224_i.ini
+grep -q dp_sawf_stats /ini/internal/QCN9000_i.ini && sed -i '/dp_sawf_stats=/c dp_sawf_stats=0' /ini/internal/QCN9000_i.ini || echo "$(awk '/.*\[.*\].*/ && !s { s = 1; print "'$2'='$3'"}1' $file)" > /ini/internal/QCN9000_i.ini
+grep -q dp_sawf_stats /ini/internal/QCA9574_i.ini && sed -i '/dp_sawf_stats=/c dp_sawf_stats=0' /ini/internal/QCA9574_i.ini || echo "$(awk '/.*\[.*\].*/ && !s { s = 1; print "'$2'='$3'"}1' $file)" > /ini/internal/QCA9574_i.ini
+grep -q dp_sawf_stats /ini/internal/QCN9224_i.ini && sed -i '/dp_sawf_stats=/c dp_sawf_stats=0' /ini/internal/QCN9224_i.ini || echo "$(awk '/.*\[.*\].*/ && !s { s = 1; print "'$2'='$3'"}1' $file)" > /ini/internal/QCN9224_i.ini
+grep -q cfg80211_config /ini/global.ini && sed -i '/cfg80211_config=/c cfg80211_config=1' /ini/global.ini || echo cfg80211_config=1 >> /ini/global.ini
+grep -q dp_tx_allow_per_pkt_vdev_id_check /ini/internal/QCA8074_i.ini && sed -i '/dp_tx_allow_per_pkt_vdev_id_check=/c dp_tx_allow_per_pkt_vdev_id_check=0' /ini/internal/QCA8074_i.ini || echo "$(awk '/.*\[.*\].*/ && !s { s = 1; print "'$2'='$3'"}1' $file)" > /ini/internal/QCA8074_i.ini
+grep -q dp_tx_allow_per_pkt_vdev_id_check /ini/internal/QCA8074V2_i.ini && sed -i '/dp_tx_allow_per_pkt_vdev_id_check=/c dp_tx_allow_per_pkt_vdev_id_check=0' /ini/internal/QCA8074V2_i.ini || echo "$(awk '/.*\[.*\].*/ && !s { s = 1; print "'$2'='$3'"}1' $file)" > /ini/internal/QCA8074V2_i.ini
+grep -q dp_tx_allow_per_pkt_vdev_id_check /ini/internal/QCA6018_i.ini && sed -i '/dp_tx_allow_per_pkt_vdev_id_check=/c dp_tx_allow_per_pkt_vdev_id_check=0' /ini/internal/QCA6018_i.ini || echo "$(awk '/.*\[.*\].*/ && !s { s = 1; print "'$2'='$3'"}1' $file)" > /ini/internal/QCA6018_i.ini
+grep -q dp_tx_allow_per_pkt_vdev_id_check /ini/internal/QCA5018_i.ini && sed -i '/dp_tx_allow_per_pkt_vdev_id_check=/c dp_tx_allow_per_pkt_vdev_id_check=0' /ini/internal/QCA5018_i.ini || echo "$(awk '/.*\[.*\].*/ && !s { s = 1; print "'$2'='$3'"}1' $file)" > /ini/internal/QCA5018_i.ini
+grep -q dp_tx_allow_per_pkt_vdev_id_check /ini/internal/QCN9000_i.ini && sed -i '/dp_tx_allow_per_pkt_vdev_id_check=/c dp_tx_allow_per_pkt_vdev_id_check=0' /ini/internal/QCN9000_i.ini || echo "$(awk '/.*\[.*\].*/ && !s { s = 1; print "'$2'='$3'"}1' $file)" > /ini/internal/QCN9000_i.ini
+grep -q max_peers /ini/global.ini && sed -i '/max_peers=/c max_peers=0' /ini/global.ini || echo max_peers=0 >> /ini/global.ini
+grep -q qwrap_enable /ini/global.ini && sed -i '/qwrap_enable=/c qwrap_enable=0' /ini/global.ini || echo qwrap_enable=0 >> /ini/global.ini
+grep -q wds_ext /ini/global.ini && sed -i '/wds_ext=/c wds_ext=0' /ini/global.ini || echo wds_ext=0 >> /ini/global.ini
+grep -q nss_wifi_radio_scheme_enable /ini/global.ini && sed -i '/nss_wifi_radio_scheme_enable=/c nss_wifi_radio_scheme_enable=1' /ini/global.ini || echo nss_wifi_radio_scheme_enable=1 >> /ini/global.ini
+grep -q nss_wifi_olcfg /ini/global.ini && sed -i '/nss_wifi_olcfg=/c nss_wifi_olcfg=0' /ini/global.ini || echo nss_wifi_olcfg=0 >> /ini/global.ini
+grep -q dp_rx_hash /ini/global.ini && sed -i '/dp_rx_hash=/c dp_rx_hash=1' /ini/global.ini || echo dp_rx_hash=1 >> /ini/global.ini
+grep -q logger_enable_mask /ini/global.ini && sed -i '/logger_enable_mask=/c logger_enable_mask=0' /ini/global.ini || echo logger_enable_mask=0 >> /ini/global.ini
+grep -q externalacs_enable /ini/global.ini && sed -i '/externalacs_enable=/c externalacs_enable=0' /ini/global.ini || echo externalacs_enable=0 >> /ini/global.ini
+cfg80211tool wifi2 setCountryID 840
+cfg80211tool wifi2 bsta_fixed_idmask 255
+cfg80211tool wifi2 set_bcnburst 1
+cfg80211tool wifi2 ce_debug_stats 1
+cfg80211tool wifi2 sIgmpDscpOvrid 1
+cfg80211tool wifi2 sIgmpDscpTidMap 6
+cfg80211tool wifi2 enable_ol_stats 1
+cfg80211tool wifi2 setHwaddr 00:03:7f:12:f4:a7
+cfg80211tool wifi2 txbf_snd_int 100
+cfg80211tool wifi2 obss_rssi_th 35
+cfg80211tool wifi2 obss_rxrssi_th 35
+cfg80211tool wifi2 discon_time 10
+cfg80211tool wifi2 reconfig_time 60
+sysctl -w dev.nss.n2hcfg.n2h_queue_limit_core0=2048
+sysctl -w dev.nss.n2hcfg.n2h_queue_limit_core1=2048
+grep -q fast_boot_vap_mode /ini/internal/global_i.ini && sed -i '/fast_boot_vap_mode=/c fast_boot_vap_mode=0' /ini/internal/global_i.ini || echo "$(awk '/.*\[.*\].*/ && !s { s = 1; print "'$2'='$3'"}1' $file)" > /ini/internal/global_i.ini
+ifconfig wifi2 up
+cfg80211tool wifi2 get_rxchainmask
+wlanconfig ath2 create wlandev wifi2 wlanmode ap -cfg80211
+iw phy phy2 interface add ath2 type __ap mld_addr 00:0A:F5:22:12:31
+cfg80211tool ath2 channel 149 0
+cfg80211tool ath2 hide_ssid 0
+cfg80211tool ath2 wds 0
+cfg80211tool ath2 backhaul 0
+cfg80211tool ath2 en_6g_sec_comp 1
+cfg80211tool ath2 uapsd 1
+cfg80211tool ath2 stafwd 0
+cfg80211tool ath2 set_cactimeout 0
+cfg80211tool ath2 mscs 0
+cfg80211tool ath2 scs 0
+cfg80211tool ath2 dscp_action_policy 0
+grep -q fast_boot_vap_mode /ini/internal/global_i.ini && sed -i '/fast_boot_vap_mode=/c fast_boot_vap_mode=0' /ini/internal/global_i.ini || echo "$(awk '/.*\[.*\].*/ && !s { s = 1; print "'$2'='$3'"}1' $file)" > /ini/internal/global_i.ini
+grep -q fast_boot_vap_mode /ini/internal/global_i.ini && sed -i '/fast_boot_vap_mode=/c fast_boot_vap_mode=0' /ini/internal/global_i.ini || echo "$(awk '/.*\[.*\].*/ && !s { s = 1; print "'$2'='$3'"}1' $file)" > /ini/internal/global_i.ini
+grep -q fast_boot_vap_mode /ini/internal/global_i.ini && sed -i '/fast_boot_vap_mode=/c fast_boot_vap_mode=0' /ini/internal/global_i.ini || echo "$(awk '/.*\[.*\].*/ && !s { s = 1; print "'$2'='$3'"}1' $file)" > /ini/internal/global_i.ini
+grep -q fast_boot_vap_mode /ini/internal/global_i.ini && sed -i '/fast_boot_vap_mode=/c fast_boot_vap_mode=0' /ini/internal/global_i.ini || echo "$(awk '/.*\[.*\].*/ && !s { s = 1; print "'$2'='$3'"}1' $file)" > /ini/internal/global_i.ini
+grep -q fast_boot_vap_mode /ini/internal/global_i.ini && sed -i '/fast_boot_vap_mode=/c fast_boot_vap_mode=0' /ini/internal/global_i.ini || echo "$(awk '/.*\[.*\].*/ && !s { s = 1; print "'$2'='$3'"}1' $file)" > /ini/internal/global_i.ini
+grep -q fast_boot_vap_mode /ini/internal/global_i.ini && sed -i '/fast_boot_vap_mode=/c fast_boot_vap_mode=0' /ini/internal/global_i.ini || echo "$(awk '/.*\[.*\].*/ && !s { s = 1; print "'$2'='$3'"}1' $file)" > /ini/internal/global_i.ini
+grep -q fast_boot_vap_mode /ini/internal/global_i.ini && sed -i '/fast_boot_vap_mode=/c fast_boot_vap_mode=0' /ini/internal/global_i.ini || echo "$(awk '/.*\[.*\].*/ && !s { s = 1; print "'$2'='$3'"}1' $file)" > /ini/internal/global_i.ini
+grep -q fast_boot_vap_mode /ini/internal/global_i.ini && sed -i '/fast_boot_vap_mode=/c fast_boot_vap_mode=0' /ini/internal/global_i.ini || echo "$(awk '/.*\[.*\].*/ && !s { s = 1; print "'$2'='$3'"}1' $file)" > /ini/internal/global_i.ini
+grep -q fast_boot_vap_mode /ini/internal/global_i.ini && sed -i '/fast_boot_vap_mode=/c fast_boot_vap_mode=0' /ini/internal/global_i.ini || echo "$(awk '/.*\[.*\].*/ && !s { s = 1; print "'$2'='$3'"}1' $file)" > /ini/internal/global_i.ini
+grep -q fast_boot_vap_mode /ini/internal/global_i.ini && sed -i '/fast_boot_vap_mode=/c fast_boot_vap_mode=0' /ini/internal/global_i.ini || echo "$(awk '/.*\[.*\].*/ && !s { s = 1; print "'$2'='$3'"}1' $file)" > /ini/internal/global_i.ini
+cfg80211tool ath1 ap_bridge 1
+wpa_cli -g /var/run/hostapd/global raw ADD bss_config=ath1:/var/run/hostapd-ath1.conf
+hostapd_cli -i ath1 -p /var/run/hostapd-wifi1 close_log
+ifconfig ath1 up
+grep -q fast_boot_vap_mode /ini/internal/global_i.ini && sed -i '/fast_boot_vap_mode=/c fast_boot_vap_mode=0' /ini/internal/global_i.ini || echo "$(awk '/.*\[.*\].*/ && !s { s = 1; print "'$2'='$3'"}1' $file)" > /ini/internal/global_i.ini
+cfg80211tool ath2 ap_bridge 1
+wpa_cli -g /var/run/hostapd/global raw ADD bss_config=ath2:/var/run/hostapd-ath2.conf
+hostapd_cli -i ath2 -p /var/run/hostapd-wifi2 close_log
+ifconfig ath2 up
+wlanconfig wifi0 service_class create 1 AR_VR 100000 X 180000 16 6 20 1 1 1
+wlanconfig wifi0 service_class create 2 Gaming 100 X X X 50 200 10 6 1000
+wlanconfig wifi0 service_class create 3 Interactive_Video 3000 200 X X 125 250 20 5 1000
+wlanconfig wifi0 service_class create 4 Interactive_Audio 96 X 220 16 75 200 11 1 1000
+wlanconfig wifi0 service_class create 5 VOD Service 3000 X X X 300 10000 30 4 1
+wlanconfig wifi0 service_class create 6 VOIP 96 X 220 20 75 200 12 6 10000
+wlanconfig wifi0 service_class create 7 Control Traffic 100 X X X 100 10000 31 4 1000
+wlanconfig wifi0 service_class create 8 Data Transfer X X X X X X 60 0 X
+wlanconfig wifi0 sawf_telemetry 1000 10 10000 10
+wlanconfig wifi0 sawf_sla_detect num_packet 0 0 0 0 0 0 0
+wlanconfig wifi0 sawf_sla_detect per_second 1 1 0 0 0 0 0
+wlanconfig wifi0 sawf_sla_detect moving_avg 0 0 0 0 0 0 0
+wlanconfig wifi0 sawf_sla_detect num_second 0 0 1 1 0 1 1
+

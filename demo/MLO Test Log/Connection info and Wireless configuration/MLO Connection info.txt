@@ -1,0 +1,122 @@
+AP Side:
+root@OpenWrt:/# wlanconfig ath2 list sta
+ADDR               AID CHAN TXRATE RXRATE RSSI MINRSSI MAXRSSI IDLE  TXSEQ  RXSEQ  CAPS XCAPS ACAPS     ERP    STATE MAXRATE(DOT11) HTCAPS   VHTCAPS ASSOCTIME    IEs   MODE RXNSS TXNSS                   PSMODE
+06:03:7f:01:59:56   48  149   6M    154M  -32     -32     -30  458      0   65535   EPs  ETWt NULL    0          b         344200             APM           1gTRs 00:08:08     RSN WME IEEE80211_MODE_11BEA_EHT20  2 2   0
+
+ RSSI is combined over chains in dBm
+ Minimum Tx Power               : 0
+ Maximum Tx Power               : 69
+ HT Capability                  : Yes
+ VHT Capability                 : Yes
+ MU capable                     : Yes
+ SNR                            : 65
+ Operating band                 : 5GHz
+ Current Operating class        : 125
+ Supported Operating classes    : 124  121  125  122  126  126  123  127  127  128  129  130
+ Supported Rates(Mbps)          : 6  9  12  18  24  36  48  54
+ Max STA phymode                : IEEE80211_MODE_11BEA_EHT20
+ MLO                            : Yes
+ MLD Addr                       : 00:04:3d:11:4d:22
+ Num Partner links              : 1
+       Partner link 0: ADDR :06:03:7f:63:a6:85, Link ID: 1
+root@OpenWrt:/# wlanconfig ath1 list sta
+ADDR               AID CHAN TXRATE RXRATE RSSI MINRSSI MAXRSSI IDLE  TXSEQ  RXSEQ  CAPS XCAPS ACAPS     ERP    STATE MAXRATE(DOT11) HTCAPS   VHTCAPS ASSOCTIME    IEs   MODE RXNSS TXNSS                   PSMODE
+06:03:7f:63:a6:85   48   52   6M    172M  -50     -98     -50  466      0   65535    Es  ETWt NULL    0          b         344200             APM           1gTRs 00:08:16     RSN WME IEEE80211_MODE_11BEA_EHT20  2 2   0
+
+ RSSI is combined over chains in dBm
+ Minimum Tx Power               : 0
+ Maximum Tx Power               : 69
+ HT Capability                  : Yes
+ VHT Capability                 : Yes
+ MU capable                     : Yes
+ SNR                            : 48
+ Operating band                 : 5GHz
+ Current Operating class        : 118
+ Supported Operating classes    : 115  118  116  119  117  120  128  129
+ Supported Rates(Mbps)          : 6  9  12  18  24  36  48  54
+ Max STA phymode                : IEEE80211_MODE_11BEA_EHT20
+ MLO                            : Yes
+ MLD Addr                       : 00:04:3d:11:4d:22
+ Num Partner links              : 1
+       Partner link 0: ADDR :06:03:7f:01:59:56, Link ID: 2
+root@OpenWrt:/# iwconfig ath1
+ath1      IEEE 802.11bea  ESSID:"gate"
+          Mode:Master  Frequency:5.26 GHz  Access Point: 00:03:7F:12:59:D7
+          Bit Rate:344.2 Mb/s   Tx-Power:23 dBm
+          RTS thr:off   Fragment thr:off
+          Encryption key:0C36-7ED9-1E30-5AE1-DAF0-730E-67B4-033F   Security mode:restricted
+          Power Management:off
+          Link Quality=0/94  Signal level=-98 dBm  Noise level=-98 dBm (BDF averaged NF value in dBm)
+          Rx invalid nwid:263  Rx invalid crypt:0  Rx invalid frag:0
+          Tx excessive retries:0  Invalid misc:0   Missed beacon:0
+
+root@OpenWrt:/# iwconfig ath2
+ath2      IEEE 802.11bea  ESSID:"gate"
+          Mode:Master  Frequency:5.745 GHz  Access Point: 00:03:7F:12:F4:A7
+          Bit Rate:344.2 Mb/s   Tx-Power:25 dBm
+          RTS thr:off   Fragment thr:off
+          Encryption key:4C4B-5570-685E-2506-A0D2-F024-10BE-66A9   Security mode:restricted
+          Power Management:off
+          Link Quality=0/94  Signal level=-97 dBm  Noise level=-97 dBm (BDF averaged NF value in dBm)
+          Rx invalid nwid:1185  Rx invalid crypt:0  Rx invalid frag:0
+          Tx excessive retries:0  Invalid misc:0   Missed beacon:0
+
+root@OpenWrt:/# ifconfig ath1
+ath1      Link encap:Ethernet  HWaddr 00:03:7F:12:59:D7
+          inet6 addr: fe80::203:7fff:fe12:59d7/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:157 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0
+          RX bytes:0 (0.0 B)  TX bytes:20391 (19.9 KiB)
+
+root@OpenWrt:/# ifconfig ath2
+ath2      Link encap:Ethernet  HWaddr 00:03:7F:12:F4:A7
+          inet6 addr: fe80::203:7fff:fe12:f4a7/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:198 errors:10 dropped:11 overruns:0 frame:0
+          TX packets:167 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0
+          RX bytes:20311 (19.8 KiB)  TX bytes:22151 (21.6 KiB)
+
+
+STA Side：
+root@OpenWrt:/tmp# iwconfig ath21
+ath21     IEEE 802.11bea  ESSID:"gate"
+          Mode:Managed  Frequency:5.745 GHz  Access Point: 00:03:7F:12:F4:A7
+          Bit Rate:344.2 Mb/s   Tx-Power:25 dBm
+          RTS thr:off   Fragment thr:off
+          Encryption key:4C4B-5570-685E-2506-A0D2-F024-10BE-66A9 [2]   Security mode:restricted
+          Power Management:off
+          Link Quality=94/94  Signal level=-28 dBm  Noise level=-97 dBm (BDF averaged NF value in dBm)
+          Rx invalid nwid:0  Rx invalid crypt:0  Rx invalid frag:0
+          Tx excessive retries:0  Invalid misc:0   Missed beacon:0
+
+root@OpenWrt:/tmp# iwconfig ath11
+ath11     IEEE 802.11bea  ESSID:"gate"
+          Mode:Managed  Frequency:5.26 GHz  Access Point: 00:03:7F:12:59:D7
+          Bit Rate:344.2 Mb/s   Tx-Power:23 dBm
+          RTS thr:off   Fragment thr:off
+          Encryption key:0C36-7ED9-1E30-5AE1-DAF0-730E-67B4-033F [2]   Security mode:open
+          Power Management:off
+          Link Quality=94/94  Signal level=-46 dBm  Noise level=-99 dBm (BDF averaged NF value in dBm)
+          Rx invalid nwid:0  Rx invalid crypt:0  Rx invalid frag:0
+          Tx excessive retries:0  Invalid misc:0   Missed beacon:0
+
+root@OpenWrt:/# ifconfig ath21
+ath21     Link encap:Ethernet  HWaddr 06:03:7F:01:59:56
+          inet6 addr: fe80::403:7fff:fe01:5956/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:69 errors:0 dropped:31 overruns:0 frame:0
+          TX packets:8 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0
+          RX bytes:9238 (9.0 KiB)  TX bytes:756 (756.0 B)
+
+root@OpenWrt:/# ifconfig ath11
+ath11     Link encap:Ethernet  HWaddr 06:03:7F:63:A6:85
+          inet6 addr: fe80::403:7fff:fe63:a685/64 Scope:Link
+          UP BROADCAST MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0
+          RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)

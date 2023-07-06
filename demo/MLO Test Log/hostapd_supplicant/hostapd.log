@@ -1,0 +1,2023 @@
+random: Trying to read entropy from /dev/random
+random: Got 20/20 bytes from /dev/random
+Global ctrl_iface command: ADD bss_config=ath1:/var/run/hostapd-ath1.conf
+Configuration file: /var/run/hostapd-ath1.conf (phy ath1) --> new PHY
+ieee80211be: 1
+eht width: 2
+puncture_bitmap: 65535
+MLO Partner Link MACs for ath1
+
+00:03:7f:12:59:d7
+
+00:03:7f:12:f4:a7
+
+MLO Partner Link IDs for ath1
+
+Link-ID: 1
+
+Link-ID: 2
+
+nl80211: Supported cipher 00-0f-ac:0
+nl80211: Supported cipher 00-0f-ac:1
+nl80211: Supported cipher 00-0f-ac:2
+nl80211: Supported cipher 00-0f-ac:4
+nl80211: Supported cipher 00-0f-ac:5
+nl80211: Supported cipher 00-0f-ac:6
+nl80211: Supported cipher 00-0f-ac:8
+nl80211: Supported cipher 00-0f-ac:9
+nl80211: Supported cipher 00-0f-ac:10
+nl80211: Supported cipher 00-0f-ac:11
+nl80211: Supported cipher 00-0f-ac:12
+nl80211: Supported cipher 00-0f-ac:13
+nl80211: Supported cipher 00-14-72:1
+nl80211: Using driver-based off-channel TX
+nl80211: Supported vendor command: vendor_id=0x1374 subcmd=74
+nl80211: Supported vendor command: vendor_id=0x1374 subcmd=75
+nl80211: Supported vendor command: vendor_id=0x1374 subcmd=125
+nl80211: Supported vendor command: vendor_id=0x1374 subcmd=54
+nl80211: Supported vendor command: vendor_id=0x1374 subcmd=243
+nl80211: Supported vendor command: vendor_id=0x1374 subcmd=106
+nl80211: Supported vendor command: vendor_id=0x1374 subcmd=147
+nl80211: Supported vendor command: vendor_id=0x1374 subcmd=154
+nl80211: Supported vendor command: vendor_id=0x1374 subcmd=155
+nl80211: Supported vendor command: vendor_id=0x1374 subcmd=158
+nl80211: Supported vendor command: vendor_id=0x1374 subcmd=159
+nl80211: Supported vendor command: vendor_id=0x1374 subcmd=160
+nl80211: Supported vendor command: vendor_id=0x1374 subcmd=161
+nl80211: Supported vendor command: vendor_id=0x1374 subcmd=163
+nl80211: Supported vendor command: vendor_id=0x1374 subcmd=166
+nl80211: Supported vendor command: vendor_id=0x1374 subcmd=184
+nl80211: Supported vendor command: vendor_id=0x1374 subcmd=334
+nl80211: Supported vendor command: vendor_id=0x1374 subcmd=307
+nl80211: Supported vendor command: vendor_id=0x1374 subcmd=401
+nl80211: Supported vendor command: vendor_id=0x1374 subcmd=206
+nl80211: Supported vendor command: vendor_id=0x1374 subcmd=207
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x1374 subcmd=54
+nl80211: Supported vendor event: vendor_id=0x1374 subcmd=56
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x1374 subcmd=75
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x1374 subcmd=106
+nl80211: Supported vendor event: vendor_id=0x1374 subcmd=107
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x1374 subcmd=147
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x1374 subcmd=178
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x1374 subcmd=194
+nl80211: Supported vendor event: vendor_id=0x1374 subcmd=195
+nl80211: Supported vendor event: vendor_id=0x1374 subcmd=196
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x1374 subcmd=218
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x1374 subcmd=400
+nl80211: Supported vendor event: vendor_id=0x1374 subcmd=206
+nl80211: Supported vendor event: vendor_id=0x1374 subcmd=207
+nl80211: key_mgmt=0xf0f enc=0xfff auth=0x7 flags=0x5c800182d3c3d1c0 rrm_flags=0x0 probe_resp_offloads=0x0 max_stations=128 max_remain_on_chan=5000 max_scan_ssids=10
+nl80211: interface ath1 in phy phy1
+nl80211: Set mode ifindex 25 iftype 3 (AP)
+nl80211: Setup AP(ath1) - device_ap_sme=0 use_monitor=0
+nl80211: Subscribe to mgmt frames with AP handle 0x7fa798e340
+nl80211: Register frame type=0xb0 (WLAN_FC_STYPE_AUTH) nl_handle=0x7fa798e340 match= multicast=0
+nl80211: Register frame type=0x0 (WLAN_FC_STYPE_ASSOC_REQ) nl_handle=0x7fa798e340 match= multicast=0
+nl80211: Register frame type=0x20 (WLAN_FC_STYPE_REASSOC_REQ) nl_handle=0x7fa798e340 match= multicast=0
+nl80211: Register frame type=0xa0 (WLAN_FC_STYPE_DISASSOC) nl_handle=0x7fa798e340 match= multicast=0
+nl80211: Register frame type=0xc0 (WLAN_FC_STYPE_DEAUTH) nl_handle=0x7fa798e340 match= multicast=0
+nl80211: Register frame type=0x40 (WLAN_FC_STYPE_PROBE_REQ) nl_handle=0x7fa798e340 match= multicast=0
+nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0x7fa798e340 match=04 multicast=0
+nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0x7fa798e340 match=0501 multicast=0
+nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0x7fa798e340 match=0503 multicast=0
+nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0x7fa798e340 match=0504 multicast=0
+nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0x7fa798e340 match=06 multicast=0
+nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0x7fa798e340 match=08 multicast=0
+nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0x7fa798e340 match=09 multicast=0
+nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0x7fa798e340 match=0a multicast=0
+nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0x7fa798e340 match=11 multicast=0
+nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0x7fa798e340 match=12 multicast=0
+nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0x7fa798e340 match=7f multicast=0
+rfkill: Cannot open RFKILL control device
+nl80211: RFKILL status not available
+nl80211: Add own interface ifindex 18 (ifidx_reason 25)
+nl80211: if_indices[16]: 18(25)
+nl80211: Add own interface ifindex 25 (ifidx_reason -1)
+nl80211: if_indices[16]: 18(25) 25(-1)
+nl80211: Adding interface ath1 into bridge br-lan
+nl80211: Do not open EAPOL RX socket - using control port for RX
+l2_packet_init: ioctl[SIOCGIFINDEX]: No such device
+Failed to open l2_packet interface for vlan bridge
+BSS count 1, BSSID mask 00:00:00:00:00:00 (0 bits)
+nl80211: Regulatory information - country=US (DFS-FCC)
+nl80211: 2402-2472 @ 40 MHz 30 mBm
+nl80211: 5170-5330 @ 160 MHz 24 mBm
+nl80211: 5490-5730 @ 240 MHz 24 mBm
+nl80211: 5735-5895 @ 160 MHz 30 mBm
+nl80211: 5925-7125 @ 320 MHz 30 mBm (no outdoor)
+nl80211: Mode IEEE 802.11a: 5180 5200 5220 5240 5260 5280 5300 5320
+Allowed channel: mode=2 chan=36 freq=5180 MHz max_tx_power=24 dBm
+Allowed channel: mode=2 chan=40 freq=5200 MHz max_tx_power=24 dBm
+Allowed channel: mode=2 chan=44 freq=5220 MHz max_tx_power=24 dBm
+Allowed channel: mode=2 chan=48 freq=5240 MHz max_tx_power=24 dBm
+Allowed channel: mode=2 chan=52 freq=5260 MHz max_tx_power=24 dBm
+Allowed channel: mode=2 chan=56 freq=5280 MHz max_tx_power=24 dBm
+Allowed channel: mode=2 chan=60 freq=5300 MHz max_tx_power=24 dBm
+Allowed channel: mode=2 chan=64 freq=5320 MHz max_tx_power=24 dBm
+ACS: Automatic channel selection started, this may take a bit
+ACS: Offloading to driver
+nl80211: ACS Params: HW_MODE: 2 HT: 1 HT40: 0 VHT: 1 BW: 20 EDMG: 0
+Interface initialization will be completed in a callback (ACS)
+RTM_NEWLINK: ifi_index=25 ifname=ath1 operstate=0 linkmode=0 ifi_family=0 ifi_flags=0x11043 ([UP][RUNNING][LOWER_UP])
+RTM_NEWLINK: ifi_index=25 ifname=ath1 operstate=0 linkmode=0 master=18 ifi_family=0 ifi_flags=0x11043 ([UP][RUNNING][LOWER_UP])
+RTM_NEWLINK: ifi_index=25 ifname=ath1 operstate=0 linkmode=0 master=18 ifi_family=0 ifi_flags=0x11043 ([UP][RUNNING][LOWER_UP])
+RTM_NEWLINK: ifi_index=25 ifname=ath1 master=18 operstate=0 ifi_family=7 ifi_flags=0x11043 ([UP][RUNNING][LOWER_UP])
+nl80211: Add ifindex 18 for bridge br-lan
+nl80211: Add own interface ifindex 18 (ifidx_reason 25)
+nl80211: ifindex 18 already in the list
+RTM_NEWLINK: ifi_index=25 ifname=ath1 master=18 operstate=0 ifi_family=7 ifi_flags=0x11043 ([UP][RUNNING][LOWER_UP])
+nl80211: Add ifindex 18 for bridge br-lan
+nl80211: Add own interface ifindex 18 (ifidx_reason 25)
+nl80211: ifindex 18 already in the list
+RTM_NEWLINK: ifi_index=25 ifname=ath1 master=18 operstate=0 ifi_family=7 ifi_flags=0x11043 ([UP][RUNNING][LOWER_UP])
+nl80211: Add ifindex 18 for bridge br-lan
+nl80211: Add own interface ifindex 18 (ifidx_reason 25)
+nl80211: ifindex 18 already in the list
+RTM_NEWLINK: ifi_index=18 ifname=br-lan operstate=6 linkmode=0 ifi_family=0 ifi_flags=0x11043 ([UP][RUNNING][LOWER_UP])
+ath1: Event INTERFACE_STATUS (5) received
+Unknown event 5
+RTM_NEWLINK: ifi_index=25 ifname=ath1 master=18 operstate=0 ifi_family=7 ifi_flags=0x11043 ([UP][RUNNING][LOWER_UP])
+nl80211: Add ifindex 18 for bridge br-lan
+nl80211: Add own interface ifindex 18 (ifidx_reason 25)
+nl80211: ifindex 18 already in the list
+Global ctrl_iface command: ADD bss_config=ath2:/var/run/hostapd-ath2.conf
+Configuration file: /var/run/hostapd-ath2.conf (phy ath2) --> new PHY
+ieee80211be: 1
+eht width: 2
+puncture_bitmap: 65535
+MLO Partner Link MACs for ath2
+
+00:03:7f:12:59:d7
+
+00:03:7f:12:f4:a7
+
+MLO Partner Link IDs for ath2
+
+Link-ID: 1
+
+Link-ID: 2
+
+nl80211: Supported cipher 00-0f-ac:0
+nl80211: Supported cipher 00-0f-ac:1
+nl80211: Supported cipher 00-0f-ac:2
+nl80211: Supported cipher 00-0f-ac:4
+nl80211: Supported cipher 00-0f-ac:5
+nl80211: Supported cipher 00-0f-ac:6
+nl80211: Supported cipher 00-0f-ac:8
+nl80211: Supported cipher 00-0f-ac:9
+nl80211: Supported cipher 00-0f-ac:10
+nl80211: Supported cipher 00-0f-ac:11
+nl80211: Supported cipher 00-0f-ac:12
+nl80211: Supported cipher 00-0f-ac:13
+nl80211: Supported cipher 00-14-72:1
+nl80211: Using driver-based off-channel TX
+nl80211: Supported vendor command: vendor_id=0x1374 subcmd=74
+nl80211: Supported vendor command: vendor_id=0x1374 subcmd=75
+nl80211: Supported vendor command: vendor_id=0x1374 subcmd=125
+nl80211: Supported vendor command: vendor_id=0x1374 subcmd=54
+nl80211: Supported vendor command: vendor_id=0x1374 subcmd=243
+nl80211: Supported vendor command: vendor_id=0x1374 subcmd=106
+nl80211: Supported vendor command: vendor_id=0x1374 subcmd=147
+nl80211: Supported vendor command: vendor_id=0x1374 subcmd=154
+nl80211: Supported vendor command: vendor_id=0x1374 subcmd=155
+nl80211: Supported vendor command: vendor_id=0x1374 subcmd=158
+nl80211: Supported vendor command: vendor_id=0x1374 subcmd=159
+nl80211: Supported vendor command: vendor_id=0x1374 subcmd=160
+nl80211: Supported vendor command: vendor_id=0x1374 subcmd=161
+nl80211: Supported vendor command: vendor_id=0x1374 subcmd=163
+nl80211: Supported vendor command: vendor_id=0x1374 subcmd=166
+nl80211: Supported vendor command: vendor_id=0x1374 subcmd=184
+nl80211: Supported vendor command: vendor_id=0x1374 subcmd=334
+nl80211: Supported vendor command: vendor_id=0x1374 subcmd=307
+nl80211: Supported vendor command: vendor_id=0x1374 subcmd=401
+nl80211: Supported vendor command: vendor_id=0x1374 subcmd=206
+nl80211: Supported vendor command: vendor_id=0x1374 subcmd=207
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x1374 subcmd=54
+nl80211: Supported vendor event: vendor_id=0x1374 subcmd=56
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x1374 subcmd=75
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x1374 subcmd=106
+nl80211: Supported vendor event: vendor_id=0x1374 subcmd=107
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x1374 subcmd=147
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x1374 subcmd=178
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x1374 subcmd=194
+nl80211: Supported vendor event: vendor_id=0x1374 subcmd=195
+nl80211: Supported vendor event: vendor_id=0x1374 subcmd=196
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x1374 subcmd=218
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x0 subcmd=0
+nl80211: Supported vendor event: vendor_id=0x1374 subcmd=400
+nl80211: Supported vendor event: vendor_id=0x1374 subcmd=206
+nl80211: Supported vendor event: vendor_id=0x1374 subcmd=207
+nl80211: key_mgmt=0xf0f enc=0xfff auth=0x7 flags=0x5c800182d3c3d1c0 rrm_flags=0x0 probe_resp_offloads=0x0 max_stations=128 max_remain_on_chan=5000 max_scan_ssids=10
+nl80211: interface ath2 in phy phy2
+nl80211: Set mode ifindex 26 iftype 3 (AP)
+nl80211: Setup AP(ath2) - device_ap_sme=0 use_monitor=0
+nl80211: Subscribe to mgmt frames with AP handle 0x7fa7cb8fa0
+nl80211: Register frame type=0xb0 (WLAN_FC_STYPE_AUTH) nl_handle=0x7fa7cb8fa0 match= multicast=0
+nl80211: Register frame type=0x0 (WLAN_FC_STYPE_ASSOC_REQ) nl_handle=0x7fa7cb8fa0 match= multicast=0
+nl80211: Register frame type=0x20 (WLAN_FC_STYPE_REASSOC_REQ) nl_handle=0x7fa7cb8fa0 match= multicast=0
+nl80211: Register frame type=0xa0 (WLAN_FC_STYPE_DISASSOC) nl_handle=0x7fa7cb8fa0 match= multicast=0
+nl80211: Register frame type=0xc0 (WLAN_FC_STYPE_DEAUTH) nl_handle=0x7fa7cb8fa0 match= multicast=0
+nl80211: Register frame type=0x40 (WLAN_FC_STYPE_PROBE_REQ) nl_handle=0x7fa7cb8fa0 match= multicast=0
+nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0x7fa7cb8fa0 match=04 multicast=0
+nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0x7fa7cb8fa0 match=0501 multicast=0
+nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0x7fa7cb8fa0 match=0503 multicast=0
+nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0x7fa7cb8fa0 match=0504 multicast=0
+nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0x7fa7cb8fa0 match=06 multicast=0
+nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0x7fa7cb8fa0 match=08 multicast=0
+nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0x7fa7cb8fa0 match=09 multicast=0
+nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0x7fa7cb8fa0 match=0a multicast=0
+nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0x7fa7cb8fa0 match=11 multicast=0
+nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0x7fa7cb8fa0 match=12 multicast=0
+nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0x7fa7cb8fa0 match=7f multicast=0
+rfkill: Cannot open RFKILL control device
+nl80211: RFKILL status not available
+nl80211: Add own interface ifindex 18 (ifidx_reason 26)
+nl80211: if_indices[16]: 18(26)
+nl80211: Add own interface ifindex 26 (ifidx_reason -1)
+nl80211: if_indices[16]: 18(26) 26(-1)
+nl80211: Adding interface ath2 into bridge br-lan
+nl80211: Do not open EAPOL RX socket - using control port for RX
+l2_packet_init: ioctl[SIOCGIFINDEX]: No such device
+Failed to open l2_packet interface for vlan bridge
+BSS count 1, BSSID mask 00:00:00:00:00:00 (0 bits)
+nl80211: Regulatory information - country=US (DFS-FCC)
+nl80211: 2402-2472 @ 40 MHz 30 mBm
+nl80211: 5170-5330 @ 160 MHz 24 mBm
+nl80211: 5490-5730 @ 240 MHz 24 mBm
+nl80211: 5735-5895 @ 160 MHz 30 mBm
+nl80211: 5925-7125 @ 320 MHz 30 mBm (no outdoor)
+nl80211: Mode IEEE 802.11a: 5500 5520 5540 5560 5580 5600 5620 5640 5660 5680 5700 5720 5745 5765 5785 5805 5825
+Allowed channel: mode=2 chan=100 freq=5500 MHz max_tx_power=24 dBm
+Allowed channel: mode=2 chan=104 freq=5520 MHz max_tx_power=24 dBm
+Allowed channel: mode=2 chan=108 freq=5540 MHz max_tx_power=24 dBm
+Allowed channel: mode=2 chan=112 freq=5560 MHz max_tx_power=24 dBm
+Allowed channel: mode=2 chan=116 freq=5580 MHz max_tx_power=24 dBm
+Allowed channel: mode=2 chan=120 freq=5600 MHz max_tx_power=24 dBm
+Allowed channel: mode=2 chan=124 freq=5620 MHz max_tx_power=24 dBm
+Allowed channel: mode=2 chan=128 freq=5640 MHz max_tx_power=24 dBm
+Allowed channel: mode=2 chan=132 freq=5660 MHz max_tx_power=24 dBm
+Allowed channel: mode=2 chan=136 freq=5680 MHz max_tx_power=24 dBm
+Allowed channel: mode=2 chan=140 freq=5700 MHz max_tx_power=24 dBm
+Allowed channel: mode=2 chan=144 freq=5720 MHz max_tx_power=24 dBm
+Allowed channel: mode=2 chan=149 freq=5745 MHz max_tx_power=30 dBm
+Allowed channel: mode=2 chan=153 freq=5765 MHz max_tx_power=30 dBm
+Allowed channel: mode=2 chan=157 freq=5785 MHz max_tx_power=30 dBm
+Allowed channel: mode=2 chan=161 freq=5805 MHz max_tx_power=30 dBm
+Allowed channel: mode=2 chan=165 freq=5825 MHz max_tx_power=30 dBm
+ACS: Automatic channel selection started, this may take a bit
+ACS: Offloading to driver
+nl80211: ACS Params: HW_MODE: 2 HT: 1 HT40: 0 VHT: 1 BW: 20 EDMG: 0
+Interface initialization will be completed in a callback (ACS)
+RTM_NEWLINK: ifi_index=26 ifname=ath2 operstate=0 linkmode=0 ifi_family=0 ifi_flags=0x11043 ([UP][RUNNING][LOWER_UP])
+RTM_NEWLINK: ifi_index=26 ifname=ath2 operstate=0 linkmode=0 master=18 ifi_family=0 ifi_flags=0x11043 ([UP][RUNNING][LOWER_UP])
+RTM_NEWLINK: ifi_index=26 ifname=ath2 operstate=0 linkmode=0 master=18 ifi_family=0 ifi_flags=0x11043 ([UP][RUNNING][LOWER_UP])
+RTM_NEWLINK: ifi_index=26 ifname=ath2 master=18 operstate=0 ifi_family=7 ifi_flags=0x11043 ([UP][RUNNING][LOWER_UP])
+nl80211: Add ifindex 18 for bridge br-lan
+nl80211: Add own interface ifindex 18 (ifidx_reason 26)
+nl80211: ifindex 18 already in the list
+RTM_NEWLINK: ifi_index=26 ifname=ath2 master=18 operstate=0 ifi_family=7 ifi_flags=0x11043 ([UP][RUNNING][LOWER_UP])
+nl80211: Add ifindex 18 for bridge br-lan
+nl80211: Add own interface ifindex 18 (ifidx_reason 26)
+nl80211: ifindex 18 already in the list
+RTM_NEWLINK: ifi_index=26 ifname=ath2 master=18 operstate=0 ifi_family=7 ifi_flags=0x11043 ([UP][RUNNING][LOWER_UP])
+nl80211: Add ifindex 18 for bridge br-lan
+nl80211: Add own interface ifindex 18 (ifidx_reason 26)
+nl80211: ifindex 18 already in the list
+RTM_NEWLINK: ifi_index=26 ifname=ath2 master=18 operstate=0 ifi_family=7 ifi_flags=0x11043 ([UP][RUNNING][LOWER_UP])
+nl80211: Add ifindex 18 for bridge br-lan
+nl80211: Add own interface ifindex 18 (ifidx_reason 26)
+nl80211: ifindex 18 already in the list
+RTM_NEWLINK: ifi_index=25 ifname=ath1 master=18 operstate=0 ifi_family=7 ifi_flags=0x11043 ([UP][RUNNING][LOWER_UP])
+nl80211: Add ifindex 18 for bridge br-lan
+nl80211: Add own interface ifindex 18 (ifidx_reason 25)
+nl80211: ifindex 18 already in the list
+RTM_NEWLINK: ifi_index=26 ifname=ath2 master=18 operstate=0 ifi_family=7 ifi_flags=0x11043 ([UP][RUNNING][LOWER_UP])
+nl80211: Add ifindex 18 for bridge br-lan
+nl80211: Add own interface ifindex 18 (ifidx_reason 26)
+nl80211: ifindex 18 already in the list
+nl80211: Event message available
+nl80211: Ignored event 103 (NL80211_CMD_VENDOR) for foreign interface (ifindex 25 wdev 0x0)
+nl80211: Drv Event 103 (NL80211_CMD_VENDOR) received for ath1
+nl80211: Vendor event: wiphy=1 vendor_id=0x1374 subcmd=54
+nl80211: Vendor data - hexdump(len=88): 05 00 01 00 24 00 00 00 08 00 0c 00 3c 14 00 00 05 00 02 00 2c 00 00 00 08 00 0d 00 64 14 00 00 05 00 03 00 02 00 00 00 06 00 07 00 a0 00 00 00 05 00 09 00 32 00 00 00 08 00 0e 00 82 14 00 00 05 00 0a 00 00 00 00 00 08 00 0f 00 00 00 00 00 06 00 12 00 00 00 00 00
+nl80211: ACS channel selection vendor event received
+nl80211: ACS Results: PFreq: 5180 SFreq: 5220 BW: 160 VHT0: 50 VHT1: 0 HW_MODE: 2 EDMGCH: 0, Puncture bitmap: 0
+ath1: Event ACS_CHANNEL_SELECTED (50) received
+ath1: ACS-COMPLETED freq=5180 channel=36
+Disable HT capability [DSSS_CCK-40] on 5 GHz band
+hw vht capab: 0x3389f9f6, conf vht capab: 0x338918f6
+Completing interface initialization
+Mode: IEEE 802.11a  Channel: 36  Frequency: 5180 MHz
+DFS 0 channels required radar detection
+nl80211: Set freq 5180 (ht_enabled=1, vht_enabled=1, he_enabled=1, bandwidth=160 MHz, cf1=5250 MHz, cf2=0 MHz)
+  * freq=5180
+  * he_enabled=1
+  * vht_enabled=1
+  * ht_enabled=1
+  * puncture bitmap=0x0
+  * bandwidth=160
+  * channel_width=5
+  * center_freq1=5250
+  * center_freq2=0
+RATE[0] rate=60 flags=0x1
+RATE[1] rate=90 flags=0x0
+RATE[2] rate=120 flags=0x1
+RATE[3] rate=180 flags=0x0
+RATE[4] rate=240 flags=0x1
+RATE[5] rate=360 flags=0x0
+RATE[6] rate=480 flags=0x0
+RATE[7] rate=540 flags=0x0
+hostapd_setup_bss(hapd=0x55807dce40 (ath1), first=1)
+nl80211: flush -> DEL_STATION ath1 (all)
+Using interface ath1 with hwaddr 00:03:7f:12:59:d7 and ssid "gate"
+Deriving WPA PSK based on passphrase
+SSID - hexdump_ascii(len=4):
+     67 61 74 65                                       gate            
+PSK (ASCII passphrase) - hexdump_ascii(len=8): [REMOVED]
+PSK (from passphrase) - hexdump(len=32): [REMOVED]
+Get randomness: len=32 entropy=0
+random from os_get_random - hexdump(len=32): [REMOVED]
+random_mix_pool - hexdump(len=20): [REMOVED]
+random from internal pool - hexdump(len=16): [REMOVED]
+random_mix_pool - hexdump(len=20): [REMOVED]
+random from internal pool - hexdump(len=16): [REMOVED]
+mixed random - hexdump(len=32): [REMOVED]
+GMK - hexdump(len=32): [REMOVED]
+Get randomness: len=32 entropy=0
+random from os_get_random - hexdump(len=32): [REMOVED]
+random_mix_pool - hexdump(len=20): [REMOVED]
+random from internal pool - hexdump(len=16): [REMOVED]
+random_mix_pool - hexdump(len=20): [REMOVED]
+random from internal pool - hexdump(len=16): [REMOVED]
+mixed random - hexdump(len=32): [REMOVED]
+Key Counter - hexdump(len=32): [REMOVED]
+WPA: Delay group state machine start until Beacon frames have been configured
+Link ID INFO: MLO:00:0a:f5:22:12:31 ath1:1
+
+hostapd_eid_eht_capab : adding EHT capabilty to beacon 
+
+Setting up Link-mac-Link-Id array for MLO start-ap
+
+nl80211: Set beacon (beacon_set=0)
+nl80211: Beacon head - hexdump(len=55): 80 00 00 00 ff ff ff ff ff ff 00 03 7f 12 59 d7 00 03 7f 12 59 d7 00 00 00 00 00 00 00 00 00 00 64 00 11 00 00 04 67 61 74 65 01 08 8c 12 98 24 b0 48 60 6c 03 01 24
+nl80211: Beacon tail - hexdump(len=232): 30 14 01 00 00 0f ac 04 01 00 00 0f ac 04 01 00 00 0f ac 02 0c 00 3b 02 81 00 2d 1a cd 08 03 ff ff 00 00 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00 00 00 00 00 3d 16 24 05 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 7f 0a 04 00 00 02 00 00 00 00 00 40 bf 0c f6 18 89 33 fa ff 00 00 fa ff 00 00 c0 05 01 2a 32 fc ff c3 05 03 30 30 30 30 ff 1b 23 0d 01 18 9a 40 18 0c 63 40 09 fc db 83 1c 11 0c 00 fa ff fa ff fa ff fa ff 00 ff 07 24 f0 3f 00 a2 fc ff ff 16 6c 07 00 00 00 00 00 e2 ff db 00 18 36 d8 3e 00 00 00 22 22 00 00 ff 0b 6a 03 fc ff 00 00 00 00 00 00 00 ff 0b 6b 10 00 08 00 0a f5 22 12 31 01 dd 18 00 50 f2 02 01 01 01 00 03 a4 00 00 27 a4 00 00 42 43 5e 00 62 32 2f 00
+nl80211: ifindex=25
+nl80211: beacon_int=100
+nl80211: beacon_rate=0
+nl80211: rate_type=0
+nl80211: dtim_period=1
+nl80211: ssid=gate
+  * beacon_int=100
+  * dtim_period=1
+nl80211: hidden SSID not in use
+nl80211: privacy=2
+nl80211: auth_algs=0x1
+nl80211: wpa_version=0x2
+nl80211: key_mgmt_suites=0x2
+nl80211: pairwise_ciphers=0x10
+nl80211: group_cipher=0x10
+nl80211: beacon_ies - hexdump(len=25): 7f 0a 04 00 00 02 00 00 00 00 00 40 ff 0b 6b 10 00 08 00 0a f5 22 12 31 01
+nl80211: proberesp_ies - hexdump(len=12): 7f 0a 04 00 00 02 00 00 00 00 00 40
+nl80211: assocresp_ies - hexdump(len=12): 7f 0a 04 00 00 02 00 00 00 00 00 40
+nl80211: ap_max_inactivity=300
+nl80211: twt_responder=1
+nl80211: ath1 MLO-Link_id 1
+
+nl80211: ath1 MLO-Link_id 2
+
+nl80211: ath1 MLO-Link-Mac 00:03:7f:12:59:d7
+
+nl80211: ath1 MLO-Link-Mac 00:03:7f:12:f4:a7
+
+ath1: Deauthenticate all stations at BSS start
+nl80211: send_mlme - da=ff:ff:ff:ff:ff:ff noack=0 freq=0 no_cck=0 offchanok=0 wait_time=0 no_encrypt=0 fc=0xc0 (WLAN_FC_STYPE_DEAUTH) nlmode=3
+nl80211: send_mlme - Use bss->freq=5180
+nl80211: send_mlme -> send_frame_cmd
+nl80211: CMD_FRAME freq=5180 wait=0 no_cck=0 no_ack=0 offchanok=0
+CMD_FRAME - hexdump(len=26): c0 00 00 00 ff ff ff ff ff ff 00 03 7f 12 59 d7 00 03 7f 12 59 d7 00 00 02 00
+nl80211: Frame TX command accepted; cookie 0xffffffd010bf0720
+WPA: Start group state machine to set initial keys
+WPA: group state machine entering state GTK_INIT (VLAN-ID 0)
+Get randomness: len=16 entropy=0
+random from os_get_random - hexdump(len=16): [REMOVED]
+random_mix_pool - hexdump(len=20): [REMOVED]
+random from internal pool - hexdump(len=16): [REMOVED]
+mixed random - hexdump(len=16): [REMOVED]
+GTK - hexdump(len=16): [REMOVED]
+WPA: group state machine entering state SETKEYSDONE (VLAN-ID 0)
+wpa_driver_nl80211_set_key: ifindex=25 (ath1) alg=3 addr=0x55624fc261 key_idx=1 set_tx=1 seq_len=0 key_len=16 key_flag=0x1a
+nl80211: NEW_KEY
+nl80211: KEY_DATA - hexdump(len=16): [REMOVED]
+   broadcast key
+nl80211: NL80211_CMD_SET_KEY - default key
+nl80211: Set ath1 operstate 0->1 (UP)
+netlink: Operstate: ifindex=25 linkmode=-1 (no change), operstate=6 (IF_OPER_UP)
+nl80211: TX queue param set: queue=0 aifs=1 cw_min=3 cw_max=7 burst_time=15 --> res=0
+nl80211: TX queue param set: queue=1 aifs=1 cw_min=7 cw_max=15 burst_time=30 --> res=0
+nl80211: TX queue param set: queue=2 aifs=3 cw_min=15 cw_max=63 burst_time=0 --> res=0
+nl80211: TX queue param set: queue=3 aifs=7 cw_min=15 cw_max=1023 burst_time=0 --> res=0
+ath1: interface state UNINITIALIZED->ENABLED
+ath1: AP-ENABLED 
+ath1: Setup of interface done.
+RTM_NEWLINK: ifi_index=25 ifname=ath1 master=18 operstate=6 ifi_family=7 ifi_flags=0x11043 ([UP][RUNNING][LOWER_UP])
+nl80211: Add ifindex 18 for bridge br-lan
+nl80211: Add own interface ifindex 18 (ifidx_reason 25)
+nl80211: ifindex 18 already in the list
+RTM_NEWLINK: ifi_index=25 ifname=ath1 operstate=6 linkmode=0 master=18 ifi_family=0 ifi_flags=0x11043 ([UP][RUNNING][LOWER_UP])
+RTM_NEWLINK: ifi_index=25 ifname=ath1 wext ifi_family=0 ifi_flags=0x11043 ([UP][RUNNING][LOWER_UP])
+nl80211: Event message available
+nl80211: Ignored event 88 (NL80211_CMD_CH_SWITCH_NOTIFY) for foreign interface (ifindex 25 wdev 0x0)
+nl80211: Drv Event 88 (NL80211_CMD_CH_SWITCH_NOTIFY) received for ath1
+nl80211: Channel switch event
+nl80211: Calculated channel offset: 1
+ath1: Event CH_SWITCH (38) received
+ath1: IEEE 802.11 driver had channel switch: freq=5180, ht=1, vht_ch=0x0, he_ch=0x0, offset=1, width=5 (160 MHz), cf1=5250, cf2=0
+ath1: CTRL-EVENT-CHANNEL-SWITCH freq=5180 ht_enabled=1 ch_offset=1 ch_width=160 MHz cf1=5250 cf2=0 dfs=0
+RTM_NEWLINK: ifi_index=20 ifname=wifi1 wext ifi_family=0 ifi_flags=0x11043 ([UP][RUNNING][LOWER_UP])
+RTM_NEWLINK: ifi_index=20 ifname=wifi1 wext ifi_family=0 ifi_flags=0x11043 ([UP][RUNNING][LOWER_UP])
+RTM_NEWLINK: ifi_index=20 ifname=wifi1 wext ifi_family=0 ifi_flags=0x11043 ([UP][RUNNING][LOWER_UP])
+RTM_NEWLINK: ifi_index=20 ifname=wifi1 wext ifi_family=0 ifi_flags=0x11043 ([UP][RUNNING][LOWER_UP])
+RTM_NEWLINK: ifi_index=20 ifname=wifi1 wext ifi_family=0 ifi_flags=0x11043 ([UP][RUNNING][LOWER_UP])
+RTM_NEWLINK: ifi_index=20 ifname=wifi1 wext ifi_family=0 ifi_flags=0x11043 ([UP][RUNNING][LOWER_UP])
+RTM_NEWLINK: ifi_index=20 ifname=wifi1 wext ifi_family=0 ifi_flags=0x11043 ([UP][RUNNING][LOWER_UP])
+RTM_NEWLINK: ifi_index=20 ifname=wifi1 wext ifi_family=0 ifi_flags=0x11043 ([UP][RUNNING][LOWER_UP])
+RTM_NEWLINK: ifi_index=20 ifname=wifi1 wext ifi_family=0 ifi_flags=0x11043 ([UP][RUNNING][LOWER_UP])
+RTM_NEWLINK: ifi_index=20 ifname=wifi1 wext ifi_family=0 ifi_flags=0x11043 ([UP][RUNNING][LOWER_UP])
+RTM_NEWLINK: ifi_index=20 ifname=wifi1 wext ifi_family=0 ifi_flags=0x11043 ([UP][RUNNING][LOWER_UP])
+RTM_NEWLINK: ifi_index=20 ifname=wifi1 wext ifi_family=0 ifi_flags=0x11043 ([UP][RUNNING][LOWER_UP])
+RTM_NEWLINK: ifi_index=20 ifname=wifi1 wext ifi_family=0 ifi_flags=0x11043 ([UP][RUNNING][LOWER_UP])
+RTM_NEWLINK: ifi_index=20 ifname=wifi1 wext ifi_family=0 ifi_flags=0x11043 ([UP][RUNNING][LOWER_UP])
+RTM_NEWLINK: ifi_index=20 ifname=wifi1 wext ifi_family=0 ifi_flags=0x11043 ([UP][RUNNING][LOWER_UP])
+RTM_NEWLINK: ifi_index=20 ifname=wifi1 wext ifi_family=0 ifi_flags=0x11043 ([UP][RUNNING][LOWER_UP])
+RTM_NEWLINK: ifi_index=20 ifname=wifi1 wext ifi_family=0 ifi_flags=0x11043 ([UP][RUNNING][LOWER_UP])
+nl80211: Event message available
+nl80211: Drv Event 103 (NL80211_CMD_VENDOR) received for ath2
+nl80211: Vendor event: wiphy=2 vendor_id=0x1374 subcmd=54
+nl80211: Vendor data - hexdump(len=88): 05 00 01 00 68 00 00 00 08 00 0c 00 90 15 00 00 05 00 02 00 6c 00 00 00 08 00 0d 00 a4 15 00 00 05 00 03 00 02 00 00 00 06 00 07 00 a0 00 00 00 05 00 09 00 72 00 00 00 08 00 0e 00 c2 15 00 00 05 00 0a 00 00 00 00 00 08 00 0f 00 00 00 00 00 06 00 12 00 00 00 00 00
+nl80211: ACS channel selection vendor event received
+nl80211: ACS Results: PFreq: 5520 SFreq: 5540 BW: 160 VHT0: 114 VHT1: 0 HW_MODE: 2 EDMGCH: 0, Puncture bitmap: 0
+ath2: Event ACS_CHANNEL_SELECTED (50) received
+ath2: ACS-COMPLETED freq=5520 channel=104
+Disable HT capability [DSSS_CCK-40] on 5 GHz band
+hw vht capab: 0x3389f9f6, conf vht capab: 0x338918f6
+Completing interface initialization
+Mode: IEEE 802.11a  Channel: 104  Frequency: 5520 MHz
+DFS 0 channels required radar detection
+nl80211: Set freq 5520 (ht_enabled=1, vht_enabled=1, he_enabled=1, bandwidth=160 MHz, cf1=5570 MHz, cf2=0 MHz)
+  * freq=5520
+  * he_enabled=1
+  * vht_enabled=1
+  * ht_enabled=1
+  * puncture bitmap=0x0
+  * bandwidth=160
+  * channel_width=5
+  * center_freq1=5570
+  * center_freq2=0
+RATE[0] rate=60 flags=0x1
+RATE[1] rate=90 flags=0x0
+RATE[2] rate=120 flags=0x1
+RATE[3] rate=180 flags=0x0
+RATE[4] rate=240 flags=0x1
+RATE[5] rate=360 flags=0x0
+RATE[6] rate=480 flags=0x0
+RATE[7] rate=540 flags=0x0
+hostapd_setup_bss(hapd=0x55807de940 (ath2), first=1)
+nl80211: flush -> DEL_STATION ath2 (all)
+Using interface ath2 with hwaddr 00:03:7f:12:f4:a7 and ssid "gate"
+Deriving WPA PSK based on passphrase
+SSID - hexdump_ascii(len=4):
+     67 61 74 65                                       gate            
+PSK (ASCII passphrase) - hexdump_ascii(len=8): [REMOVED]
+PSK (from passphrase) - hexdump(len=32): [REMOVED]
+Get randomness: len=32 entropy=0
+random from os_get_random - hexdump(len=32): [REMOVED]
+random_mix_pool - hexdump(len=20): [REMOVED]
+random from internal pool - hexdump(len=16): [REMOVED]
+random_mix_pool - hexdump(len=20): [REMOVED]
+random from internal pool - hexdump(len=16): [REMOVED]
+mixed random - hexdump(len=32): [REMOVED]
+GMK - hexdump(len=32): [REMOVED]
+Get randomness: len=32 entropy=0
+random from os_get_random - hexdump(len=32): [REMOVED]
+random_mix_pool - hexdump(len=20): [REMOVED]
+random from internal pool - hexdump(len=16): [REMOVED]
+random_mix_pool - hexdump(len=20): [REMOVED]
+random from internal pool - hexdump(len=16): [REMOVED]
+mixed random - hexdump(len=32): [REMOVED]
+Key Counter - hexdump(len=32): [REMOVED]
+WPA: Delay group state machine start until Beacon frames have been configured
+Link ID INFO: MLO:00:0a:f5:22:12:31 ath2:2
+
+hostapd_eid_eht_capab : adding EHT capabilty to beacon 
+
+Setting up Link-mac-Link-Id array for MLO start-ap
+
+nl80211: Set beacon (beacon_set=0)
+nl80211: Beacon head - hexdump(len=55): 80 00 00 00 ff ff ff ff ff ff 00 03 7f 12 f4 a7 00 03 7f 12 f4 a7 00 00 00 00 00 00 00 00 00 00 64 00 11 00 00 04 67 61 74 65 01 08 8c 12 98 24 b0 48 60 6c 03 01 68
+nl80211: Beacon tail - hexdump(len=243): 30 14 01 00 00 0f ac 04 01 00 00 0f ac 04 01 00 00 0f ac 02 0c 00 3b 02 81 00 2d 1a cd 08 03 ff ff 00 00 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00 00 00 00 00 3d 16 68 05 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 7f 0a 04 00 00 02 00 00 00 00 00 40 bf 0c f6 18 89 33 fa ff 00 00 fa ff 00 00 c0 05 01 6a 72 fc ff c3 05 03 30 30 30 30 ff 1b 23 0d 01 18 9a 40 18 0c 63 40 09 fc db 83 1c 11 0c 00 fa ff fa ff fa ff fa ff 00 ff 07 24 f0 3f 00 be fc ff ff 16 6c 07 00 00 00 00 00 e2 ff db 00 18 36 d8 3e 00 00 00 22 22 00 00 ff 0b 6a 03 fc ff 00 00 00 00 00 00 00 ff 16 6b 10 00 08 00 0a f5 22 12 31 02 00 09 21 00 07 00 03 7f 12 59 d7 dd 18 00 50 f2 02 01 01 01 00 03 a4 00 00 27 a4 00 00 42 43 5e 00 62 32 2f 00
+nl80211: ifindex=26
+nl80211: beacon_int=100
+nl80211: beacon_rate=0
+nl80211: rate_type=0
+nl80211: dtim_period=1
+nl80211: ssid=gate
+  * beacon_int=100
+  * dtim_period=1
+nl80211: hidden SSID not in use
+nl80211: privacy=2
+nl80211: auth_algs=0x1
+nl80211: wpa_version=0x2
+nl80211: key_mgmt_suites=0x2
+nl80211: pairwise_ciphers=0x10
+nl80211: group_cipher=0x10
+nl80211: beacon_ies - hexdump(len=36): 7f 0a 04 00 00 02 00 00 00 00 00 40 ff 16 6b 10 00 08 00 0a f5 22 12 31 02 00 09 21 00 07 00 03 7f 12 59 d7
+nl80211: proberesp_ies - hexdump(len=12): 7f 0a 04 00 00 02 00 00 00 00 00 40
+nl80211: assocresp_ies - hexdump(len=12): 7f 0a 04 00 00 02 00 00 00 00 00 40
+nl80211: ap_max_inactivity=300
+nl80211: twt_responder=1
+nl80211: ath2 MLO-Link_id 1
+
+nl80211: ath2 MLO-Link_id 2
+
+nl80211: ath2 MLO-Link-Mac 00:03:7f:12:59:d7
+
+nl80211: ath2 MLO-Link-Mac 00:03:7f:12:f4:a7
+
+ath2: Deauthenticate all stations at BSS start
+nl80211: send_mlme - da=ff:ff:ff:ff:ff:ff noack=0 freq=0 no_cck=0 offchanok=0 wait_time=0 no_encrypt=0 fc=0xc0 (WLAN_FC_STYPE_DEAUTH) nlmode=3
+nl80211: send_mlme - Use bss->freq=5520
+nl80211: send_mlme -> send_frame_cmd
+nl80211: CMD_FRAME freq=5520 wait=0 no_cck=0 no_ack=0 offchanok=0
+CMD_FRAME - hexdump(len=26): c0 00 00 00 ff ff ff ff ff ff 00 03 7f 12 f4 a7 00 03 7f 12 f4 a7 00 00 02 00
+nl80211: Frame TX command accepted; cookie 0xffffffd010bf0720
+WPA: Start group state machine to set initial keys
+WPA: group state machine entering state GTK_INIT (VLAN-ID 0)
+Get randomness: len=16 entropy=0
+random from os_get_random - hexdump(len=16): [REMOVED]
+random_mix_pool - hexdump(len=20): [REMOVED]
+random from internal pool - hexdump(len=16): [REMOVED]
+mixed random - hexdump(len=16): [REMOVED]
+GTK - hexdump(len=16): [REMOVED]
+WPA: group state machine entering state SETKEYSDONE (VLAN-ID 0)
+wpa_driver_nl80211_set_key: ifindex=26 (ath2) alg=3 addr=0x55624fc261 key_idx=1 set_tx=1 seq_len=0 key_len=16 key_flag=0x1a
+nl80211: NEW_KEY
+nl80211: KEY_DATA - hexdump(len=16): [REMOVED]
+   broadcast key
+nl80211: NL80211_CMD_SET_KEY - default key
+nl80211: Set ath2 operstate 0->1 (UP)
+netlink: Operstate: ifindex=26 linkmode=-1 (no change), operstate=6 (IF_OPER_UP)
+nl80211: TX queue param set: queue=0 aifs=1 cw_min=3 cw_max=7 burst_time=15 --> res=0
+nl80211: TX queue param set: queue=1 aifs=1 cw_min=7 cw_max=15 burst_time=30 --> res=0
+nl80211: TX queue param set: queue=2 aifs=3 cw_min=15 cw_max=63 burst_time=0 --> res=0
+nl80211: TX queue param set: queue=3 aifs=7 cw_min=15 cw_max=1023 burst_time=0 --> res=0
+ath2: interface state UNINITIALIZED->ENABLED
+EHT: Partner link info changed - update beacon data for ath1
+hostapd_eid_eht_capab : adding EHT capabilty to beacon 
+
+Setting up Link-mac-Link-Id array for MLO start-ap
+
+nl80211: Set beacon (beacon_set=1)
+nl80211: Beacon head - hexdump(len=55): 80 00 00 00 ff ff ff ff ff ff 00 03 7f 12 59 d7 00 03 7f 12 59 d7 00 00 00 00 00 00 00 00 00 00 64 00 11 00 00 04 67 61 74 65 01 08 8c 12 98 24 b0 48 60 6c 03 01 24
+nl80211: Beacon tail - hexdump(len=243): 30 14 01 00 00 0f ac 04 01 00 00 0f ac 04 01 00 00 0f ac 02 0c 00 3b 02 81 00 2d 1a cf 08 03 ff ff 00 00 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00 00 00 00 00 3d 16 24 05 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 7f 0a 04 00 00 02 00 00 00 00 00 40 bf 0c f6 18 89 33 fa ff 00 00 fa ff 00 00 c0 05 01 2a 32 fc ff c3 05 03 30 30 30 30 ff 1b 23 0d 01 18 9a 40 18 0c 63 40 09 fc db 83 1c 11 0c 00 fa ff fa ff fa ff fa ff 00 ff 07 24 f0 3f 00 a2 fc ff ff 16 6c 07 00 00 00 00 00 e2 ff db 00 18 36 d8 3e 00 00 00 22 22 00 00 ff 0b 6a 03 fc ff 00 00 00 00 00 00 00 ff 16 6b 10 00 08 00 0a f5 22 12 31 01 00 09 22 00 07 00 03 7f 12 f4 a7 dd 18 00 50 f2 02 01 01 01 00 03 a4 00 00 27 a4 00 00 42 43 5e 00 62 32 2f 00
+nl80211: ifindex=25
+nl80211: beacon_int=100
+nl80211: beacon_rate=0
+nl80211: rate_type=0
+nl80211: dtim_period=1
+nl80211: ssid=gate
+  * beacon_int=100
+  * dtim_period=1
+nl80211: hidden SSID not in use
+nl80211: privacy=2
+nl80211: auth_algs=0x1
+nl80211: wpa_version=0x2
+nl80211: key_mgmt_suites=0x2
+nl80211: pairwise_ciphers=0x10
+nl80211: group_cipher=0x10
+nl80211: beacon_ies - hexdump(len=36): 7f 0a 04 00 00 02 00 00 00 00 00 40 ff 16 6b 10 00 08 00 0a f5 22 12 31 01 00 09 22 00 07 00 03 7f 12 f4 a7
+nl80211: proberesp_ies - hexdump(len=12): 7f 0a 04 00 00 02 00 00 00 00 00 40
+nl80211: assocresp_ies - hexdump(len=12): 7f 0a 04 00 00 02 00 00 00 00 00 40
+nl80211: ap_max_inactivity=300
+nl80211: twt_responder=1
+nl80211: ath1 MLO-Link_id 1
+
+nl80211: ath1 MLO-Link_id 2
+
+nl80211: ath1 MLO-Link-Mac 00:03:7f:12:59:d7
+
+nl80211: ath1 MLO-Link-Mac 00:03:7f:12:f4:a7
+
+ath2: AP-ENABLED 
+ath2: Setup of interface done.
+RTM_NEWLINK: ifi_index=26 ifname=ath2 master=18 operstate=6 ifi_family=7 ifi_flags=0x11043 ([UP][RUNNING][LOWER_UP])
+nl80211: Add ifindex 18 for bridge br-lan
+nl80211: Add own interface ifindex 18 (ifidx_reason 26)
+nl80211: ifindex 18 already in the list
+RTM_NEWLINK: ifi_index=26 ifname=ath2 operstate=6 linkmode=0 master=18 ifi_family=0 ifi_flags=0x11043 ([UP][RUNNING][LOWER_UP])
+nl80211: Event message available
+nl80211: Ignored event 60 (NL80211_CMD_FRAME_TX_STATUS) for foreign interface (ifindex 25 wdev 0x0)
+nl80211: Drv Event 60 (NL80211_CMD_FRAME_TX_STATUS) received for ath1
+nl80211: MLME event 60 (NL80211_CMD_FRAME_TX_STATUS) on ath1(00:03:7f:12:59:d7) A1=ff:ff:ff:ff:ff:ff A2=00:03:7f:12:59:d7
+nl80211: MLME event frame - hexdump(len=26): c0 00 00 00 ff ff ff ff ff ff 00 03 7f 12 59 d7 00 03 7f 12 59 d7 00 10 02 00
+nl80211: Frame TX status event A1=ff:ff:ff:ff:ff:ff stype=12 cookie=0x0 ack=0
+ath1: Event TX_STATUS (16) received
+mgmt::deauth cb
+RTM_NEWLINK: ifi_index=26 ifname=ath2 wext ifi_family=0 ifi_flags=0x11043 ([UP][RUNNING][LOWER_UP])
+nl80211: Event message available
+nl80211: Drv Event 88 (NL80211_CMD_CH_SWITCH_NOTIFY) received for ath2
+nl80211: Channel switch event
+nl80211: Calculated channel offset: -1
+ath2: Event CH_SWITCH (38) received
+ath2: IEEE 802.11 driver had channel switch: freq=5520, ht=1, vht_ch=0x0, he_ch=0x0, offset=-1, width=5 (160 MHz), cf1=5570, cf2=0
+ath2: CTRL-EVENT-CHANNEL-SWITCH freq=5520 ht_enabled=1 ch_offset=-1 ch_width=160 MHz cf1=5570 cf2=0 dfs=0
+RTM_NEWLINK: ifi_index=22 ifname=wifi2 wext ifi_family=0 ifi_flags=0x11043 ([UP][RUNNING][LOWER_UP])
+RTM_NEWLINK: ifi_index=22 ifname=wifi2 wext ifi_family=0 ifi_flags=0x11043 ([UP][RUNNING][LOWER_UP])
+RTM_NEWLINK: ifi_index=22 ifname=wifi2 wext ifi_family=0 ifi_flags=0x11043 ([UP][RUNNING][LOWER_UP])
+RTM_NEWLINK: ifi_index=22 ifname=wifi2 wext ifi_family=0 ifi_flags=0x11043 ([UP][RUNNING][LOWER_UP])
+RTM_NEWLINK: ifi_index=22 ifname=wifi2 wext ifi_family=0 ifi_flags=0x11043 ([UP][RUNNING][LOWER_UP])
+RTM_NEWLINK: ifi_index=22 ifname=wifi2 wext ifi_family=0 ifi_flags=0x11043 ([UP][RUNNING][LOWER_UP])
+RTM_NEWLINK: ifi_index=22 ifname=wifi2 wext ifi_family=0 ifi_flags=0x11043 ([UP][RUNNING][LOWER_UP])
+RTM_NEWLINK: ifi_index=22 ifname=wifi2 wext ifi_family=0 ifi_flags=0x11043 ([UP][RUNNING][LOWER_UP])
+RTM_NEWLINK: ifi_index=22 ifname=wifi2 wext ifi_family=0 ifi_flags=0x11043 ([UP][RUNNING][LOWER_UP])
+RTM_NEWLINK: ifi_index=22 ifname=wifi2 wext ifi_family=0 ifi_flags=0x11043 ([UP][RUNNING][LOWER_UP])
+RTM_NEWLINK: ifi_index=22 ifname=wifi2 wext ifi_family=0 ifi_flags=0x11043 ([UP][RUNNING][LOWER_UP])
+RTM_NEWLINK: ifi_index=22 ifname=wifi2 wext ifi_family=0 ifi_flags=0x11043 ([UP][RUNNING][LOWER_UP])
+RTM_NEWLINK: ifi_index=22 ifname=wifi2 wext ifi_family=0 ifi_flags=0x11043 ([UP][RUNNING][LOWER_UP])
+RTM_NEWLINK: ifi_index=22 ifname=wifi2 wext ifi_family=0 ifi_flags=0x11043 ([UP][RUNNING][LOWER_UP])
+RTM_NEWLINK: ifi_index=22 ifname=wifi2 wext ifi_family=0 ifi_flags=0x11043 ([UP][RUNNING][LOWER_UP])
+RTM_NEWLINK: ifi_index=22 ifname=wifi2 wext ifi_family=0 ifi_flags=0x11043 ([UP][RUNNING][LOWER_UP])
+RTM_NEWLINK: ifi_index=22 ifname=wifi2 wext ifi_family=0 ifi_flags=0x11043 ([UP][RUNNING][LOWER_UP])
+nl80211: Event message available
+nl80211: Drv Event 60 (NL80211_CMD_FRAME_TX_STATUS) received for ath2
+nl80211: MLME event 60 (NL80211_CMD_FRAME_TX_STATUS) on ath2(00:03:7f:12:f4:a7) A1=ff:ff:ff:ff:ff:ff A2=00:03:7f:12:f4:a7
+nl80211: MLME event frame - hexdump(len=26): c0 00 00 00 ff ff ff ff ff ff 00 03 7f 12 f4 a7 00 03 7f 12 f4 a7 00 10 02 00
+nl80211: Frame TX status event A1=ff:ff:ff:ff:ff:ff stype=12 cookie=0x0 ack=1
+ath2: Event TX_STATUS (16) received
+mgmt::deauth cb
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+nl80211: Event message available
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for ath2
+nl80211: MLME event 59 (NL80211_CMD_FRAME) on ath2(00:03:7f:12:f4:a7) A1=00:03:7f:12:f4:a7 A2=06:03:7f:01:59:56
+nl80211: MLME event frame - hexdump(len=42): b0 00 28 00 00 03 7f 12 f4 a7 06 03 7f 01 59 56 00 03 7f 12 f4 a7 10 00 00 00 01 00 00 00 ff 0a 6b 00 00 07 00 04 3d 11 4d 22
+nl80211: Frame event
+nl80211: RX frame da=00:03:7f:12:f4:a7 sa=06:03:7f:01:59:56 bssid=00:03:7f:12:f4:a7 freq=5520 ssi_signal=0 fc=0xb0 seq_ctrl=0x10 stype=11 (WLAN_FC_STYPE_AUTH) len=42
+ath2: Event RX_MGMT (18) received
+mgmt::auth
+authentication: STA=06:03:7f:01:59:56 auth_alg=0 auth_transaction=1 status_code=0 wep=0 seq_ctrl=0x10
+  New STA
+nl80211: sta_remove -> DEL_STATION ath2 06:03:7f:01:59:56 --> 0 (No error information)
+nl80211: Add STA 06:03:7f:01:59:56
+  * supported rates - hexdump(len=3): 0c 18 30
+  * capability=0x0
+  * aid=1 (UNASSOC_STA workaround)
+  * listen_interval=0
+  * flags set=0x0 mask=0xa0
+authentication reply: STA=06:03:7f:01:59:56 auth_alg=0 auth_transaction=2 resp=0 (IE len=0) (dbg=handle-auth)
+nl80211: send_mlme - da=06:03:7f:01:59:56 noack=0 freq=0 no_cck=0 offchanok=0 wait_time=0 no_encrypt=0 fc=0xb0 (WLAN_FC_STYPE_AUTH) nlmode=3
+nl80211: send_mlme - Use bss->freq=5520
+nl80211: send_mlme -> send_frame_cmd
+nl80211: CMD_FRAME freq=5520 wait=0 no_cck=0 no_ack=0 offchanok=0
+CMD_FRAME - hexdump(len=42): b0 00 00 00 06 03 7f 01 59 56 00 03 7f 12 f4 a7 00 03 7f 12 f4 a7 00 00 00 00 02 00 00 00 ff 0a 6b 00 00 07 00 0a f5 22 12 31
+nl80211: Frame TX command accepted; cookie 0xffffffd010bf0720
+Add randomness: count=1 entropy=0
+random pool - hexdump(len=128): [REMOVED]
+random_mix_pool - hexdump(len=16): [REMOVED]
+random_mix_pool - hexdump(len=16): [REMOVED]
+random pool - hexdump(len=128): [REMOVED]
+RTM_NEWLINK: ifi_index=26 ifname=ath2 wext ifi_family=0 ifi_flags=0x11043 ([UP][RUNNING][LOWER_UP])
+nl80211: Event message available
+nl80211: Drv Event 60 (NL80211_CMD_FRAME_TX_STATUS) received for ath2
+nl80211: MLME event 60 (NL80211_CMD_FRAME_TX_STATUS) on ath2(00:03:7f:12:f4:a7) A1=06:03:7f:01:59:56 A2=00:03:7f:12:f4:a7
+nl80211: MLME event frame - hexdump(len=42): b0 00 00 00 06 03 7f 01 59 56 00 03 7f 12 f4 a7 00 03 7f 12 f4 a7 00 00 00 00 02 00 00 00 ff 0a 6b 00 00 07 00 0a f5 22 12 31
+nl80211: Frame TX status event A1=06:03:7f:01:59:56 stype=11 cookie=0xffffffd010bf0720 ack=1
+ath2: Event TX_STATUS (16) received
+mgmt::auth cb
+ath2: STA 06:03:7f:01:59:56 IEEE 802.11: authenticated
+nl80211: Set STA flags - ifname=ath2 addr=06:03:7f:01:59:56 total_flags=0x20 flags_or=0x0 flags_and=0xfffffff1 authorized=0
+nl80211: Event message available
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for ath2
+nl80211: MLME event 59 (NL80211_CMD_FRAME) on ath2(00:03:7f:12:f4:a7) A1=00:03:7f:12:f4:a7 A2=06:03:7f:01:59:56
+nl80211: MLME event frame - hexdump(len=487): 00 00 28 00 00 03 7f 12 f4 a7 06 03 7f 01 59 56 00 03 7f 12 f4 a7 20 00 11 05 01 00 00 04 67 61 74 65 01 08 8c 12 98 24 b0 48 60 6c 21 02 00 45 dd 07 00 50 f2 02 00 01 00 5e 01 00 2d 1a ef 09 03 ff ff 00 00 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00 00 00 00 00 7f 0a 04 00 0f 00 00 00 00 40 00 40 bf 0c f6 f9 81 33 fa ff 00 00 fa ff 00 20 ff 21 23 0d 01 08 9a 40 18 0c 63 40 89 fd 49 81 1c 11 0c 00 fa ff fa ff fa ff fa ff 79 1c c7 71 1c c7 71 ff b9 6b 80 01 0b 00 04 3d 11 4d 22 43 00 41 00 00 a9 31 00 07 06 03 7f 63 a6 85 11 05 dd 07 00 50 f2 02 00 01 00 bf 0c b2 f9 81 33 fa ff 00 00 fa ff 00 20 ff 1d 23 0d 01 08 9a 40 18 04 63 40 89 1d 41 81 1c 11 0c 00 fa ff fa ff 79 1c c7 71 1c c7 71 ff 0f 6c 00 00 e0 03 01 00 18 36 d8 12 00 22 22 22 3b 09 81 73 76 74 77 75 78 80 81 dd 1f 8c fd f0 00 00 01 03 00 ff 00 00 00 03 7f 12 59 d7 00 00 06 03 7f 63 a6 85 00 00 00 00 00 00 dd 20 8c fd f0 01 01 02 01 00 02 01 01 03 03 01 01 00 04 01 01 05 01 00 08 01 00 09 02 03 03 0a 01 03 dd 07 8c fd f0 04 01 01 00 ff 12 6c 00 00 e0 1f 09 00 18 36 d8 36 00 22 22 22 22 22 22 3b 0d 81 7c 79 7d 7a 7e 7e 7b 7f 7f 80 81 82 30 26 01 00 00 0f ac 04 01 00 00 0f ac 04 01 00 00 0f ac 02 00 00 01 00 e6 13 26 2a bf 06 84 69 36 05 2d c0 b2 13 86 45 dd 1f 8c fd f0 00 00 01 03 00 00 01 00 00 03 7f 12 f4 a7 ff ff 06 03 7f 01 59 56 00 00 00 00 00 00 dd 20 8c fd f0 01 01 02 01 00 02 01 01 03 03 01 01 00 04 01 01 05 01 00 08 01 00 09 02 03 03 0a 01 03 dd 07 8c fd f0 04 01 01 00
+nl80211: Frame event
+nl80211: RX frame da=00:03:7f:12:f4:a7 sa=06:03:7f:01:59:56 bssid=00:03:7f:12:f4:a7 freq=5520 ssi_signal=0 fc=0x0 seq_ctrl=0x20 stype=0 (WLAN_FC_STYPE_ASSOC_REQ) len=487
+ath2: Event RX_MGMT (18) received
+mgmt::assoc_req
+association request: STA=06:03:7f:01:59:56 capab_info=0x511 listen_interval=1 seq_ctrl=0x20
+IEEE 802.11 element parse ignored unknown element (id=94 elen=1)
+unknown vendor specific information element ignored (vendor OUI 8c:fd:f0 len=31)
+unknown vendor specific information element ignored (vendor OUI 8c:fd:f0 len=32)
+unknown vendor specific information element ignored (vendor OUI 8c:fd:f0 len=7)
+WMM IE - hexdump(len=7): 00 50 f2 02 00 01 00
+Validating WMM IE: OUI 00:50:f2  OUI type 2  OUI sub-type 0  version 1  QoS info 0x0
+RSN IE: STA PMKID - hexdump(len=16): e6 13 26 2a bf 06 84 69 36 05 2d c0 b2 13 86 45
+  New STA
+  new AID 1
+HT: STA 06:03:7f:01:59:56 HT Capabilities Info: 0x09ef
+update_sta_ht STA 06:03:7f:01:59:56 - no greenfield, num of non-gf stations 1
+hostapd_ht_operation_update current operation mode=0x0
+hostapd_ht_operation_update new operation mode=0x4 changes=1
+hostapd_eid_eht_capab : adding EHT capabilty to beacon 
+
+Setting up Link-mac-Link-Id array for MLO start-ap
+
+nl80211: Set beacon (beacon_set=1)
+nl80211: Beacon head - hexdump(len=55): 80 00 00 00 ff ff ff ff ff ff 00 03 7f 12 f4 a7 00 03 7f 12 f4 a7 00 00 00 00 00 00 00 00 00 00 64 00 11 00 00 04 67 61 74 65 01 08 8c 12 98 24 b0 48 60 6c 03 01 68
+nl80211: Beacon tail - hexdump(len=243): 30 14 01 00 00 0f ac 04 01 00 00 0f ac 04 01 00 00 0f ac 02 0c 00 3b 02 81 00 2d 1a cf 08 03 ff ff 00 00 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00 00 00 00 00 3d 16 68 07 04 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 7f 0a 04 00 00 02 00 00 00 00 00 40 bf 0c f6 18 89 33 fa ff 00 00 fa ff 00 00 c0 05 01 6a 72 fc ff c3 05 03 30 30 30 30 ff 1b 23 0d 01 18 9a 40 18 0c 63 40 09 fc db 83 1c 11 0c 00 fa ff fa ff fa ff fa ff 00 ff 07 24 f0 3f 00 be fc ff ff 16 6c 07 00 00 00 00 00 e2 ff db 00 18 36 d8 3e 00 00 00 22 22 00 00 ff 0b 6a 03 fc ff 00 00 00 00 00 00 00 ff 16 6b 10 00 08 00 0a f5 22 12 31 02 00 09 21 00 07 00 03 7f 12 59 d7 dd 18 00 50 f2 02 01 01 01 00 03 a4 00 00 27 a4 00 00 42 43 5e 00 62 32 2f 00
+nl80211: ifindex=26
+nl80211: beacon_int=100
+nl80211: beacon_rate=0
+nl80211: rate_type=0
+nl80211: dtim_period=1
+nl80211: ssid=gate
+  * beacon_int=100
+  * dtim_period=1
+nl80211: hidden SSID not in use
+nl80211: privacy=2
+nl80211: auth_algs=0x1
+nl80211: wpa_version=0x2
+nl80211: key_mgmt_suites=0x2
+nl80211: pairwise_ciphers=0x10
+nl80211: group_cipher=0x10
+nl80211: beacon_ies - hexdump(len=36): 7f 0a 04 00 00 02 00 00 00 00 00 40 ff 16 6b 10 00 08 00 0a f5 22 12 31 02 00 09 21 00 07 00 03 7f 12 59 d7
+nl80211: proberesp_ies - hexdump(len=12): 7f 0a 04 00 00 02 00 00 00 00 00 40
+nl80211: assocresp_ies - hexdump(len=12): 7f 0a 04 00 00 02 00 00 00 00 00 40
+nl80211: ap_max_inactivity=300
+nl80211: twt_responder=1
+nl80211: ath2 MLO-Link_id 1
+
+nl80211: ath2 MLO-Link_id 2
+
+nl80211: ath2 MLO-Link-Mac 00:03:7f:12:59:d7
+
+nl80211: ath2 MLO-Link-Mac 00:03:7f:12:f4:a7
+
+Add associated STA 06:03:7f:01:59:56 (added_unassoc=1 auth_alg=0 ft_over_ds=0 reassoc=0 authorized=0 ft_tk=0 fils_tk=0)
+nl80211: Set STA 06:03:7f:01:59:56
+  * supported rates - hexdump(len=8): 8c 12 98 24 b0 48 60 6c
+  * capability=0x511
+  * ht_capabilities - hexdump(len=26): 4f 09 03 ff ff 00 00 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00 00 00 00 00
+  * vht_capabilities - hexdump(len=12): 76 f9 81 33 fa ff 00 00 fa ff 00 20
+  * he_capab - hexdump(len=32): 0d 01 08 9a 40 18 0c 63 40 89 fd 49 81 1c 11 0c 00 fa ff fa ff fa ff fa ff 79 1c c7 71 1c c7 71
+  * aid=1
+  * listen_interval=1
+  * flags set=0xa8 mask=0xa8
+  * qosinfo=0x0
+IEEE 802.11 element parse ignored unknown element (id=94 elen=1)
+unknown vendor specific information element ignored (vendor OUI 8c:fd:f0 len=31)
+unknown vendor specific information element ignored (vendor OUI 8c:fd:f0 len=32)
+unknown vendor specific information element ignored (vendor OUI 8c:fd:f0 len=7)
+unknown vendor specific information element ignored (vendor OUI 8c:fd:f0 len=31)
+unknown vendor specific information element ignored (vendor OUI 8c:fd:f0 len=32)
+unknown vendor specific information element ignored (vendor OUI 8c:fd:f0 len=7)
+WMM IE - hexdump(len=7): 00 50 f2 02 00 01 00
+Validating WMM IE: OUI 00:50:f2  OUI type 2  OUI sub-type 0  version 1  QoS info 0x0
+nl80211: send_mlme - da=06:03:7f:01:59:56 noack=0 freq=0 no_cck=0 offchanok=0 wait_time=0 no_encrypt=0 fc=0x10 (WLAN_FC_STYPE_ASSOC_RESP) nlmode=3
+nl80211: send_mlme - Use bss->freq=5520
+nl80211: send_mlme -> send_frame_cmd
+nl80211: CMD_FRAME freq=5520 wait=0 no_cck=0 no_ack=0 offchanok=0
+CMD_FRAME - hexdump(len=194): 10 00 00 00 06 03 7f 01 59 56 00 03 7f 12 f4 a7 00 03 7f 12 f4 a7 00 00 11 00 00 00 01 c0 01 08 8c 12 98 24 b0 48 60 6c 2d 1a cf 08 03 ff ff 00 00 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00 00 00 00 00 3d 16 68 07 04 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 bf 0c f6 18 89 33 fa ff 00 00 fa ff 00 00 c0 05 01 6a 72 fc ff ff 1b 23 0d 01 18 9a 40 18 0c 63 40 09 fc db 83 1c 11 0c 00 fa ff fa ff fa ff fa ff 00 ff 07 24 f0 3f 00 be fc ff 7f 0a 04 00 00 02 00 00 00 00 00 40 5a 03 24 01 00 dd 18 00 50 f2 02 01 01 01 00 03 a4 00 00 27 a4 00 00 42 43 5e 00 62 32 2f 00
+nl80211: Frame TX command accepted; cookie 0xffffffd010bf0720
+Add randomness: count=2 entropy=1
+random pool - hexdump(len=128): [REMOVED]
+random_mix_pool - hexdump(len=16): [REMOVED]
+random_mix_pool - hexdump(len=16): [REMOVED]
+random pool - hexdump(len=128): [REMOVED]
+RTM_NEWLINK: ifi_index=26 ifname=ath2 wext ifi_family=0 ifi_flags=0x11043 ([UP][RUNNING][LOWER_UP])
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+nl80211: Event message available
+nl80211: Ignored event 103 (NL80211_CMD_VENDOR) for foreign interface (ifindex 25 wdev 0x0)
+nl80211: Drv Event 103 (NL80211_CMD_VENDOR) received for ath1
+nl80211: Vendor event: wiphy=1 vendor_id=0x1374 subcmd=75
+nl80211: Vendor data - hexdump(len=20): 08 00 11 00 4a 01 00 00 0b 00 13 00 00 06 03 7f 63 a6 85 00
+nl80211: Ignore unsupported QCA vendor event 75
+nl80211: Event message available
+nl80211: Drv Event 103 (NL80211_CMD_VENDOR) received for ath2
+nl80211: Vendor event: wiphy=2 vendor_id=0x1374 subcmd=75
+nl80211: Vendor data - hexdump(len=20): 08 00 11 00 4a 01 00 00 0b 00 13 00 00 06 03 7f 01 59 56 00
+nl80211: Ignore unsupported QCA vendor event 75
+nl80211: Event message available
+nl80211: Drv Event 60 (NL80211_CMD_FRAME_TX_STATUS) received for ath2
+nl80211: MLME event 60 (NL80211_CMD_FRAME_TX_STATUS) on ath2(00:03:7f:12:f4:a7) A1=06:03:7f:01:59:56 A2=00:03:7f:12:f4:a7
+nl80211: MLME event frame - hexdump(len=438): 10 00 00 00 06 03 7f 01 59 56 00 03 7f 12 f4 a7 00 03 7f 12 f4 a7 00 10 11 05 00 00 30 00 01 08 8c 12 98 24 b0 48 60 6c 2d 1a ef 09 03 ff ff 00 00 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00 00 00 00 00 3d 16 68 07 04 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 7f 0a 04 00 0f 02 00 00 00 40 00 40 5f 01 02 bf 0c f6 f9 89 33 fa ff 00 00 fa ff 00 20 c0 05 01 6a 72 fc ff ff 21 23 0d 01 08 1a 40 10 0c 63 40 88 ff 49 81 1c 11 08 00 fa ff fa ff fa ff fa ff 79 1c c7 71 1c c7 71 ff 07 24 f4 3f 00 3b fc ff ff 02 27 63 ff 0e 26 00 03 a4 ff 27 a4 ff 42 43 ff 62 32 ff ff 9c 6b b0 01 0d 00 0a f5 22 12 31 02 00 01 00 41 00 00 8a f1 09 14 00 03 7f 12 59 d7 64 00 34 f4 69 06 00 00 00 00 00 01 00 11 05 00 00 3d 16 24 05 04 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 c0 05 01 2a 32 fc ff ff 07 24 f4 3f 00 1c fc ff ff 02 27 03 ff 06 6a 04 11 00 00 00 dd 17 8c fd f0 01 01 02 01 00 02 01 01 03 03 01 01 00 04 01 01 09 02 03 03 dd 18 00 50 f2 02 01 01 80 00 03 a4 00 00 27 a4 00 00 42 43 5e 00 62 32 2f 00 dd 07 8c fd f0 04 01 01 00 ff 12 6c 00 00 e0 1f 09 00 18 36 d8 36 00 22 22 22 22 22 22 ff 06 6a 44 11 00 00 00 dd 17 8c fd f0 01 01 02 01 00 02 01 01 03 03 01 01 00 04 01 01 09 02 03 03 dd 18 00 50 f2 02 01 01 80 00 03 a4 00 00 27 a4 00 00 42 43 5e 00 62 32 2f 00 dd 07 8c fd f0 04 01 01 00
+nl80211: Frame TX status event A1=06:03:7f:01:59:56 stype=1 cookie=0x0 ack=1
+ath2: Event TX_STATUS (16) received
+mgmt::assoc_resp cb
+ath2: STA 06:03:7f:01:59:56 IEEE 802.11: associated (aid 1)
+wpa_driver_nl80211_set_key: ifindex=26 (ath2) alg=0 addr=0x55807e6008 key_idx=0 set_tx=1 seq_len=0 key_len=0 key_flag=0x20
+nl80211: DEL_KEY
+   addr=06:03:7f:01:59:56
+   pairwise key
+wpa_driver_nl80211_set_key: ifindex=25 (ath1) alg=0 addr=0x55807e64f0 key_idx=0 set_tx=1 seq_len=0 key_len=0 key_flag=0x20
+nl80211: DEL_KEY
+   addr=06:03:7f:63:a6:85
+   pairwise key
+nl80211: ath2[26]: set_sta_vlan(06:03:7f:01:59:56, ifname=ath2[26], vlan_id=0)
+nl80211: ath1[25]: set_sta_vlan(06:03:7f:63:a6:85, ifname=ath1[25], vlan_id=0)
+nl80211: Set STA flags - ifname=ath2 addr=06:03:7f:01:59:56 total_flags=0x62 flags_or=0x2 flags_and=0xfffffff3 authorized=0
+wpa_driver_nl80211_set_key: ifindex=26 (ath2) alg=0 addr=0x55807e6008 key_idx=0 set_tx=1 seq_len=0 key_len=0 key_flag=0x20
+nl80211: DEL_KEY
+   addr=06:03:7f:01:59:56
+   pairwise key
+wpa_driver_nl80211_set_key: ifindex=25 (ath1) alg=0 addr=0x55807e64f0 key_idx=0 set_tx=1 seq_len=0 key_len=0 key_flag=0x20
+nl80211: DEL_KEY
+   addr=06:03:7f:63:a6:85
+   pairwise key
+IEEE 802.1X: Ignore STA - 802.1X not enabled or forced for WPS
+WPA: 06:03:7f:01:59:56 WPA_PTK entering state INITIALIZE
+wpa_driver_nl80211_set_key: ifindex=26 (ath2) alg=0 addr=0x55807e6008 key_idx=0 set_tx=1 seq_len=0 key_len=0 key_flag=0x20
+nl80211: DEL_KEY
+   addr=06:03:7f:01:59:56
+   pairwise key
+wpa_driver_nl80211_set_key: ifindex=25 (ath1) alg=0 addr=0x55807e64f0 key_idx=0 set_tx=1 seq_len=0 key_len=0 key_flag=0x20
+nl80211: DEL_KEY
+   addr=06:03:7f:63:a6:85
+   pairwise key
+nl80211: Set STA flags - ifname=ath2 addr=06:03:7f:01:59:56 total_flags=0x62 flags_or=0x0 flags_and=0xfffffffe authorized=0
+nl80211: Set STA flags - ifname=ath1 addr=06:03:7f:63:a6:85 total_flags=0x62 flags_or=0x0 flags_and=0xfffffffe authorized=0
+WPA: 06:03:7f:01:59:56 WPA_PTK_GROUP entering state IDLE
+WPA: 06:03:7f:01:59:56 WPA_PTK entering state AUTHENTICATION
+WPA: 06:03:7f:01:59:56 WPA_PTK entering state AUTHENTICATION2
+WPA: Re-initialize GMK/Counter on first station
+Get randomness: len=32 entropy=2
+random from os_get_random - hexdump(len=32): [REMOVED]
+random_mix_pool - hexdump(len=20): [REMOVED]
+random from internal pool - hexdump(len=16): [REMOVED]
+random_mix_pool - hexdump(len=20): [REMOVED]
+random from internal pool - hexdump(len=16): [REMOVED]
+mixed random - hexdump(len=32): [REMOVED]
+GMK - hexdump(len=32): [REMOVED]
+Get randomness: len=32 entropy=0
+random from os_get_random - hexdump(len=32): [REMOVED]
+random_mix_pool - hexdump(len=20): [REMOVED]
+random from internal pool - hexdump(len=16): [REMOVED]
+random_mix_pool - hexdump(len=20): [REMOVED]
+random from internal pool - hexdump(len=16): [REMOVED]
+mixed random - hexdump(len=32): [REMOVED]
+Key Counter - hexdump(len=32): [REMOVED]
+Get randomness: len=16 entropy=0
+random from os_get_random - hexdump(len=16): [REMOVED]
+random_mix_pool - hexdump(len=20): [REMOVED]
+random from internal pool - hexdump(len=16): [REMOVED]
+mixed random - hexdump(len=16): [REMOVED]
+GTK - hexdump(len=16): [REMOVED]
+wpa_driver_nl80211_set_key: ifindex=25 (ath1) alg=3 addr=0x55624fc261 key_idx=1 set_tx=1 seq_len=0 key_len=16 key_flag=0x1a
+nl80211: NEW_KEY
+nl80211: KEY_DATA - hexdump(len=16): [REMOVED]
+   broadcast key
+nl80211: NL80211_CMD_SET_KEY - default key
+Get randomness: len=32 entropy=0
+random from os_get_random - hexdump(len=32): [REMOVED]
+random_mix_pool - hexdump(len=20): [REMOVED]
+random from internal pool - hexdump(len=16): [REMOVED]
+random_mix_pool - hexdump(len=20): [REMOVED]
+random from internal pool - hexdump(len=16): [REMOVED]
+mixed random - hexdump(len=32): [REMOVED]
+WPA: Assign ANonce - hexdump(len=32): 7e 47 4f 22 a7 5f f1 32 2b b5 ea 34 b2 66 77 e9 96 ca de 9f 0c 59 cb ce 6d ea 28 29 ba 26 3f ac
+WPA: 06:03:7f:01:59:56 WPA_PTK entering state INITPSK
+Searching a PSK for 06:03:7f:01:59:56 prev_psk=0
+Searching a PSK for 06:03:7f:01:59:56 prev_psk=0
+WPA: 06:03:7f:01:59:56 WPA_PTK entering state PTKSTART
+ath2: STA 06:03:7f:01:59:56 WPA: sending 1/4 msg of 4-Way Handshake
+WPA: Send EAPOL(version=2 secure=0 mic=0 ack=1 install=0 pairwise=1 kde_len=12 keyidx=0 encr=0)
+WPA: Replay Counter - hexdump(len=8): 00 00 00 00 00 00 00 01
+nl80211: Send over control port dest=06:03:7f:01:59:56 proto=0x888e len=111 no_encrypt=1
+nl80211: tx_control_port cookie=0x1
+WPA: Use EAPOL-Key timeout of 100 ms (retry counter 1)
+nl80211: Event message available
+nl80211: Drv Event 140 (NL80211_CMD_CONTROL_PORT_FRAME_TX_STATUS) received for ath2
+nl80211: Control port TX status (ack=1), cookie=1
+ath2: Event EAPOL_TX_STATUS (37) received
+IEEE 802.1X: 06:03:7f:01:59:56 TX status - version=2 type=3 length=107 - ack=1
+WPA: EAPOL-Key TX status for STA 06:03:7f:01:59:56 ack=1
+WPA: Increase initial EAPOL-Key 1/4 timeout by 1000 ms because of acknowledged frame
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+WPA: 06:03:7f:01:59:56 WPA_PTK entering state PTKSTART
+ath2: STA 06:03:7f:01:59:56 WPA: sending 1/4 msg of 4-Way Handshake
+WPA: Send EAPOL(version=2 secure=0 mic=0 ack=1 install=0 pairwise=1 kde_len=12 keyidx=0 encr=0)
+WPA: Replay Counter - hexdump(len=8): 00 00 00 00 00 00 00 02
+nl80211: Send over control port dest=06:03:7f:01:59:56 proto=0x888e len=111 no_encrypt=1
+nl80211: tx_control_port cookie=0x2
+WPA: Use EAPOL-Key timeout of 1000 ms (retry counter 2)
+nl80211: Event message available
+nl80211: Drv Event 140 (NL80211_CMD_CONTROL_PORT_FRAME_TX_STATUS) received for ath2
+nl80211: Control port TX status (ack=1), cookie=2
+ath2: Event EAPOL_TX_STATUS (37) received
+IEEE 802.1X: 06:03:7f:01:59:56 TX status - version=2 type=3 length=107 - ack=1
+WPA: EAPOL-Key TX status for STA 06:03:7f:01:59:56 ack=1
+nl80211: Event message available
+nl80211: BSS Event 129 (NL80211_CMD_CONTROL_PORT_FRAME) received for ath2
+ath2: Event EAPOL_RX (23) received
+IEEE 802.1X: 151 bytes from 00:04:3d:11:4d:22 (encrypted=1)
+link-STA not found. Check MLO mac address list
+
+   IEEE 802.1X: version=1 type=3 length=147
+WPA: RX EAPOL data - hexdump(len=151): 01 03 00 93 02 01 0a 00 00 00 00 00 00 00 00 00 02 15 d0 72 62 f3 51 b5 83 6b 00 10 d3 72 30 e1 c2 df 0a eb c4 9f b6 b2 20 5e 72 b1 91 07 23 17 a6 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 07 53 ae 15 40 48 fe ec 0b a0 9b d7 6a b2 55 a4 00 34 30 26 01 00 00 0f ac 04 01 00 00 0f ac 04 01 00 00 0f ac 02 00 00 01 00 e6 13 26 2a bf 06 84 69 36 05 2d c0 b2 13 86 45 dd 0a 00 0f ac 03 06 03 7f 01 59 56
+WPA: Received EAPOL-Key from 06:03:7f:01:59:56 key_info=0x10a type=2 mic_len=16 key_data_length=52
+WPA: EAPOL-Key header (ending before Key MIC) - hexdump(len=77): 02 01 0a 00 00 00 00 00 00 00 00 00 02 15 d0 72 62 f3 51 b5 83 6b 00 10 d3 72 30 e1 c2 df 0a eb c4 9f b6 b2 20 5e 72 b1 91 07 23 17 a6 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+WPA: EAPOL-Key Key MIC - hexdump(len=16): 07 53 ae 15 40 48 fe ec 0b a0 9b d7 6a b2 55 a4
+WPA: Received Key Nonce - hexdump(len=32): 15 d0 72 62 f3 51 b5 83 6b 00 10 d3 72 30 e1 c2 df 0a eb c4 9f b6 b2 20 5e 72 b1 91 07 23 17 a6
+WPA: Received Replay Counter - hexdump(len=8): 00 00 00 00 00 00 00 02
+Add randomness: count=3 entropy=0
+random pool - hexdump(len=128): [REMOVED]
+random_mix_pool - hexdump(len=16): [REMOVED]
+random_mix_pool - hexdump(len=32): [REMOVED]
+random pool - hexdump(len=128): [REMOVED]
+ath2: STA 06:03:7f:01:59:56 WPA: received EAPOL-Key frame (2/4 Pairwise)
+WPA: 06:03:7f:01:59:56 WPA_PTK entering state PTKCALCNEGOTIATING
+Searching a PSK for 06:03:7f:01:59:56 prev_psk=0
+WPA: PTK derivation using PRF(SHA1)
+WPA: PTK derivation - A1=00:0a:f5:22:12:31 A2=00:04:3d:11:4d:22
+WPA: Nonce1 - hexdump(len=32): 7e 47 4f 22 a7 5f f1 32 2b b5 ea 34 b2 66 77 e9 96 ca de 9f 0c 59 cb ce 6d ea 28 29 ba 26 3f ac
+WPA: Nonce2 - hexdump(len=32): 15 d0 72 62 f3 51 b5 83 6b 00 10 d3 72 30 e1 c2 df 0a eb c4 9f b6 b2 20 5e 72 b1 91 07 23 17 a6
+WPA: PMK - hexdump(len=32): [REMOVED]
+WPA: PTK - hexdump(len=48): [REMOVED]
+WPA: KCK - hexdump(len=16): [REMOVED]
+WPA: KEK - hexdump(len=16): [REMOVED]
+WPA: TK - hexdump(len=16): [REMOVED]
+WPA: EAPOL-Key MIC using HMAC-SHA1
+WPA: RSN IE in EAPOL-Key - hexdump(len=40): 30 26 01 00 00 0f ac 04 01 00 00 0f ac 04 01 00 00 0f ac 02 00 00 01 00 e6 13 26 2a bf 06 84 69 36 05 2d c0 b2 13 86 45
+WPA: MAC Address in EAPOL-Key - hexdump(len=12): dd 0a 00 0f ac 03 06 03 7f 01 59 56
+WPA: 06:03:7f:01:59:56 WPA_PTK entering state PTKCALCNEGOTIATING2
+WPA: 06:03:7f:01:59:56 WPA_PTK entering state PTKINITNEGOTIATING
+ath2: STA 06:03:7f:01:59:56 WPA: sending 3/4 msg of 4-Way Handshake
+MLO-LINK-KDEs: - hexdump(len=35): dd 21 00 0f ac 13 11 00 03 7f 12 59 d7 30 14 01 00 00 0f ac 04 01 00 00 0f ac 04 01 00 00 0f ac 02 0c 00
+MLO-GTK-KDEs: - hexdump(len=29): dd 1b 00 0f ac 10 11 00 00 00 00 00 00 b1 30 c1 38 77 87 47 57 b4 3b d3 87 7c e7 4c 3a
+WPA: Send EAPOL(version=2 secure=1 mic=1 ack=1 install=1 pairwise=1 kde_len=140 keyidx=0 encr=1)
+WPA: Replay Counter - hexdump(len=8): 00 00 00 00 00 00 00 03
+Plaintext EAPOL-Key Key Data - hexdump(len=152): [REMOVED]
+WPA: Encrypt Key Data using AES-WRAP (KEK length 16)
+WPA: EAPOL-Key MIC using HMAC-SHA1
+nl80211: Send over control port dest=06:03:7f:01:59:56 proto=0x888e len=251 no_encrypt=1
+nl80211: tx_control_port cookie=0x3
+WPA: Use EAPOL-Key timeout of 100 ms (retry counter 1)
+nl80211: Event message available
+nl80211: Drv Event 140 (NL80211_CMD_CONTROL_PORT_FRAME_TX_STATUS) received for ath2
+nl80211: Control port TX status (ack=1), cookie=3
+ath2: Event EAPOL_TX_STATUS (37) received
+IEEE 802.1X: 06:03:7f:01:59:56 TX status - version=2 type=3 length=247 - ack=1
+WPA: EAPOL-Key TX status for STA 06:03:7f:01:59:56 ack=1
+nl80211: Event message available
+nl80211: BSS Event 129 (NL80211_CMD_CONTROL_PORT_FRAME) received for ath2
+ath2: Event EAPOL_RX (23) received
+IEEE 802.1X: 99 bytes from 00:04:3d:11:4d:22 (encrypted=1)
+link-STA not found. Check MLO mac address list
+
+   IEEE 802.1X: version=1 type=3 length=95
+WPA: RX EAPOL data - hexdump(len=99): 01 03 00 5f 02 03 0a 00 00 00 00 00 00 00 00 00 03 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 33 de f0 86 c5 ee 4d fa c7 6a 5d c5 5c a6 75 0b 00 00
+WPA: Received EAPOL-Key from 06:03:7f:01:59:56 key_info=0x30a type=2 mic_len=16 key_data_length=0
+WPA: EAPOL-Key header (ending before Key MIC) - hexdump(len=77): 02 03 0a 00 00 00 00 00 00 00 00 00 03 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+WPA: EAPOL-Key Key MIC - hexdump(len=16): 33 de f0 86 c5 ee 4d fa c7 6a 5d c5 5c a6 75 0b
+WPA: Received Key Nonce - hexdump(len=32): 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+WPA: Received Replay Counter - hexdump(len=8): 00 00 00 00 00 00 00 03
+ath2: STA 06:03:7f:01:59:56 WPA: received EAPOL-Key frame (4/4 Pairwise)
+WPA: EAPOL-Key MIC using HMAC-SHA1
+WPA: 06:03:7f:01:59:56 WPA_PTK entering state PTKINITDONE
+wpa_driver_nl80211_set_key: ifindex=26 (ath2) alg=3 addr=0x55807e6008 key_idx=0 set_tx=1 seq_len=0 key_len=16 key_flag=0x2c
+nl80211: NEW_KEY
+nl80211: KEY_DATA - hexdump(len=16): [REMOVED]
+   addr=06:03:7f:01:59:56
+   pairwise key
+wpa_driver_nl80211_set_key: ifindex=25 (ath1) alg=3 addr=0x55807e64f0 key_idx=0 set_tx=1 seq_len=0 key_len=16 key_flag=0x2c
+nl80211: NEW_KEY
+nl80211: KEY_DATA - hexdump(len=16): [REMOVED]
+   addr=06:03:7f:63:a6:85
+   pairwise key
+ath2: AP-STA-CONNECTED 06:03:7f:01:59:56 mld_addr=00:04:3d:11:4d:22
+nl80211: Set STA flags - ifname=ath2 addr=06:03:7f:01:59:56 total_flags=0x63 flags_or=0x1 flags_and=0xffffffff authorized=1
+ath2: STA 06:03:7f:01:59:56 RADIUS: starting accounting session 42615864D97A60B3
+ath1: AP-STA-CONNECTED 06:03:7f:63:a6:85 mld_addr=00:04:3d:11:4d:22
+nl80211: Set STA flags - ifname=ath1 addr=06:03:7f:63:a6:85 total_flags=0x63 flags_or=0x1 flags_and=0xffffffff authorized=1
+ath1: STA 06:03:7f:63:a6:85 RADIUS: starting accounting session 938B0D3CC287C491
+ath2: STA 06:03:7f:01:59:56 WPA: pairwise key handshake completed (RSN)
+ath2: EAPOL-4WAY-HS-COMPLETED 06:03:7f:01:59:56
+RTM_NEWLINK: ifi_index=26 ifname=ath2 wext ifi_family=0 ifi_flags=0x11043 ([UP][RUNNING][LOWER_UP])
+RTM_NEWLINK: ifi_index=25 ifname=ath1 wext ifi_family=0 ifi_flags=0x11043 ([UP][RUNNING][LOWER_UP])
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+nl80211: Event message available
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for ath2
+nl80211: MLME event 59 (NL80211_CMD_FRAME) on ath2(00:03:7f:12:f4:a7) A1=00:03:7f:12:f4:a7 A2=06:03:7f:01:59:87
+nl80211: MLME event frame - hexdump(len=42): b0 00 28 00 00 03 7f 12 f4 a7 06 03 7f 01 59 87 00 03 7f 12 f4 a7 10 00 00 00 01 00 00 00 ff 0a 6b 00 00 07 00 04 3d 22 4d 22
+nl80211: Frame event
+nl80211: RX frame da=00:03:7f:12:f4:a7 sa=06:03:7f:01:59:87 bssid=00:03:7f:12:f4:a7 freq=5520 ssi_signal=0 fc=0xb0 seq_ctrl=0x10 stype=11 (WLAN_FC_STYPE_AUTH) len=42
+ath2: Event RX_MGMT (18) received
+mgmt::auth
+authentication: STA=06:03:7f:01:59:87 auth_alg=0 auth_transaction=1 status_code=0 wep=0 seq_ctrl=0x10
+  New STA
+nl80211: sta_remove -> DEL_STATION ath2 06:03:7f:01:59:87 --> 0 (No error information)
+nl80211: Add STA 06:03:7f:01:59:87
+  * supported rates - hexdump(len=3): 0c 18 30
+  * capability=0x0
+  * aid=1 (UNASSOC_STA workaround)
+  * listen_interval=0
+  * flags set=0x0 mask=0xa0
+authentication reply: STA=06:03:7f:01:59:87 auth_alg=0 auth_transaction=2 resp=0 (IE len=0) (dbg=handle-auth)
+nl80211: send_mlme - da=06:03:7f:01:59:87 noack=0 freq=0 no_cck=0 offchanok=0 wait_time=0 no_encrypt=0 fc=0xb0 (WLAN_FC_STYPE_AUTH) nlmode=3
+nl80211: send_mlme - Use bss->freq=5520
+nl80211: send_mlme -> send_frame_cmd
+nl80211: CMD_FRAME freq=5520 wait=0 no_cck=0 no_ack=0 offchanok=0
+CMD_FRAME - hexdump(len=42): b0 00 00 00 06 03 7f 01 59 87 00 03 7f 12 f4 a7 00 03 7f 12 f4 a7 00 00 00 00 02 00 00 00 ff 0a 6b 00 00 07 00 0a f5 22 12 31
+nl80211: Frame TX command accepted; cookie 0xffffffd010bf0720
+Add randomness: count=4 entropy=1
+random pool - hexdump(len=128): [REMOVED]
+random_mix_pool - hexdump(len=16): [REMOVED]
+random_mix_pool - hexdump(len=16): [REMOVED]
+random pool - hexdump(len=128): [REMOVED]
+RTM_NEWLINK: ifi_index=26 ifname=ath2 wext ifi_family=0 ifi_flags=0x11043 ([UP][RUNNING][LOWER_UP])
+nl80211: Event message available
+nl80211: Drv Event 60 (NL80211_CMD_FRAME_TX_STATUS) received for ath2
+nl80211: MLME event 60 (NL80211_CMD_FRAME_TX_STATUS) on ath2(00:03:7f:12:f4:a7) A1=06:03:7f:01:59:87 A2=00:03:7f:12:f4:a7
+nl80211: MLME event frame - hexdump(len=42): b0 00 00 00 06 03 7f 01 59 87 00 03 7f 12 f4 a7 00 03 7f 12 f4 a7 00 00 00 00 02 00 00 00 ff 0a 6b 00 00 07 00 0a f5 22 12 31
+nl80211: Frame TX status event A1=06:03:7f:01:59:87 stype=11 cookie=0xffffffd010bf0720 ack=1
+ath2: Event TX_STATUS (16) received
+mgmt::auth cb
+ath2: STA 06:03:7f:01:59:87 IEEE 802.11: authenticated
+nl80211: Set STA flags - ifname=ath2 addr=06:03:7f:01:59:87 total_flags=0x20 flags_or=0x0 flags_and=0xfffffff1 authorized=0
+nl80211: Event message available
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for ath2
+nl80211: MLME event 59 (NL80211_CMD_FRAME) on ath2(00:03:7f:12:f4:a7) A1=00:03:7f:12:f4:a7 A2=06:03:7f:01:59:87
+nl80211: MLME event frame - hexdump(len=487): 00 00 28 00 00 03 7f 12 f4 a7 06 03 7f 01 59 87 00 03 7f 12 f4 a7 20 00 11 05 01 00 00 04 67 61 74 65 01 08 8c 12 98 24 b0 48 60 6c 21 02 00 45 dd 07 00 50 f2 02 00 01 00 5e 01 00 2d 1a ef 09 03 ff ff 00 00 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00 00 00 00 00 7f 0a 04 00 0f 00 00 00 00 40 00 40 bf 0c f6 f9 81 33 fa ff 00 00 fa ff 00 20 ff 21 23 0d 01 08 9a 40 18 0c 63 40 89 fd 49 81 1c 11 0c 00 fa ff fa ff fa ff fa ff 79 1c c7 71 1c c7 71 ff b9 6b 80 01 0b 00 04 3d 22 4d 22 43 00 41 00 00 a9 31 00 07 06 03 7f 63 a6 78 11 05 dd 07 00 50 f2 02 00 01 00 bf 0c b2 f9 81 33 fa ff 00 00 fa ff 00 20 ff 1d 23 0d 01 08 9a 40 18 04 63 40 89 1d 41 81 1c 11 0c 00 fa ff fa ff 79 1c c7 71 1c c7 71 ff 0f 6c 00 00 e0 03 01 00 18 36 d8 12 00 22 22 22 3b 09 81 73 76 74 77 75 78 80 81 dd 1f 8c fd f0 00 00 01 03 00 ff 00 00 00 03 7f 12 59 d7 00 00 06 03 7f 63 a6 78 00 00 00 00 00 00 dd 20 8c fd f0 01 01 02 01 00 02 01 01 03 03 01 01 00 04 01 01 05 01 00 08 01 00 09 02 03 03 0a 01 03 dd 07 8c fd f0 04 01 01 00 ff 12 6c 00 00 e0 1f 09 00 18 36 d8 36 00 22 22 22 22 22 22 3b 0d 81 7c 79 7d 7a 7e 7e 7b 7f 7f 80 81 82 30 26 01 00 00 0f ac 04 01 00 00 0f ac 04 01 00 00 0f ac 02 00 00 01 00 b6 ff b0 1a b3 d8 7b 3a 79 a1 25 5d 39 18 47 00 dd 1f 8c fd f0 00 00 01 03 00 00 01 00 00 03 7f 12 f4 a7 ff ff 06 03 7f 01 59 87 00 00 00 00 00 00 dd 20 8c fd f0 01 01 02 01 00 02 01 01 03 03 01 01 00 04 01 01 05 01 00 08 01 00 09 02 03 03 0a 01 03 dd 07 8c fd f0 04 01 01 00
+nl80211: Frame event
+nl80211: RX frame da=00:03:7f:12:f4:a7 sa=06:03:7f:01:59:87 bssid=00:03:7f:12:f4:a7 freq=5520 ssi_signal=0 fc=0x0 seq_ctrl=0x20 stype=0 (WLAN_FC_STYPE_ASSOC_REQ) len=487
+ath2: Event RX_MGMT (18) received
+mgmt::assoc_req
+association request: STA=06:03:7f:01:59:87 capab_info=0x511 listen_interval=1 seq_ctrl=0x20
+IEEE 802.11 element parse ignored unknown element (id=94 elen=1)
+unknown vendor specific information element ignored (vendor OUI 8c:fd:f0 len=31)
+unknown vendor specific information element ignored (vendor OUI 8c:fd:f0 len=32)
+unknown vendor specific information element ignored (vendor OUI 8c:fd:f0 len=7)
+WMM IE - hexdump(len=7): 00 50 f2 02 00 01 00
+Validating WMM IE: OUI 00:50:f2  OUI type 2  OUI sub-type 0  version 1  QoS info 0x0
+RSN IE: STA PMKID - hexdump(len=16): b6 ff b0 1a b3 d8 7b 3a 79 a1 25 5d 39 18 47 00
+  New STA
+  new AID 2
+HT: STA 06:03:7f:01:59:87 HT Capabilities Info: 0x09ef
+update_sta_ht STA 06:03:7f:01:59:87 - no greenfield, num of non-gf stations 2
+hostapd_ht_operation_update current operation mode=0x4
+hostapd_ht_operation_update new operation mode=0x4 changes=0
+Add associated STA 06:03:7f:01:59:87 (added_unassoc=1 auth_alg=0 ft_over_ds=0 reassoc=0 authorized=0 ft_tk=0 fils_tk=0)
+nl80211: Set STA 06:03:7f:01:59:87
+  * supported rates - hexdump(len=8): 8c 12 98 24 b0 48 60 6c
+  * capability=0x511
+  * ht_capabilities - hexdump(len=26): 4f 09 03 ff ff 00 00 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00 00 00 00 00
+  * vht_capabilities - hexdump(len=12): 76 f9 81 33 fa ff 00 00 fa ff 00 20
+  * he_capab - hexdump(len=32): 0d 01 08 9a 40 18 0c 63 40 89 fd 49 81 1c 11 0c 00 fa ff fa ff fa ff fa ff 79 1c c7 71 1c c7 71
+  * aid=2
+  * listen_interval=1
+  * flags set=0xa8 mask=0xa8
+  * qosinfo=0x0
+IEEE 802.11 element parse ignored unknown element (id=94 elen=1)
+unknown vendor specific information element ignored (vendor OUI 8c:fd:f0 len=31)
+unknown vendor specific information element ignored (vendor OUI 8c:fd:f0 len=32)
+unknown vendor specific information element ignored (vendor OUI 8c:fd:f0 len=7)
+unknown vendor specific information element ignored (vendor OUI 8c:fd:f0 len=31)
+unknown vendor specific information element ignored (vendor OUI 8c:fd:f0 len=32)
+unknown vendor specific information element ignored (vendor OUI 8c:fd:f0 len=7)
+WMM IE - hexdump(len=7): 00 50 f2 02 00 01 00
+Validating WMM IE: OUI 00:50:f2  OUI type 2  OUI sub-type 0  version 1  QoS info 0x0
+nl80211: send_mlme - da=06:03:7f:01:59:87 noack=0 freq=0 no_cck=0 offchanok=0 wait_time=0 no_encrypt=0 fc=0x10 (WLAN_FC_STYPE_ASSOC_RESP) nlmode=3
+nl80211: send_mlme - Use bss->freq=5520
+nl80211: send_mlme -> send_frame_cmd
+nl80211: CMD_FRAME freq=5520 wait=0 no_cck=0 no_ack=0 offchanok=0
+CMD_FRAME - hexdump(len=194): 10 00 00 00 06 03 7f 01 59 87 00 03 7f 12 f4 a7 00 03 7f 12 f4 a7 00 00 11 00 00 00 02 c0 01 08 8c 12 98 24 b0 48 60 6c 2d 1a cf 08 03 ff ff 00 00 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00 00 00 00 00 3d 16 68 07 04 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 bf 0c f6 18 89 33 fa ff 00 00 fa ff 00 00 c0 05 01 6a 72 fc ff ff 1b 23 0d 01 18 9a 40 18 0c 63 40 09 fc db 83 1c 11 0c 00 fa ff fa ff fa ff fa ff 00 ff 07 24 f0 3f 00 be fc ff 7f 0a 04 00 00 02 00 00 00 00 00 40 5a 03 24 01 00 dd 18 00 50 f2 02 01 01 01 00 03 a4 00 00 27 a4 00 00 42 43 5e 00 62 32 2f 00
+nl80211: Frame TX command accepted; cookie 0xffffffd010bf0720
+Add randomness: count=5 entropy=2
+random pool - hexdump(len=128): [REMOVED]
+random_mix_pool - hexdump(len=16): [REMOVED]
+random_mix_pool - hexdump(len=16): [REMOVED]
+random pool - hexdump(len=128): [REMOVED]
+RTM_NEWLINK: ifi_index=26 ifname=ath2 wext ifi_family=0 ifi_flags=0x11043 ([UP][RUNNING][LOWER_UP])
+nl80211: Event message available
+nl80211: Ignored event 103 (NL80211_CMD_VENDOR) for foreign interface (ifindex 25 wdev 0x0)
+nl80211: Drv Event 103 (NL80211_CMD_VENDOR) received for ath1
+nl80211: Vendor event: wiphy=1 vendor_id=0x1374 subcmd=75
+nl80211: Vendor data - hexdump(len=20): 08 00 11 00 4a 01 00 00 0b 00 13 00 00 06 03 7f 63 a6 78 00
+nl80211: Ignore unsupported QCA vendor event 75
+nl80211: Event message available
+nl80211: Drv Event 103 (NL80211_CMD_VENDOR) received for ath2
+nl80211: Vendor event: wiphy=2 vendor_id=0x1374 subcmd=75
+nl80211: Vendor data - hexdump(len=20): 08 00 11 00 4a 01 00 00 0b 00 13 00 00 06 03 7f 01 59 87 00
+nl80211: Ignore unsupported QCA vendor event 75
+nl80211: Event message available
+nl80211: Drv Event 60 (NL80211_CMD_FRAME_TX_STATUS) received for ath2
+nl80211: MLME event 60 (NL80211_CMD_FRAME_TX_STATUS) on ath2(00:03:7f:12:f4:a7) A1=06:03:7f:01:59:87 A2=00:03:7f:12:f4:a7
+nl80211: MLME event frame - hexdump(len=438): 10 00 00 00 06 03 7f 01 59 87 00 03 7f 12 f4 a7 00 03 7f 12 f4 a7 00 10 11 05 00 00 31 00 01 08 8c 12 98 24 b0 48 60 6c 2d 1a ef 09 03 ff ff 00 00 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00 00 00 00 00 3d 16 68 07 04 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 7f 0a 04 00 0f 02 00 00 00 40 00 40 5f 01 02 bf 0c f6 f9 89 33 fa ff 00 00 fa ff 00 20 c0 05 01 6a 72 fc ff ff 21 23 0d 01 08 1a 40 10 0c 63 40 88 ff 49 81 1c 11 08 00 fa ff fa ff fa ff fa ff 79 1c c7 71 1c c7 71 ff 07 24 f4 3f 00 3b fc ff ff 02 27 63 ff 0e 26 00 03 a4 ff 27 a4 ff 42 43 ff 62 32 ff ff 9c 6b b0 01 0d 00 0a f5 22 12 31 02 00 01 00 41 00 00 8a f1 09 14 00 03 7f 12 59 d7 64 00 34 f4 69 06 00 00 00 00 00 01 00 11 05 00 00 3d 16 24 05 04 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 c0 05 01 2a 32 fc ff ff 07 24 f4 3f 00 1c fc ff ff 02 27 03 ff 06 6a 04 11 00 00 00 dd 17 8c fd f0 01 01 02 01 00 02 01 01 03 03 01 01 00 04 01 01 09 02 03 03 dd 18 00 50 f2 02 01 01 80 00 03 a4 00 00 27 a4 00 00 42 43 5e 00 62 32 2f 00 dd 07 8c fd f0 04 01 01 00 ff 12 6c 00 00 e0 1f 09 00 18 36 d8 36 00 22 22 22 22 22 22 ff 06 6a 44 11 00 00 00 dd 17 8c fd f0 01 01 02 01 00 02 01 01 03 03 01 01 00 04 01 01 09 02 03 03 dd 18 00 50 f2 02 01 01 80 00 03 a4 00 00 27 a4 00 00 42 43 5e 00 62 32 2f 00 dd 07 8c fd f0 04 01 01 00
+nl80211: Frame TX status event A1=06:03:7f:01:59:87 stype=1 cookie=0x0 ack=1
+ath2: Event TX_STATUS (16) received
+mgmt::assoc_resp cb
+ath2: STA 06:03:7f:01:59:87 IEEE 802.11: associated (aid 2)
+wpa_driver_nl80211_set_key: ifindex=26 (ath2) alg=0 addr=0x55807e6ee8 key_idx=0 set_tx=1 seq_len=0 key_len=0 key_flag=0x20
+nl80211: DEL_KEY
+   addr=06:03:7f:01:59:87
+   pairwise key
+wpa_driver_nl80211_set_key: ifindex=25 (ath1) alg=0 addr=0x55807e73d0 key_idx=0 set_tx=1 seq_len=0 key_len=0 key_flag=0x20
+nl80211: DEL_KEY
+   addr=06:03:7f:63:a6:78
+   pairwise key
+nl80211: ath2[26]: set_sta_vlan(06:03:7f:01:59:87, ifname=ath2[26], vlan_id=0)
+nl80211: ath1[25]: set_sta_vlan(06:03:7f:63:a6:78, ifname=ath1[25], vlan_id=0)
+nl80211: Set STA flags - ifname=ath2 addr=06:03:7f:01:59:87 total_flags=0x62 flags_or=0x2 flags_and=0xfffffff3 authorized=0
+wpa_driver_nl80211_set_key: ifindex=26 (ath2) alg=0 addr=0x55807e6ee8 key_idx=0 set_tx=1 seq_len=0 key_len=0 key_flag=0x20
+nl80211: DEL_KEY
+   addr=06:03:7f:01:59:87
+   pairwise key
+wpa_driver_nl80211_set_key: ifindex=25 (ath1) alg=0 addr=0x55807e73d0 key_idx=0 set_tx=1 seq_len=0 key_len=0 key_flag=0x20
+nl80211: DEL_KEY
+   addr=06:03:7f:63:a6:78
+   pairwise key
+IEEE 802.1X: Ignore STA - 802.1X not enabled or forced for WPS
+WPA: 06:03:7f:01:59:87 WPA_PTK entering state INITIALIZE
+wpa_driver_nl80211_set_key: ifindex=26 (ath2) alg=0 addr=0x55807e6ee8 key_idx=0 set_tx=1 seq_len=0 key_len=0 key_flag=0x20
+nl80211: DEL_KEY
+   addr=06:03:7f:01:59:87
+   pairwise key
+wpa_driver_nl80211_set_key: ifindex=25 (ath1) alg=0 addr=0x55807e73d0 key_idx=0 set_tx=1 seq_len=0 key_len=0 key_flag=0x20
+nl80211: DEL_KEY
+   addr=06:03:7f:63:a6:78
+   pairwise key
+nl80211: Set STA flags - ifname=ath2 addr=06:03:7f:01:59:87 total_flags=0x62 flags_or=0x0 flags_and=0xfffffffe authorized=0
+nl80211: Set STA flags - ifname=ath1 addr=06:03:7f:63:a6:78 total_flags=0x62 flags_or=0x0 flags_and=0xfffffffe authorized=0
+WPA: 06:03:7f:01:59:87 WPA_PTK_GROUP entering state IDLE
+WPA: 06:03:7f:01:59:87 WPA_PTK entering state AUTHENTICATION
+WPA: 06:03:7f:01:59:87 WPA_PTK entering state AUTHENTICATION2
+Get randomness: len=32 entropy=3
+random from os_get_random - hexdump(len=32): [REMOVED]
+random_mix_pool - hexdump(len=20): [REMOVED]
+random from internal pool - hexdump(len=16): [REMOVED]
+random_mix_pool - hexdump(len=20): [REMOVED]
+random from internal pool - hexdump(len=16): [REMOVED]
+mixed random - hexdump(len=32): [REMOVED]
+WPA: Assign ANonce - hexdump(len=32): ff 06 6e 91 1b 13 49 30 eb 9b e5 07 79 55 93 bb 7b 62 5a 18 e5 72 7f 3d 9a 5c 9b a4 92 9e 4b c4
+WPA: 06:03:7f:01:59:87 WPA_PTK entering state INITPSK
+Searching a PSK for 06:03:7f:01:59:87 prev_psk=0
+Searching a PSK for 06:03:7f:01:59:87 prev_psk=0
+WPA: 06:03:7f:01:59:87 WPA_PTK entering state PTKSTART
+ath2: STA 06:03:7f:01:59:87 WPA: sending 1/4 msg of 4-Way Handshake
+WPA: Send EAPOL(version=2 secure=0 mic=0 ack=1 install=0 pairwise=1 kde_len=12 keyidx=0 encr=0)
+WPA: Replay Counter - hexdump(len=8): 00 00 00 00 00 00 00 01
+nl80211: Send over control port dest=06:03:7f:01:59:87 proto=0x888e len=111 no_encrypt=1
+nl80211: tx_control_port cookie=0x4
+WPA: Use EAPOL-Key timeout of 100 ms (retry counter 1)
+nl80211: Event message available
+nl80211: Drv Event 140 (NL80211_CMD_CONTROL_PORT_FRAME_TX_STATUS) received for ath2
+nl80211: Control port TX status (ack=1), cookie=4
+ath2: Event EAPOL_TX_STATUS (37) received
+IEEE 802.1X: 06:03:7f:01:59:87 TX status - version=2 type=3 length=107 - ack=1
+WPA: EAPOL-Key TX status for STA 06:03:7f:01:59:87 ack=1
+WPA: Increase initial EAPOL-Key 1/4 timeout by 1000 ms because of acknowledged frame
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+WPA: 06:03:7f:01:59:87 WPA_PTK entering state PTKSTART
+ath2: STA 06:03:7f:01:59:87 WPA: sending 1/4 msg of 4-Way Handshake
+WPA: Send EAPOL(version=2 secure=0 mic=0 ack=1 install=0 pairwise=1 kde_len=12 keyidx=0 encr=0)
+WPA: Replay Counter - hexdump(len=8): 00 00 00 00 00 00 00 02
+nl80211: Send over control port dest=06:03:7f:01:59:87 proto=0x888e len=111 no_encrypt=1
+nl80211: tx_control_port cookie=0x5
+WPA: Use EAPOL-Key timeout of 1000 ms (retry counter 2)
+nl80211: Event message available
+nl80211: Drv Event 140 (NL80211_CMD_CONTROL_PORT_FRAME_TX_STATUS) received for ath2
+nl80211: Control port TX status (ack=1), cookie=5
+ath2: Event EAPOL_TX_STATUS (37) received
+IEEE 802.1X: 06:03:7f:01:59:87 TX status - version=2 type=3 length=107 - ack=1
+WPA: EAPOL-Key TX status for STA 06:03:7f:01:59:87 ack=1
+nl80211: Event message available
+nl80211: BSS Event 129 (NL80211_CMD_CONTROL_PORT_FRAME) received for ath2
+ath2: Event EAPOL_RX (23) received
+IEEE 802.1X: 151 bytes from 00:04:3d:22:4d:22 (encrypted=1)
+link-STA not found. Check MLO mac address list
+
+   IEEE 802.1X: version=1 type=3 length=147
+WPA: RX EAPOL data - hexdump(len=151): 01 03 00 93 02 01 0a 00 00 00 00 00 00 00 00 00 02 0c 9a 63 ba 0f 0d b4 ec d6 6d 92 76 59 e1 f6 ac 06 e5 94 1c 26 f5 95 16 b6 1b b2 e9 ac a9 a5 4b 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 5d ae 1e 58 be 79 36 6c 33 0d fd 87 91 ad d2 59 00 34 30 26 01 00 00 0f ac 04 01 00 00 0f ac 04 01 00 00 0f ac 02 00 00 01 00 b6 ff b0 1a b3 d8 7b 3a 79 a1 25 5d 39 18 47 00 dd 0a 00 0f ac 03 06 03 7f 01 59 87
+WPA: Received EAPOL-Key from 06:03:7f:01:59:87 key_info=0x10a type=2 mic_len=16 key_data_length=52
+WPA: EAPOL-Key header (ending before Key MIC) - hexdump(len=77): 02 01 0a 00 00 00 00 00 00 00 00 00 02 0c 9a 63 ba 0f 0d b4 ec d6 6d 92 76 59 e1 f6 ac 06 e5 94 1c 26 f5 95 16 b6 1b b2 e9 ac a9 a5 4b 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+WPA: EAPOL-Key Key MIC - hexdump(len=16): 5d ae 1e 58 be 79 36 6c 33 0d fd 87 91 ad d2 59
+WPA: Received Key Nonce - hexdump(len=32): 0c 9a 63 ba 0f 0d b4 ec d6 6d 92 76 59 e1 f6 ac 06 e5 94 1c 26 f5 95 16 b6 1b b2 e9 ac a9 a5 4b
+WPA: Received Replay Counter - hexdump(len=8): 00 00 00 00 00 00 00 02
+Add randomness: count=6 entropy=0
+random pool - hexdump(len=128): [REMOVED]
+random_mix_pool - hexdump(len=16): [REMOVED]
+random_mix_pool - hexdump(len=32): [REMOVED]
+random pool - hexdump(len=128): [REMOVED]
+ath2: STA 06:03:7f:01:59:87 WPA: received EAPOL-Key frame (2/4 Pairwise)
+WPA: 06:03:7f:01:59:87 WPA_PTK entering state PTKCALCNEGOTIATING
+Searching a PSK for 06:03:7f:01:59:87 prev_psk=0
+WPA: PTK derivation using PRF(SHA1)
+WPA: PTK derivation - A1=00:0a:f5:22:12:31 A2=00:04:3d:22:4d:22
+WPA: Nonce1 - hexdump(len=32): ff 06 6e 91 1b 13 49 30 eb 9b e5 07 79 55 93 bb 7b 62 5a 18 e5 72 7f 3d 9a 5c 9b a4 92 9e 4b c4
+WPA: Nonce2 - hexdump(len=32): 0c 9a 63 ba 0f 0d b4 ec d6 6d 92 76 59 e1 f6 ac 06 e5 94 1c 26 f5 95 16 b6 1b b2 e9 ac a9 a5 4b
+WPA: PMK - hexdump(len=32): [REMOVED]
+WPA: PTK - hexdump(len=48): [REMOVED]
+WPA: KCK - hexdump(len=16): [REMOVED]
+WPA: KEK - hexdump(len=16): [REMOVED]
+WPA: TK - hexdump(len=16): [REMOVED]
+WPA: EAPOL-Key MIC using HMAC-SHA1
+WPA: RSN IE in EAPOL-Key - hexdump(len=40): 30 26 01 00 00 0f ac 04 01 00 00 0f ac 04 01 00 00 0f ac 02 00 00 01 00 b6 ff b0 1a b3 d8 7b 3a 79 a1 25 5d 39 18 47 00
+WPA: MAC Address in EAPOL-Key - hexdump(len=12): dd 0a 00 0f ac 03 06 03 7f 01 59 87
+WPA: 06:03:7f:01:59:87 WPA_PTK entering state PTKCALCNEGOTIATING2
+WPA: 06:03:7f:01:59:87 WPA_PTK entering state PTKINITNEGOTIATING
+ath2: STA 06:03:7f:01:59:87 WPA: sending 3/4 msg of 4-Way Handshake
+MLO-LINK-KDEs: - hexdump(len=35): dd 21 00 0f ac 13 11 00 03 7f 12 59 d7 30 14 01 00 00 0f ac 04 01 00 00 0f ac 04 01 00 00 0f ac 02 0c 00
+MLO-GTK-KDEs: - hexdump(len=29): dd 1b 00 0f ac 10 11 00 00 00 00 00 00 b1 30 c1 38 77 87 47 57 b4 3b d3 87 7c e7 4c 3a
+WPA: Send EAPOL(version=2 secure=1 mic=1 ack=1 install=1 pairwise=1 kde_len=140 keyidx=0 encr=1)
+WPA: Replay Counter - hexdump(len=8): 00 00 00 00 00 00 00 03
+Plaintext EAPOL-Key Key Data - hexdump(len=152): [REMOVED]
+WPA: Encrypt Key Data using AES-WRAP (KEK length 16)
+WPA: EAPOL-Key MIC using HMAC-SHA1
+nl80211: Send over control port dest=06:03:7f:01:59:87 proto=0x888e len=251 no_encrypt=1
+nl80211: tx_control_port cookie=0x6
+WPA: Use EAPOL-Key timeout of 100 ms (retry counter 1)
+nl80211: Event message available
+nl80211: Drv Event 140 (NL80211_CMD_CONTROL_PORT_FRAME_TX_STATUS) received for ath2
+nl80211: Control port TX status (ack=1), cookie=6
+ath2: Event EAPOL_TX_STATUS (37) received
+IEEE 802.1X: 06:03:7f:01:59:87 TX status - version=2 type=3 length=247 - ack=1
+WPA: EAPOL-Key TX status for STA 06:03:7f:01:59:87 ack=1
+nl80211: Event message available
+nl80211: BSS Event 129 (NL80211_CMD_CONTROL_PORT_FRAME) received for ath2
+ath2: Event EAPOL_RX (23) received
+IEEE 802.1X: 99 bytes from 00:04:3d:22:4d:22 (encrypted=1)
+link-STA not found. Check MLO mac address list
+
+   IEEE 802.1X: version=1 type=3 length=95
+WPA: RX EAPOL data - hexdump(len=99): 01 03 00 5f 02 03 0a 00 00 00 00 00 00 00 00 00 03 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 7e fc 3d 88 6f 92 95 81 a2 c1 0c 29 aa ce 98 26 00 00
+WPA: Received EAPOL-Key from 06:03:7f:01:59:87 key_info=0x30a type=2 mic_len=16 key_data_length=0
+WPA: EAPOL-Key header (ending before Key MIC) - hexdump(len=77): 02 03 0a 00 00 00 00 00 00 00 00 00 03 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+WPA: EAPOL-Key Key MIC - hexdump(len=16): 7e fc 3d 88 6f 92 95 81 a2 c1 0c 29 aa ce 98 26
+WPA: Received Key Nonce - hexdump(len=32): 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+WPA: Received Replay Counter - hexdump(len=8): 00 00 00 00 00 00 00 03
+ath2: STA 06:03:7f:01:59:87 WPA: received EAPOL-Key frame (4/4 Pairwise)
+WPA: EAPOL-Key MIC using HMAC-SHA1
+WPA: 06:03:7f:01:59:87 WPA_PTK entering state PTKINITDONE
+wpa_driver_nl80211_set_key: ifindex=26 (ath2) alg=3 addr=0x55807e6ee8 key_idx=0 set_tx=1 seq_len=0 key_len=16 key_flag=0x2c
+nl80211: NEW_KEY
+nl80211: KEY_DATA - hexdump(len=16): [REMOVED]
+   addr=06:03:7f:01:59:87
+   pairwise key
+wpa_driver_nl80211_set_key: ifindex=25 (ath1) alg=3 addr=0x55807e73d0 key_idx=0 set_tx=1 seq_len=0 key_len=16 key_flag=0x2c
+nl80211: NEW_KEY
+nl80211: KEY_DATA - hexdump(len=16): [REMOVED]
+   addr=06:03:7f:63:a6:78
+   pairwise key
+ath2: AP-STA-CONNECTED 06:03:7f:01:59:87 mld_addr=00:04:3d:22:4d:22
+nl80211: Set STA flags - ifname=ath2 addr=06:03:7f:01:59:87 total_flags=0x63 flags_or=0x1 flags_and=0xffffffff authorized=1
+ath2: STA 06:03:7f:01:59:87 RADIUS: starting accounting session 7356DF7A89DF8F7E
+ath1: AP-STA-CONNECTED 06:03:7f:63:a6:78 mld_addr=00:04:3d:22:4d:22
+nl80211: Set STA flags - ifname=ath1 addr=06:03:7f:63:a6:78 total_flags=0x63 flags_or=0x1 flags_and=0xffffffff authorized=1
+ath1: STA 06:03:7f:63:a6:78 RADIUS: starting accounting session C00492A814A90192
+ath2: STA 06:03:7f:01:59:87 WPA: pairwise key handshake completed (RSN)
+ath2: EAPOL-4WAY-HS-COMPLETED 06:03:7f:01:59:87
+RTM_NEWLINK: ifi_index=26 ifname=ath2 wext ifi_family=0 ifi_flags=0x11043 ([UP][RUNNING][LOWER_UP])
+RTM_NEWLINK: ifi_index=25 ifname=ath1 wext ifi_family=0 ifi_flags=0x11043 ([UP][RUNNING][LOWER_UP])
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=24 ifname=soc1 wext ifi_family=0 ifi_flags=0x0 ()
+RTM_NEWLINK: ifi_index=21 ifname=soc0 wext ifi_family=0 ifi_flags=0x0 ()

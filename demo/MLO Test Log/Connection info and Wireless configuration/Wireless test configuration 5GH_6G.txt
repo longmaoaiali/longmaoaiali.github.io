@@ -1,0 +1,143 @@
+STA/////////////////////////////////////////////////////////
+config wifi-device  wifi0
+        option type     qcawificfg80211
+        option channel  auto
+        option macaddr  00:03:7f:12:e2:6b
+        option hwmode   11beg
+        # REMOVE THIS LINE TO ENABLE WIFI:
+        option disabled 0
+
+config wifi-iface
+        option device   wifi0
+        option network  lan
+        option mode     ap
+        option ssid     OpenWrt_2G
+        option encryption none
+
+config wifi-device  wifi1
+        option type     qcawificfg80211
+        option channel  36
+        option macaddr  00:03:7f:12:ce:47
+        option hwmode   11bea
+        # REMOVE THIS LINE TO ENABLE WIFI:
+        option disabled 0
+
+config wifi-iface
+        option device   wifi1
+        option network  lan
+        option mode     ap
+        option ssid     OpenWrt_5GL
+        option encryption none
+
+config wifi-device  wifi2
+        option type     qcawificfg80211
+        option channel  auto
+        option macaddr  00:03:7f:12:72:4b
+        option hwmode   11axa
+        # REMOVE THIS LINE TO ENABLE WIFI:
+        option disabled 0
+
+config wifi-iface
+        option device   wifi2
+        option network  lan
+        option mode     sta
+        option ssid 'gate'
+        option encryption none
+        option wds 1
+        option mld 'mld0'
+        option cactimeout '0'
+
+config wifi-device  wifi3
+        option type     qcawificfg80211
+        option channel  auto
+        option macaddr  00:03:7f:12:5e:27
+        option hwmode   11bea
+        # REMOVE THIS LINE TO ENABLE WIFI:
+        option disabled 0
+
+config wifi-iface
+        option device   wifi3
+        option network  lan
+        option mode     sta
+        option ssid 'gate'
+        option encryption none
+        option wds 1
+        option mld 'mld0'
+        option cactimeout '0'
+        option en_6g_sec_comp 0
+
+config wifi-mld 'mld0'
+        option mld_macaddr '00:04:3d:11:4d:22'
+        option mld_ssid 'gate'
+        option mld_ref '0'
+
+
+
+AP/////////////////////////////////////////////////////////
+config wifi-device  wifi0
+        option type     qcawificfg80211
+        option channel  11
+        option macaddr  00:03:7f:63:66:78
+        option hwmode   11beg
+        # REMOVE THIS LINE TO ENABLE WIFI:
+        option disabled 0
+
+config wifi-iface
+        option device   wifi0
+        option network  lan
+        option mode     monitor
+        option ssid     OpenWrt_2G
+        option encryption none
+
+config wifi-device  wifi1
+        option type     qcawificfg80211
+        option channel  auto
+        option macaddr  00:03:7f:63:a6:78
+        option hwmode   11bea
+        # REMOVE THIS LINE TO ENABLE WIFI:
+        option disabled 0
+
+config wifi-iface
+        option device   wifi1
+        option network  lan
+        option mode     ap
+        option ssid     OpenWrt_5GL
+        option encryption none
+
+config wifi-device  wifi2
+        option type     qcawificfg80211
+        option channel  auto
+        option macaddr  00:03:7f:01:59:87
+        option hwmode   11bea
+        # REMOVE THIS LINE TO ENABLE WIFI:
+        option disabled 0
+
+config wifi-iface
+        option device   wifi2
+        option network  lan
+        option mode     ap
+        option encryption none
+        option ssid 'gate'
+        option mld 'mld0'
+        option cactimeout 0
+
+config wifi-device  wifi3
+        option type     qcawificfg80211
+        option channel  auto
+        option macaddr  00:03:7f:01:a9:87
+        option hwmode   11bea
+        # REMOVE THIS LINE TO ENABLE WIFI:
+        option disabled 0
+
+config wifi-iface
+        option device   wifi3
+        option network  lan
+        option mode     ap
+        option encryption none
+        option en_6g_sec_comp 0
+        option ssid 'gate'
+        option mld 'mld0'
+
+config wifi-mld 'mld0'
+        option mld_macaddr '00:0A:F5:22:12:31'
+        option mld_ssid 'gate'

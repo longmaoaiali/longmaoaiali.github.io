@@ -1,0 +1,52 @@
+root@OpenWrt:/# wifistats wifi2 41
+mac_addr : 00:00:00:00:00:00 | ast_index : 0 | sw_peer_id : 16390 | pdev_id : 0 | vdev_id : 1
+next_hop : 0 | mcast : 0 | monitor_direct :0 | mesh_sta : 0 | mec :0 | intra_bss :0
+
+mac_addr : 00:03:7f:01:59:56 | ast_index : 17 | sw_peer_id : 16386 | pdev_id : 0 | vdev_id : 0
+next_hop : 0 | mcast : 0 | monitor_direct :0 | mesh_sta : 0 | mec :0 | intra_bss :0
+
+mac_addr : 00:00:00:01:00:00 | ast_index : 74 | sw_peer_id : 16384 | pdev_id : 3 | vdev_id : 255
+next_hop : 0 | mcast : 0 | monitor_direct :0 | mesh_sta : 0 | mec :0 | intra_bss :0
+
+mac_addr : 00:03:7f:12:56:13 | ast_index : 367 | sw_peer_id : 16390 | pdev_id : 0 | vdev_id : 1
+next_hop : 0 | mcast : 1 | monitor_direct :0 | mesh_sta : 0 | mec :0 | intra_bss :0
+
+mac_addr : 06:03:7f:01:59:56 | ast_index : 434 | sw_peer_id : 16390 | pdev_id : 0 | vdev_id : 1
+next_hop : 0 | mcast : 0 | monitor_direct :0 | mesh_sta : 0 | mec :0 | intra_bss :0
+
+mac_addr : 00:03:7f:01:59:56 | ast_index : 677 | sw_peer_id : 16386 | pdev_id : 0 | vdev_id : 0
+next_hop : 0 | mcast : 1 | monitor_direct :0 | mesh_sta : 0 | mec :0 | intra_bss :0
+
+mac_addr : 00:00:00:00:00:00 | ast_index : 692 | sw_peer_id : 16390 | pdev_id : 0 | vdev_id : 1
+next_hop : 0 | mcast : 1 | monitor_direct :0 | mesh_sta : 0 | mec :0 | intra_bss :0
+
+mac_addr : 00:04:3d:11:4d:22 | ast_index : 784 | sw_peer_id : 24577 | pdev_id : 0 | vdev_id : 1
+next_hop : 0 | mcast : 0 | monitor_direct :0 | mesh_sta : 0 | mec :0 | intra_bss :0
+
+mac_addr : 00:03:7f:12:56:13 | ast_index : 987 | sw_peer_id : 16390 | pdev_id : 0 | vdev_id : 1
+next_hop : 0 | mcast : 0 | monitor_direct :0 | mesh_sta : 0 | mec :0 | intra_bss :0
+
+root@OpenWrt:/# ifconfig ath21
+ath21     Link encap:Ethernet  HWaddr 06:03:7F:01:59:56
+          inet6 addr: fe80::403:7fff:fe01:5956/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:1214 errors:21 dropped:19 overruns:0 frame:0
+          TX packets:139 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0
+          RX bytes:112429 (109.7 KiB)  TX bytes:13849 (13.5 KiB)
+
+root@OpenWrt:/# iwconfig ath21
+ath21     IEEE 802.11bea  ESSID:"gate"
+          Mode:Managed  Frequency:5.5 GHz  Access Point: 00:03:7F:12:56:13
+          Bit Rate:2.8824 Gb/s   Tx-Power:23 dBm
+          RTS thr:off   Fragment thr:off
+          Encryption key:A10C-E1E1-F1BD-CB24-5CFC-0CC6-D9F4-F975 [2]   Security mode:restricted
+          Power Management:off
+          Link Quality=94/94  Signal level=-34 dBm  Noise level=-98 dBm (BDF averaged NF value in dBm)
+          Rx invalid nwid:0  Rx invalid crypt:8  Rx invalid frag:0
+          Tx excessive retries:0  Invalid misc:0   Missed beacon:0
+
+root@OpenWrt:/# uci show wireless | grep addr
+wireless.wifi2.macaddr='00:03:7f:01:59:56'
+wireless.mld0.mld_macaddr='00:04:3d:11:4d:22'
+root@OpenWrt:/#

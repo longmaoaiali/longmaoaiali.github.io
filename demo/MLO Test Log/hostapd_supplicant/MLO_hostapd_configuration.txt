@@ -1,0 +1,76 @@
+root@OpenWrt:/# cat /var/run/hostapd-ath1.conf
+driver=nl80211
+interface=ath1
+#channel=52
+logger_syslog=127
+logger_syslog_level=2
+logger_stdout=127
+logger_stdout_level=2
+channel=52
+ieee80211ac=1
+ieee80211n=1
+ieee80211ax=1
+ieee80211be=1
+eht_oper_chwidth=0
+eht_oper_centr_freq_seg0_idx=52
+ht_capab=[LDPC][SMPS-DYNAMIC][TX-STBC][RX-STBC-1][MAX-AMSDU-7935][DSSS_CCK-40] [SHORT-GI-20]
+vht_capab=[MAX-MPDU-11454][VHT160][RXLDPC][SHORT-GI-80][SHORT-GI-160][TX-STBC-2BY1][RX-STBC1][SU-BEAMFORMER][SOUNDING-DIMENSION-2][SU-BEAMFORMEE][MAX-A-MPDU-LEN-EXP7][MU-BEAMFORMER][RX-ANTENNA-PATTERN][TX-ANTENNA-PATTERN]
+hw_mode=a
+wmm_enabled=1
+dtim_period=1
+ignore_broadcast_ssid=0
+mld_link_macs=00:03:7f:12:59:d7 00:03:7f:12:f4:a7
+mld_link_ids=1 2
+mld_mac_addr=00:0A:F5:22:12:31
+owe_ptk_workaround=1
+ctrl_interface=/var/run/hostapd-wifi1
+send_probe_response=0
+wpa_passphrase=12345678
+auth_algs=1
+wpa=2
+wpa_pairwise=CCMP
+ssid=gate
+bridge=br-lan
+ieee80211w=0
+wpa_key_mgmt=WPA-PSK
+wps_cred_add_sae=0
+
+
+
+root@OpenWrt:/# cat /var/run/hostapd-ath2.conf
+driver=nl80211
+interface=ath2
+#channel=149
+logger_syslog=127
+logger_syslog_level=2
+logger_stdout=127
+logger_stdout_level=2
+channel=149
+ieee80211ac=1
+ieee80211n=1
+ieee80211ax=1
+ieee80211be=1
+eht_oper_chwidth=0
+eht_oper_centr_freq_seg0_idx=149
+ht_capab=[LDPC][SMPS-DYNAMIC][TX-STBC][RX-STBC-1][MAX-AMSDU-7935][DSSS_CCK-40] [SHORT-GI-20]
+vht_capab=[MAX-MPDU-11454][VHT160][RXLDPC][SHORT-GI-80][SHORT-GI-160][TX-STBC-2BY1][RX-STBC1][SU-BEAMFORMER][SOUNDING-DIMENSION-2][SU-BEAMFORMEE][MAX-A-MPDU-LEN-EXP7][MU-BEAMFORMER][RX-ANTENNA-PATTERN][TX-ANTENNA-PATTERN]
+hw_mode=a
+wmm_enabled=1
+dtim_period=1
+ignore_broadcast_ssid=0
+mld_link_macs=00:03:7f:12:59:d7 00:03:7f:12:f4:a7
+mld_link_ids=1 2
+mld_mac_addr=00:0A:F5:22:12:31
+owe_ptk_workaround=1
+ctrl_interface=/var/run/hostapd-wifi2
+send_probe_response=0
+wpa_passphrase=12345678
+auth_algs=1
+wpa=2
+wpa_pairwise=CCMP
+ssid=gate
+bridge=br-lan
+ieee80211w=0
+wpa_key_mgmt=WPA-PSK
+wps_cred_add_sae=0
+

@@ -1,0 +1,28 @@
+5GH STA(ath21) wlan.addr == 06:03:7f:01:59:56
+5GH AP(ath2)  wlan.addr == 00:03:7f:12:f4:a7
+
+filter
+wlan.addr == 00:03:7f:12:f4:a7 && wlan.addr == 06:03:7f:01:59:56
+wlan.ssid == "gate"
+wlan.ext_tag.number == 107 //Multi-Link Element
+wlan.ext_tag.number == 108 //EHT Capabilities
+wlan.ext_tag.number == 106 //EHT Operation
+
+/*********************************************************************************************************/
+5GL AP(ath1)  wlan.addr == 00:03:7f:12:59:d7
+5GL STA(ath11)  wlan.addr == 06:03:7f:63:a6:85
+
+filter 
+ath21 ath11 wlan.addr == 00:03:7f:12:59:d7 && wlan.addr == 06:03:7f:63:a6:85
+
+/*********************************************************************************************************/
+STA
+config wifi-mld 'mld0'
+        option mld_macaddr '00:04:3d:11:4d:22'
+        option mld_ssid 'gate'
+//only use mld_macaddr to scan (send probe request)
+		
+AP
+config wifi-mld 'mld0'
+        option mld_macaddr '00:0A:F5:22:12:31'
+        option mld_ssid 'gate'

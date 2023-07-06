@@ -1,0 +1,1644 @@
+
+root@OpenWrt:/# cfg80211tool ath1 dbgLVL 0x80c00080
+root@OpenWrt:/# cfg80211tool ath2 dbgLVL 0x80c00080
+root@OpenWrt:/# [47580.255828] wlan: [0:I:ANY] [MLME] vap-0(ath1):FILS STA found mac[86:59:5c:aa:d3:26]
+[47580.255828]
+[47580.255890] wlan: [0:I:ANY] [MLME] vap-0(ath1):FILS Max channel time : 37TU
+[47580.255890]
+[47580.275392] wlan: [0:I:ANY] [MLME] vap-0(ath1):FILS STA found mac[86:59:5c:aa:d3:26]
+[47580.275392]
+[47580.275433] wlan: [0:I:ANY] [MLME] vap-0(ath1):FILS Max channel time : 17TU
+[47580.275433]
+[47620.621358] wlan: [0:I:ANY] [MLME] vap-0(ath1):FILS STA found mac[9c:28:f7:9d:06:5b]
+[47620.621358]
+[47620.621413] wlan: [0:I:ANY] [MLME] vap-0(ath1):FILS Max channel time : 37TU
+[47620.621413]
+[47620.629613] wlan: [0:I:ANY] [MLME] vap-0(ath1): QCN_IE only one attribute present
+[47620.629613]
+[47620.640376] wlan: [0:I:ANY] [MLME] vap-0(ath1):FILS STA found mac[9c:28:f7:9d:06:5b]
+[47620.640376]
+[47620.646937] wlan: [0:I:ANY] [MLME] vap-0(ath1):FILS Max channel time : 37TU
+[47620.646937]
+[47620.658538] wlan: [0:I:ANY] [MLME] vap-0(ath1):FILS STA found mac[9c:28:f7:9d:06:5b]
+[47620.658538]
+[47620.664892] wlan: [0:I:ANY] [MLME] vap-0(ath1):FILS Max channel time : 36TU
+[47620.664892]
+[47620.674267] wlan: [0:I:ANY] [MLME] vap-0(ath1):FILS STA found mac[9c:28:f7:9d:06:5b]
+[47620.674267]
+[47620.682626] wlan: [0:I:ANY] [MLME] vap-0(ath1):FILS Max channel time : 36TU
+[47620.682626]
+[47620.692157] wlan: [0:I:ANY] [MLME] vap-0(ath1):FILS STA found mac[9c:28:f7:9d:06:5b]
+[47620.692157]
+[47620.700342] wlan: [0:I:ANY] [MLME] vap-0(ath1):FILS Max channel time : 36TU
+[47620.700342]
+[47620.709719] wlan: [0:I:ANY] [MLME] vap-0(ath1):FILS STA found mac[9c:28:f7:9d:06:5b]
+[47620.709719]
+[47620.718065] wlan: [0:I:ANY] [MLME] vap-0(ath1):FILS Max channel time : 36TU
+[47620.718065]
+[47620.727390] wlan: [0:I:ANY] [MLME] vap-0(ath1):FILS STA found mac[9c:28:f7:9d:06:5b]
+[47620.727390]
+[47620.735725] wlan: [0:I:ANY] [MLME] vap-0(ath1):FILS Max channel time : 36TU
+[47620.735725]
+[47620.745175] wlan: [0:I:ANY] [MLME] vap-0(ath1):FILS STA found mac[9c:28:f7:9d:06:5b]
+[47620.745175]
+[47620.753462] wlan: [0:I:ANY] [MLME] vap-0(ath1):FILS Max channel time : 36TU
+[47620.753462]
+[47620.762789] wlan: [0:I:ANY] [MLME] vap-0(ath1):FILS STA found mac[9c:28:f7:9d:06:5b]
+[47620.762789]
+[47620.771167] wlan: [0:I:ANY] [MLME] vap-0(ath1):FILS Max channel time : 16TU
+[47620.771167]
+[47620.780284] wlan: [0:I:ANY] [MLME] vap-0(ath1): QCN_IE only one attribute present
+[47620.780284]
+[47620.789773] wlan: [0:I:ANY] [MLME] vap-0(ath1):FILS STA found mac[9c:28:f7:9d:06:5b]
+[47620.789773]
+[47620.797668] wlan: [0:I:ANY] [MLME] vap-0(ath1):FILS Max channel time : 16TU
+[47620.797668]
+[47620.807484] wlan: [0:I:ANY] [MLME] vap-0(ath1):FILS STA found mac[9c:28:f7:9d:06:5b]
+[47620.807484]
+[47620.815597] wlan: [0:I:ANY] [MLME] vap-0(ath1):FILS Max channel time : 15TU
+[47620.815597]
+[47620.824976] wlan: [0:I:ANY] [MLME] vap-0(ath1):FILS STA found mac[9c:28:f7:9d:06:5b]
+[47620.824976]
+[47620.833325] wlan: [0:I:ANY] [MLME] vap-0(ath1):FILS Max channel time : 15TU
+[47620.833325]
+[47620.842585] wlan: [0:I:ANY] [MLME] vap-0(ath1):FILS STA found mac[9c:28:f7:9d:06:5b]
+[47620.842585]
+[47620.851032] wlan: [0:I:ANY] [MLME] vap-0(ath1):FILS Max channel time : 15TU
+[47620.851032]
+[47620.860278] wlan: [0:I:ANY] [MLME] vap-0(ath1):FILS STA found mac[9c:28:f7:9d:06:5b]
+[47620.860278]
+[47620.868740] wlan: [0:I:ANY] [MLME] vap-0(ath1):FILS Max channel time : 15TU
+[47620.868740]
+[47620.877984] wlan: [0:I:ANY] [MLME] vap-0(ath1):FILS STA found mac[9c:28:f7:9d:06:5b]
+[47620.877984]
+[47620.886418] wlan: [0:I:ANY] [MLME] vap-0(ath1):FILS Max channel time : 15TU
+[47620.886418]
+[47620.896070] wlan: [0:I:ANY] [MLME] vap-0(ath1):FILS STA found mac[9c:28:f7:9d:06:5b]
+[47620.896070]
+[47620.904162] wlan: [0:I:ANY] [MLME] vap-0(ath1):FILS Max channel time : 15TU
+[47620.904162]
+[47640.598515] wlan: [0:I:ANY] [MLME] vap-0(ath1):FILS STA found mac[9c:28:f7:9d:06:5b]
+[47640.598515]
+[47640.598572] wlan: [0:I:ANY] [MLME] vap-0(ath1):FILS Max channel time : 37TU
+[47640.598572]
+[47640.606757] wlan: [0:I:ANY] [MLME] vap-0(ath1): QCN_IE only one attribute present
+[47640.606757]
+[47640.617566] wlan: [0:I:ANY] [MLME] vap-0(ath1):FILS STA found mac[9c:28:f7:9d:06:5b]
+[47640.617566]
+[47640.624104] wlan: [0:I:ANY] [MLME] vap-0(ath1):FILS Max channel time : 37TU
+[47640.624104]
+[47640.635072] wlan: [0:I:ANY] [MLME] vap-0(ath1):FILS STA found mac[9c:28:f7:9d:06:5b]
+[47640.635072]
+[47640.642078] wlan: [0:I:ANY] [MLME] vap-0(ath1):FILS Max channel time : 37TU
+[47640.642078]
+[47640.651427] wlan: [0:I:ANY] [MLME] vap-0(ath1):FILS STA found mac[9c:28:f7:9d:06:5b]
+[47640.651427]
+[47640.659807] wlan: [0:I:ANY] [MLME] vap-0(ath1):FILS Max channel time : 37TU
+[47640.659807]
+[47640.669479] wlan: [0:I:ANY] [MLME] vap-0(ath1):FILS STA found mac[9c:28:f7:9d:06:5b]
+[47640.669479]
+[47640.677518] wlan: [0:I:ANY] [MLME] vap-0(ath1):FILS Max channel time : 37TU
+[47640.677518]
+[47640.686910] wlan: [0:I:ANY] [MLME] vap-0(ath1):FILS STA found mac[9c:28:f7:9d:06:5b]
+[47640.686910]
+[47640.695206] wlan: [0:I:ANY] [MLME] vap-0(ath1):FILS Max channel time : 36TU
+[47640.695206]
+[47640.704490] wlan: [0:I:ANY] [MLME] vap-0(ath1):FILS STA found mac[9c:28:f7:9d:06:5b]
+[47640.704490]
+[47640.712912] wlan: [0:I:ANY] [MLME] vap-0(ath1):FILS Max channel time : 36TU
+[47640.712912]
+[47640.722176] wlan: [0:I:ANY] [MLME] vap-0(ath1):FILS STA found mac[9c:28:f7:9d:06:5b]
+[47640.722176]
+[47640.730620] wlan: [0:I:ANY] [MLME] vap-0(ath1):FILS Max channel time : 36TU
+[47640.730620]
+[47640.739941] wlan: [0:I:ANY] [MLME] vap-0(ath1):FILS STA found mac[9c:28:f7:9d:06:5b]
+[47640.739941]
+[47640.748329] wlan: [0:I:ANY] [MLME] vap-0(ath1):FILS Max channel time : 16TU
+[47640.748329]
+[47640.757459] wlan: [0:I:ANY] [MLME] vap-0(ath1): QCN_IE only one attribute present
+[47640.757459]
+[47640.766976] wlan: [0:I:ANY] [MLME] vap-0(ath1):FILS STA found mac[9c:28:f7:9d:06:5b]
+[47640.766976]
+[47640.774820] wlan: [0:I:ANY] [MLME] vap-0(ath1):FILS Max channel time : 16TU
+[47640.774820]
+[47640.784639] wlan: [0:I:ANY] [MLME] vap-0(ath1):FILS STA found mac[9c:28:f7:9d:06:5b]
+[47640.784639]
+[47640.792775] wlan: [0:I:ANY] [MLME] vap-0(ath1):FILS Max channel time : 16TU
+[47640.792775]
+[47640.802073] wlan: [0:I:ANY] [MLME] vap-0(ath1):FILS STA found mac[9c:28:f7:9d:06:5b]
+[47640.802073]
+[47640.810476] wlan: [0:I:ANY] [MLME] vap-0(ath1):FILS Max channel time : 16TU
+[47640.810476]
+[47640.819739] wlan: [0:I:ANY] [MLME] vap-0(ath1):FILS STA found mac[9c:28:f7:9d:06:5b]
+[47640.819739]
+[47640.828188] wlan: [0:I:ANY] [MLME] vap-0(ath1):FILS Max channel time : 15TU
+[47640.828188]
+[47640.837435] wlan: [0:I:ANY] [MLME] vap-0(ath1):FILS STA found mac[9c:28:f7:9d:06:5b]
+[47640.837435]
+[47640.845867] wlan: [0:I:ANY] [MLME] vap-0(ath1):FILS Max channel time : 15TU
+[47640.845867]
+
+root@OpenWrt:/# cfg80211tool ath1 qdf_cv_lvl 0x001f0008
+root@OpenWrt:/# cfg80211tool ath1 qdf_cv_lvl 0x00020008
+root@OpenWrt:/# cfg80211tool ath1 qdf_cv_lvl 0x00100008
+root@OpenWrt:/# cfg80211tool ath1 qdf_cv_lvl 0x00110008
+root@OpenWrt:/# cfg80211tool ath1 qdf_cv_lvl 0x00160008
+root@OpenWrt:/# cfg80211tool ath1 qdf_cv_lvl 0x00170008
+root@OpenWrt:/# cfg80211tool ath1 qdf_cv_lvl 0x004b0008
+root@OpenWrt:/# [47665.414990] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000df6de369, mac: 00:03:7f:12:42:37, refcnt: 10
+[47665.414990]
+[47665.415511] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000df6de369, mac: 00:03:7f:12:42:37, refcnt: 12
+[47665.415511]
+[47665.428119] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 510, wbuf: 0x00000000a810f71e
+[47665.428119]
+[47665.442142] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 509, wbuf: 0x0000000089d7d9d2
+[47665.442142]
+
+root@OpenWrt:/# cfg80211tool ath2 qdf_cv_lvl 0x001f0008
+root@OpenWrt:/# [47665.718980] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000e24f70d1, mac: 00:03:7f:12:56:13, refcnt: 10
+[47665.718980]
+[47665.719615] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000e24f70d1, mac: 00:03:7f:12:56:13, refcnt: 12
+[47665.719615]
+[47665.731935] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 509, wbuf: 0x0000000023d7304c
+[47665.731935]
+[47665.745567] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 510, wbuf: 0x00000000321225f9
+[47665.745567]
+cfg80211tool ath2 qdf_cv_lvl 0x00020008
+root@OpenWrt:/# cfg80211tool ath2 qdf_cv_lvl 0x00100008
+root@OpenWrt:/# cfg80211tool ath2 qdf_cv_lvl 0x00110008
+root@OpenWrt:/# cfg80211tool ath2 qdf_cv_lvl 0x00160008
+root@OpenWrt:/# cfg80211tool ath2 qdf_cv_lvl 0x00170008
+root@OpenWrt:/# cfg80211tool ath2 qdf_cv_lvl 0x004b0008
+root@OpenWrt:/#
+root@OpenWrt:/# [47669.061345] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000df6de369, mac: 00:03:7f:12:42:37, refcnt: 10
+[47669.061345]
+[47669.065335] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 509, wbuf: 0x00000000b31c3807
+[47669.065335]
+[47669.081465] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000df6de369, mac: 00:03:7f:12:42:37, refcnt: 10
+[47669.081465]
+[47669.087217] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 509, wbuf: 0x0000000099153250
+[47669.087217]
+[47669.640810] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000e24f70d1, mac: 00:03:7f:12:56:13, refcnt: 10
+[47669.640810]
+[47669.643217] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 510, wbuf: 0x00000000d1867af4
+[47669.643217]
+[47671.315843] wlan: [0:I:ANY] [MLME] vap-0(ath1):FILS STA found mac[6a:ca:47:86:2c:80]
+[47671.315843]
+[47671.315887] wlan: [0:I:ANY] [MLME] vap-0(ath1):FILS Max channel time : 37TU
+[47671.315887]
+[47671.324445] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000df6de369, mac: 00:03:7f:12:42:37, refcnt: 10
+[47671.324445]
+[47671.335052] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 509, wbuf: 0x00000000fc36c8ad
+[47671.335052]
+[47671.346834] wlan: [0:I:ANY] [MLME] vap-0(ath1):FILS STA found mac[6a:ca:47:86:2c:80]
+[47671.346834]
+[47671.357943] wlan: [0:I:ANY] [MLME] vap-0(ath1):FILS Max channel time : 17TU
+[47671.357943]
+[47671.367518] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000df6de369, mac: 00:03:7f:12:42:37, refcnt: 10
+[47671.367518]
+[47671.379891] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 509, wbuf: 0x00000000f80cf3f1
+[47671.379891]
+[47671.699917] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000e24f70d1, mac: 00:03:7f:12:56:13, refcnt: 10
+[47671.699917]
+[47671.702223] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 510, wbuf: 0x00000000711a7c6e
+[47671.702223]
+[47671.750034] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000e24f70d1, mac: 00:03:7f:12:56:13, refcnt: 10
+[47671.750034]
+[47671.753024] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 510, wbuf: 0x00000000e1628f5f
+[47671.753024]
+[47673.615739] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000df6de369, mac: 00:03:7f:12:42:37, refcnt: 10
+[47673.615739]
+[47673.617447] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 509, wbuf: 0x00000000ab587823
+[47673.617447]
+[47673.633685] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000df6de369, mac: 00:03:7f:12:42:37, refcnt: 10
+[47673.633685]
+[47673.641502] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 509, wbuf: 0x00000000ec071e63
+[47673.641502]
+[47673.654893] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000df6de369, mac: 00:03:7f:12:42:37, refcnt: 10
+[47673.654893]
+[47673.666343] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000df6de369, mac: 00:03:7f:12:42:37, refcnt: 12
+[47673.666343]
+[47673.679760] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 509, wbuf: 0x000000007b12cee8
+[47673.679760]
+[47673.693250] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 510, wbuf: 0x000000002797dee4
+[47673.693250]
+[47673.811358] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000e24f70d1, mac: 00:03:7f:12:56:13, refcnt: 10
+[47673.811358]
+[47673.813044] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 510, wbuf: 0x000000002797dee4
+[47673.813044]
+[47674.208022] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000e24f70d1, mac: 00:03:7f:12:56:13, refcnt: 10
+[47674.208022]
+[47674.209605] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 510, wbuf: 0x0000000098320551
+[47674.209605]
+[47675.882367] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000e24f70d1, mac: 00:03:7f:12:56:13, refcnt: 10
+[47675.882367]
+[47675.884962] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 510, wbuf: 0x00000000ea88b9d3
+[47675.884962]
+[47676.159448] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000df6de369, mac: 00:03:7f:12:42:37, refcnt: 10
+[47676.159448]
+[47676.164314] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 510, wbuf: 0x000000000db8691f
+[47676.164314]
+[47676.174776] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000df6de369, mac: 00:03:7f:12:42:37, refcnt: 10
+[47676.174776]
+[47676.185322] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 510, wbuf: 0x000000001888dd56
+[47676.185322]
+[47676.350126] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000e24f70d1, mac: 00:03:7f:12:56:13, refcnt: 10
+[47676.350126]
+[47676.351736] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 510, wbuf: 0x00000000d7e9a918
+[47676.351736]
+[47678.007471] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000e24f70d1, mac: 00:03:7f:12:56:13, refcnt: 10
+[47678.007471]
+[47678.009151] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 510, wbuf: 0x00000000b42202dd
+[47678.009151]
+[47680.011403] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000e24f70d1, mac: 00:03:7f:12:56:13, refcnt: 10
+[47680.011403]
+[47680.013514] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 510, wbuf: 0x0000000033467934
+[47680.013514]
+[47680.233372] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000df6de369, mac: 00:03:7f:12:42:37, refcnt: 10
+[47680.233372]
+[47680.237306] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 510, wbuf: 0x00000000908e18c6
+[47680.237306]
+[47680.248644] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000df6de369, mac: 00:03:7f:12:42:37, refcnt: 10
+[47680.248644]
+[47680.259429] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 510, wbuf: 0x00000000e16ccfeb
+[47680.259429]
+[47680.621946] wlan: [0:I:ANY] [MLME] vap-0(ath1):FILS STA found mac[9c:28:f7:9d:06:5b]
+[47680.621946]
+[47680.622003] wlan: [0:I:ANY] [MLME] vap-0(ath1):FILS Max channel time : 37TU
+[47680.622003]
+[47680.630203] wlan: [0:I:ANY] [MLME] vap-0(ath1): QCN_IE only one attribute present
+[47680.630203]
+[47680.639112] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000df6de369, mac: 00:03:7f:12:42:37, refcnt: 10
+[47680.639112]
+[47680.651078] wlan: [0:I:ANY] [MLME] vap-0(ath1):FILS STA found mac[9c:28:f7:9d:06:5b]
+[47680.651078]
+[47680.661439] wlan: [0:I:ANY] [MLME] vap-0(ath1):FILS Max channel time : 37TU
+[47680.661439]
+[47680.671278] wlan: [0:I:ANY] [MLME] vap-0(ath1):FILS STA found mac[9c:28:f7:9d:06:5b]
+[47680.671278]
+[47680.679239] wlan: [0:I:ANY] [MLME] vap-0(ath1):FILS Max channel time : 36TU
+[47680.679239]
+[47680.688799] wlan: [0:I:ANY] [MLME] vap-0(ath1):FILS STA found mac[9c:28:f7:9d:06:5b]
+[47680.688799]
+[47680.696917] wlan: [0:I:ANY] [MLME] vap-0(ath1):FILS Max channel time : 36TU
+[47680.696917]
+[47680.706587] wlan: [0:I:ANY] [MLME] vap-0(ath1):FILS STA found mac[9c:28:f7:9d:06:5b]
+[47680.706587]
+[47680.714646] wlan: [0:I:ANY] [MLME] vap-0(ath1):FILS Max channel time : 36TU
+[47680.714646]
+[47680.724052] wlan: [0:I:ANY] [MLME] vap-0(ath1):FILS STA found mac[9c:28:f7:9d:06:5b]
+[47680.724052]
+[47680.732352] wlan: [0:I:ANY] [MLME] vap-0(ath1):FILS Max channel time : 36TU
+[47680.732352]
+[47680.741637] wlan: [0:I:ANY] [MLME] vap-0(ath1):FILS STA found mac[9c:28:f7:9d:06:5b]
+[47680.741637]
+[47680.750058] wlan: [0:I:ANY] [MLME] vap-0(ath1):FILS Max channel time : 36TU
+[47680.750058]
+[47680.759314] wlan: [0:I:ANY] [MLME] vap-0(ath1):FILS STA found mac[9c:28:f7:9d:06:5b]
+[47680.759314]
+[47680.767766] wlan: [0:I:ANY] [MLME] vap-0(ath1):FILS Max channel time : 36TU
+[47680.767766]
+[47680.776985] wlan: [0:I:ANY] [MLME] vap-0(ath1):FILS STA found mac[9c:28:f7:9d:06:5b]
+[47680.776985]
+[47680.785469] wlan: [0:I:ANY] [MLME] vap-0(ath1):FILS Max channel time : 15TU
+[47680.785469]
+[47680.795055] wlan: [0:I:ANY] [MLME] vap-0(ath1):FILS STA found mac[9c:28:f7:9d:06:5b]
+[47680.795055]
+[47680.803181] wlan: [0:I:ANY] [MLME] vap-0(ath1):FILS Max channel time : 15TU
+[47680.803181]
+[47680.812569] wlan: [0:I:ANY] [MLME] vap-0(ath1):FILS STA found mac[9c:28:f7:9d:06:5b]
+[47680.812569]
+[47680.820904] wlan: [0:I:ANY] [MLME] vap-0(ath1):FILS Max channel time : 15TU
+[47680.820904]
+[47680.830331] wlan: [0:I:ANY] [MLME] vap-0(ath1):FILS STA found mac[9c:28:f7:9d:06:5b]
+[47680.830331]
+[47680.838600] wlan: [0:I:ANY] [MLME] vap-0(ath1):FILS Max channel time : 15TU
+[47680.838600]
+[47680.847825] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 510, wbuf: 0x00000000bafeacb0
+[47680.847825]
+[47680.941497] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000e24f70d1, mac: 00:03:7f:12:56:13, refcnt: 10
+[47680.941497]
+[47680.946158] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 510, wbuf: 0x000000003c9cd0c7
+[47680.946158]
+[47680.991476] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000e24f70d1, mac: 00:03:7f:12:56:13, refcnt: 10
+[47680.991476]
+[47680.993731] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 510, wbuf: 0x00000000b74a013c
+[47680.993731]
+[47681.181530] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000e24f70d1, mac: 00:03:7f:12:56:13, refcnt: 10
+[47681.181530]
+[47681.183158] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 510, wbuf: 0x00000000f6c567f6
+[47681.183158]
+[47681.513025] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000e24f70d1, mac: 00:03:7f:12:56:13, refcnt: 10
+[47681.513025]
+[47681.516650] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 510, wbuf: 0x000000008e94a08c
+[47681.516650]
+[47683.200442] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000e24f70d1, mac: 00:03:7f:12:56:13, refcnt: 10
+[47683.200442]
+[47683.202149] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 510, wbuf: 0x000000008656085a
+[47683.202149]
+[47683.229676] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000df6de369, mac: 00:03:7f:12:42:37, refcnt: 10
+[47683.229676]
+[47683.233718] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 510, wbuf: 0x00000000a656f088
+[47683.233718]
+[47683.280089] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000df6de369, mac: 00:03:7f:12:42:37, refcnt: 10
+[47683.280089]
+[47683.284690] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 510, wbuf: 0x00000000d5513cf8
+[47683.284690]
+[47683.453531] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000df6de369, mac: 00:03:7f:12:42:37, refcnt: 10
+[47683.453531]
+[47683.457403] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 510, wbuf: 0x000000005e30b329
+[47683.457403]
+[47684.051507] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000e24f70d1, mac: 00:03:7f:12:56:13, refcnt: 10
+[47684.051507]
+[47684.053973] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 510, wbuf: 0x000000008a80d3a5
+[47684.053973]
+[47685.254923] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000e24f70d1, mac: 00:03:7f:12:56:13, refcnt: 10
+[47685.254923]
+[47685.257328] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 510, wbuf: 0x00000000197e491f
+[47685.257328]
+[47685.573918] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000e24f70d1, mac: 00:03:7f:12:56:13, refcnt: 10
+[47685.573918]
+[47685.578427] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 510, wbuf: 0x00000000ad4c4852
+[47685.578427]
+[47686.609214] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000e24f70d1, mac: 00:03:7f:12:56:13, refcnt: 10
+[47686.609214]
+[47686.610925] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 510, wbuf: 0x00000000291f4e12
+[47686.610925]
+[47686.656187] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000e24f70d1, mac: 00:03:7f:12:56:13, refcnt: 10
+[47686.656187]
+[47686.658433] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 510, wbuf: 0x000000002b13b258
+[47686.658433]
+[47686.938036] wlan: [0:D:MGMT_TXRX] tgt_mgmt_txrx_rx_frame_handler: Rcvd mgmt frame subtype a0 (frame type 8) from 06:03:7f:63:a6:78, seq_num = 4, rssi = -46 tsf_delta: 0
+[47686.938129] wlan: [0:I:ANY] [ASSOC] vap-0(ath1): [06:03:7f:63:a6:78]Received Disassoc with reason 8
+[47686.938129]
+[47686.952176] wlan: [0:I:ANY] [MLME] vap-0(ath1): [06:03:7f:63:a6:78]ieee80211_mlme_recv_disassoc
+[47686.952176]
+[47686.952176]
+[47686.962689] wlan: [0:I:ANY] [MLME] vap-0(ath2): [06:03:7f:01:59:87]_ieee80211_node_leave: station with aid 48 leaves (refcnt 4)
+[47686.962689]
+[47686.962689]
+[47686.974232] wlan: [0:I:ANY] [ASSOC] vap-0(ath2): [06:03:7f:01:59:87]_ieee80211_node_leave, STA left,  decremented iv_sta_assoc(1)
+[47686.974232]
+[47686.988636] wlan: [0:I:ANY] [ASSOC] vap-0(ath2): [06:03:7f:01:59:87]ieee80211_sta_leave: 0x1a2a5a80
+[47686.988636]
+[47686.988636]
+[47687.001933] wlan: [0:I:ANY] [MLME] vap-0(ath1): [06:03:7f:63:a6:78]_ieee80211_node_leave: station with aid 48 leaves (refcnt 5)
+[47687.001933]
+[47687.001933]
+[47687.013820] wlan: [0:I:ANY] [ASSOC] vap-0(ath1): [06:03:7f:63:a6:78]_ieee80211_node_leave, STA left,  decremented iv_sta_assoc(1)
+[47687.013820]
+[47687.028312] wlan: [0:I:ANY] [ASSOC] vap-0(ath1): [06:03:7f:63:a6:78]ieee80211_sta_leave: 0x1a2a8080
+[47687.028312]
+[47687.028312]
+[47687.044262] wlan: [2076:I:ANY] [AUTH] vap-0(ath1): [06:03:7f:63:a6:78]wlan_cfg80211_change_station: unauthorize
+[47687.044262]
+[47687.046179] wlan: [0:I:ANY] [ASSOC] vap-0(ath2): [06:03:7f:01:59:87]station free
+[47687.046179]
+[47687.046179]
+[47687.053988] wlan: [0:I:ANY] [ASSOC] vap-0(ath1): [06:03:7f:63:a6:78]station free
+[47687.053988]
+[47687.053988]
+[47687.065232] wlan: [0:I:ANY] [ASSOC] vap-0(ath2): [06:03:7f:01:59:87]_ieee80211_free_node: vap=0x2d068000, peercount=3, ni=0x1a2a5a80, ni_bss_node=0x1a5c1280
+[47687.065232]
+[47687.065232]
+[47687.075385] wlan: [0:I:ANY] [ASSOC] vap-0(ath1): [06:03:7f:63:a6:78]_ieee80211_free_node: vap=0x2ced0000, peercount=3, ni=0x1a2a8080, ni_bss_node=0x2ce8ec80
+[47687.075385]
+[47687.075385]
+[47687.104613] wlan: [2076:I:ANY] [AUTH] vap-0(ath2): [06:03:7f:01:59:87]wlan_cfg80211_change_station: unauthorize
+[47687.104613]
+[47687.122121] wlan: [2076:I:ANY] [AUTH] vap-0(ath1): [06:03:7f:63:a6:78]wlan_cfg80211_change_station: unauthorize
+[47687.122121]
+[47687.131906] wlan: [2076:I:ANY] [AUTH] vap-0(ath1): [06:03:7f:63:a6:78]wlan_cfg80211_change_station: unauthorize
+[47687.131906]
+[47687.144029] wlan: [2076:I:ANY] [AUTH] vap-0(ath2): [06:03:7f:01:59:87]wlan_cfg80211_change_station: unauthorize
+[47687.144029]
+[47688.717752] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000df6de369, mac: 00:03:7f:12:42:37, refcnt: 8
+[47688.717752]
+[47688.722401] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 510, wbuf: 0x00000000876014be
+[47688.722401]
+[47688.732810] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000df6de369, mac: 00:03:7f:12:42:37, refcnt: 8
+[47688.732810]
+[47688.743452] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 510, wbuf: 0x000000005a7a7e04
+[47688.743452]
+[47688.861971] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000e24f70d1, mac: 00:03:7f:12:56:13, refcnt: 8
+[47688.861971]
+[47688.864501] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 510, wbuf: 0x00000000ac946f57
+[47688.864501]
+[47690.084400] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000e24f70d1, mac: 00:03:7f:12:56:13, refcnt: 8
+[47690.084400]
+[47690.086504] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 510, wbuf: 0x000000008d812743
+[47690.086504]
+[47690.229745] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000e24f70d1, mac: 00:03:7f:12:56:13, refcnt: 8
+[47690.229745]
+[47690.232036] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 510, wbuf: 0x00000000dfe14faf
+[47690.232036]
+[47690.280126] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000e24f70d1, mac: 00:03:7f:12:56:13, refcnt: 8
+[47690.280126]
+[47690.283056] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 510, wbuf: 0x00000000332647e0
+[47690.283056]
+[47691.954714] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000e24f70d1, mac: 00:03:7f:12:56:13, refcnt: 8
+[47691.954714]
+[47691.956776] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 510, wbuf: 0x00000000874dc8c4
+[47691.956776]
+[47694.718239] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000df6de369, mac: 00:03:7f:12:42:37, refcnt: 8
+[47694.718239]
+[47694.722054] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 510, wbuf: 0x00000000dd57dc64
+[47694.722054]
+[47694.738351] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000df6de369, mac: 00:03:7f:12:42:37, refcnt: 8
+[47694.738351]
+[47694.744973] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 510, wbuf: 0x0000000094c53b7f
+[47694.744973]
+[47696.924842] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000e24f70d1, mac: 00:03:7f:12:56:13, refcnt: 8
+[47696.924842]
+[47696.927024] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 510, wbuf: 0x00000000acfcffda
+[47696.927024]
+[47697.060989] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000df6de369, mac: 00:03:7f:12:42:37, refcnt: 8
+[47697.060989]
+[47697.065640] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 510, wbuf: 0x00000000c861835a
+[47697.065640]
+[47697.360638] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000e24f70d1, mac: 00:03:7f:12:56:13, refcnt: 8
+[47697.360638]
+[47697.361288] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000e24f70d1, mac: 00:03:7f:12:56:13, refcnt: 10
+[47697.361288]
+[47697.373628] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 510, wbuf: 0x00000000cbc48504
+[47697.373628]
+[47697.387203] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 509, wbuf: 0x00000000d3d7aad2
+[47697.387203]
+[47699.050094] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000df6de369, mac: 00:03:7f:12:42:37, refcnt: 8
+[47699.050094]
+[47699.053149] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 510, wbuf: 0x000000006a7630e9
+[47699.053149]
+[47699.070218] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000df6de369, mac: 00:03:7f:12:42:37, refcnt: 8
+[47699.070218]
+[47699.076598] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 510, wbuf: 0x00000000cd852336
+[47699.076598]
+[47699.108594] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000df6de369, mac: 00:03:7f:12:42:37, refcnt: 8
+[47699.108594]
+[47699.112977] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 510, wbuf: 0x000000000a74c60b
+[47699.112977]
+[47699.163863] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000df6de369, mac: 00:03:7f:12:42:37, refcnt: 8
+[47699.163863]
+[47699.165637] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 510, wbuf: 0x00000000751f87d8
+[47699.165637]
+[47699.520873] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000e24f70d1, mac: 00:03:7f:12:56:13, refcnt: 8
+[47699.520873]
+[47699.523328] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 509, wbuf: 0x000000000cf5da1d
+[47699.523328]
+[47699.570960] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000e24f70d1, mac: 00:03:7f:12:56:13, refcnt: 8
+[47699.570960]
+[47699.575730] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 509, wbuf: 0x000000007dee94be
+[47699.575730]
+[47700.150958] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000e24f70d1, mac: 00:03:7f:12:56:13, refcnt: 8
+[47700.150958]
+[47700.152567] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 509, wbuf: 0x000000005bb268fe
+[47700.152567]
+[47701.221811] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000df6de369, mac: 00:03:7f:12:42:37, refcnt: 8
+[47701.221811]
+[47701.225022] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 510, wbuf: 0x000000008656085a
+[47701.225022]
+[47702.481209] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000e24f70d1, mac: 00:03:7f:12:56:13, refcnt: 8
+[47702.481209]
+[47702.482889] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 509, wbuf: 0x00000000cb87e287
+[47702.482889]
+[47703.113411] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000e24f70d1, mac: 00:03:7f:12:56:13, refcnt: 8
+[47703.113411]
+[47703.116581] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 509, wbuf: 0x0000000031dfa98b
+[47703.116581]
+[47703.768911] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000e24f70d1, mac: 00:03:7f:12:56:13, refcnt: 8
+[47703.768911]
+[47703.770502] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 509, wbuf: 0x000000009238964a
+[47703.770502]
+[47704.031982] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000df6de369, mac: 00:03:7f:12:42:37, refcnt: 8
+[47704.031982]
+[47704.033035] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000e24f70d1, mac: 00:03:7f:12:56:13, refcnt: 8
+[47704.033035]
+[47704.037165] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 510, wbuf: 0x00000000672329b3
+[47704.037165]
+[47704.048810] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 509, wbuf: 0x000000002b13b258
+[47704.048810]
+[47708.861113] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000e24f70d1, mac: 00:03:7f:12:56:13, refcnt: 8
+[47708.861113]
+[47708.863662] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 509, wbuf: 0x000000006e60c4e0
+[47708.863662]
+[47708.911015] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000e24f70d1, mac: 00:03:7f:12:56:13, refcnt: 8
+[47708.911015]
+[47708.914160] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 509, wbuf: 0x000000004172bbdf
+[47708.914160]
+[47710.377065] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000e24f70d1, mac: 00:03:7f:12:56:13, refcnt: 8
+[47710.377065]
+[47710.379350] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 509, wbuf: 0x000000002a48c859
+[47710.379350]
+[47710.589630] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000df6de369, mac: 00:03:7f:12:42:37, refcnt: 8
+[47710.589630]
+[47710.595078] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 510, wbuf: 0x000000009ccd30f6
+[47710.595078]
+[47710.603268] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000df6de369, mac: 00:03:7f:12:42:37, refcnt: 8
+[47710.603268]
+[47710.618609] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 510, wbuf: 0x000000008e7c68c3
+[47710.618609]
+[47714.585746] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000e24f70d1, mac: 00:03:7f:12:56:13, refcnt: 8
+[47714.585746]
+[47714.588131] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 509, wbuf: 0x00000000ad6a177c
+[47714.588131]
+[47714.864167] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000df6de369, mac: 00:03:7f:12:42:37, refcnt: 8
+[47714.864167]
+[47714.868674] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 510, wbuf: 0x00000000eafe1d19
+[47714.868674]
+[47714.877930] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000df6de369, mac: 00:03:7f:12:42:37, refcnt: 8
+[47714.877930]
+[47714.892152] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 510, wbuf: 0x00000000bb7d69c8
+[47714.892152]
+[47715.077240] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000e24f70d1, mac: 00:03:7f:12:56:13, refcnt: 8
+[47715.077240]
+[47715.078876] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 509, wbuf: 0x000000009b9d3a6b
+[47715.078876]
+[47715.383615] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000e24f70d1, mac: 00:03:7f:12:56:13, refcnt: 8
+[47715.383615]
+[47715.385877] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 509, wbuf: 0x00000000fb3e67ad
+[47715.385877]
+[47715.818063] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000e24f70d1, mac: 00:03:7f:12:56:13, refcnt: 8
+[47715.818063]
+[47715.819569] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 509, wbuf: 0x00000000a7a539d5
+[47715.819569]
+[47716.205868] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000df6de369, mac: 00:03:7f:12:42:37, refcnt: 8
+[47716.205868]
+[47716.210529] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 510, wbuf: 0x000000000ef98f1e
+[47716.210529]
+[47716.292441] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000e24f70d1, mac: 00:03:7f:12:56:13, refcnt: 8
+[47716.292441]
+[47716.294634] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 509, wbuf: 0x00000000443ed5f7
+[47716.294634]
+[47717.177910] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000e24f70d1, mac: 00:03:7f:12:56:13, refcnt: 8
+[47717.177910]
+[47717.179543] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 509, wbuf: 0x00000000b5dec63f
+[47717.179543]
+[47717.356404] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000df6de369, mac: 00:03:7f:12:42:37, refcnt: 8
+[47717.356404]
+[47717.361704] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 510, wbuf: 0x0000000093e380ac
+[47717.361704]
+[47717.627594] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000e24f70d1, mac: 00:03:7f:12:56:13, refcnt: 8
+[47717.627594]
+[47717.629991] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 509, wbuf: 0x00000000bb6dcb1e
+[47717.629991]
+[47718.099695] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000e24f70d1, mac: 00:03:7f:12:56:13, refcnt: 8
+[47718.099695]
+[47718.102013] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 509, wbuf: 0x000000001c6f7f16
+[47718.102013]
+[47718.149680] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000e24f70d1, mac: 00:03:7f:12:56:13, refcnt: 8
+[47718.149680]
+[47718.151973] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 509, wbuf: 0x000000008656085a
+[47718.151973]
+[47719.878280] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000e24f70d1, mac: 00:03:7f:12:56:13, refcnt: 8
+[47719.878280]
+[47719.880949] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 509, wbuf: 0x0000000020c36d96
+[47719.880949]
+[47721.277135] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000e24f70d1, mac: 00:03:7f:12:56:13, refcnt: 8
+[47721.277135]
+[47721.277647] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000e24f70d1, mac: 00:03:7f:12:56:13, refcnt: 10
+[47721.277647]
+[47721.290147] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 509, wbuf: 0x000000008618b438
+[47721.290147]
+[47721.303667] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 510, wbuf: 0x00000000f439150a
+[47721.303667]
+[47721.322760] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000e24f70d1, mac: 00:03:7f:12:56:13, refcnt: 9
+[47721.322760]
+[47721.327338] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000e24f70d1, mac: 00:03:7f:12:56:13, refcnt: 10
+[47721.327338]
+[47721.341248] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000e24f70d1, mac: 00:03:7f:12:56:13, refcnt: 12
+[47721.341248]
+[47721.354708] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 510, wbuf: 0x0000000095bea022
+[47721.354708]
+[47721.368248] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 509, wbuf: 0x0000000090932403
+[47721.368248]
+[47721.380224] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 511, wbuf: 0x00000000e8594e39
+[47721.380224]
+[47721.426291] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000e24f70d1, mac: 00:03:7f:12:56:13, refcnt: 9
+[47721.426291]
+[47721.429100] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 511, wbuf: 0x0000000012c8e93a
+[47721.429100]
+[47722.716035] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000e24f70d1, mac: 00:03:7f:12:56:13, refcnt: 8
+[47722.716035]
+[47722.718314] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 511, wbuf: 0x00000000de956b7b
+[47722.718314]
+[47722.985349] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000df6de369, mac: 00:03:7f:12:42:37, refcnt: 8
+[47722.985349]
+[47722.990661] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 510, wbuf: 0x0000000040ce23a2
+[47722.990661]
+[47723.870567] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000df6de369, mac: 00:03:7f:12:42:37, refcnt: 8
+[47723.870567]
+[47723.875154] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 510, wbuf: 0x000000002736a130
+[47723.875154]
+[47723.955550] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000e24f70d1, mac: 00:03:7f:12:56:13, refcnt: 8
+[47723.955550]
+[47723.957205] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 511, wbuf: 0x000000005e5d3133
+[47723.957205]
+[47724.143334] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000df6de369, mac: 00:03:7f:12:42:37, refcnt: 8
+[47724.143334]
+[47724.147923] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 510, wbuf: 0x0000000086b221a1
+[47724.147923]
+[47724.349202] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000e24f70d1, mac: 00:03:7f:12:56:13, refcnt: 8
+[47724.349202]
+[47724.350866] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 511, wbuf: 0x000000000fbfd0b8
+[47724.350866]
+[47724.391479] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000df6de369, mac: 00:03:7f:12:42:37, refcnt: 8
+[47724.391479]
+[47724.392007] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000df6de369, mac: 00:03:7f:12:42:37, refcnt: 10
+[47724.392007]
+[47724.404947] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 510, wbuf: 0x000000002aab8af9
+[47724.404947]
+[47724.418565] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 509, wbuf: 0x00000000f6ee96d1
+[47724.418565]
+[47724.441086] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000df6de369, mac: 00:03:7f:12:42:37, refcnt: 8
+[47724.441086]
+[47724.441676] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000df6de369, mac: 00:03:7f:12:42:37, refcnt: 10
+[47724.441676]
+[47724.456617] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000df6de369, mac: 00:03:7f:12:42:37, refcnt: 13
+[47724.456617]
+[47724.468952] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 509, wbuf: 0x00000000f6ee96d1
+[47724.468952]
+[47724.482618] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 510, wbuf: 0x000000006b1bf76c
+[47724.482618]
+[47724.494133] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 511, wbuf: 0x00000000db213bf5
+[47724.494133]
+[47724.656616] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000df6de369, mac: 00:03:7f:12:42:37, refcnt: 8
+[47724.656616]
+[47724.661129] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 511, wbuf: 0x00000000eeae2f9f
+[47724.661129]
+[47726.921090] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000e24f70d1, mac: 00:03:7f:12:56:13, refcnt: 9
+[47726.921090]
+[47726.922895] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 511, wbuf: 0x00000000295dfffd
+[47726.922895]
+[47726.933989] wlan: [0:D:MGMT_TXRX] tgt_mgmt_txrx_rx_frame_handler: Rcvd mgmt frame subtype b0 (frame type 9) from 06:03:7f:01:59:87, seq_num = 1, rssi = -34 tsf_delta: 0
+[47726.945426] wlan: [0:I:ANY] [AUTH] vap-0(ath2): [06:03:7f:01:59:87]recv auth frame with algorithm 0 seq 1
+[47726.945426]
+[47726.945426]
+[47726.960944] wlan: [0:I:ANY] [ASSOC] vap-0(ath2): [06:03:7f:01:59:87]ieee80211_alloc_node: vap=0x2d068000, peercount=3, ni=0x19de4880, ni_bss_node=0x19de4880 bss_ref=2
+[47726.960944]
+[47726.960944]
+[47726.974761] wlan: [2076:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 176, ni: 0x000000002340289e, mac: 06:03:7f:01:59:87, refcnt: 4
+[47726.974761]
+[47726.991776] wlan: [2076:I:ANY] [AUTH] vap-0(ath2): [06:03:7f:01:59:87]wlan_cfg80211_change_station: unauthorize
+[47726.991776]
+[47726.992639] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 511, wbuf: 0x0000000017f089a6
+[47726.992639]
+[47727.005054] wlan: [2076:I:ANY] [AUTH] vap-0(ath2): [06:03:7f:01:59:87]ol_ath_node_authorize: authorize:0
+[47727.005054]
+[47727.016578] wlan: [0:I:ANY] [AUTH] vap-0(ath2): [06:03:7f:01:59:87]ieee80211_mgmt_auth_frame_complete_handler: AUTH frame completion handler for ni=0x000000002340289e
+[47727.016578]
+[47727.039298] wlan: [0:D:MGMT_TXRX] tgt_mgmt_txrx_rx_frame_handler: Rcvd mgmt frame subtype 0 (frame type 0) from 06:03:7f:01:59:87, seq_num = 2, rssi = -33 tsf_delta: 0
+[47727.055365] wlan: [0:I:ANY] [MLME] vap-0(ath2):QCN_IE Version|0x1|0x0|, reject code |0x0|
+[47727.055365] Q2Q Feature Capability info: VHT MCS10/11 supp: 0x3, HE 400ns SGI support(B0-B1) | HE 2X LTF supp for 160/80+80(B2) | HE DLOFDMA support(B3) | HE DL MUMIMO support(B4): 0x2fHE MCS12/13 supp: 0
+[47727.088747] wlan: [0:I:ANY] [MLME] vap-0(ath2): [06:03:7f:01:59:87]Negotiated: txrates = fffa rxrates = fffa
+[47727.088747]
+[47727.096665] wlan: [0:I:ANY] [ASSOC] vap-0(ath2): [06:03:7f:01:59:87]Received assoc req
+[47727.096665]
+[47727.108071] wlan: [0:I:ANY] [MLME] vap-0(ath2): [06:03:7f:01:59:87]ieee80211_mlme_recv_assoc_request
+[47727.108071]
+[47727.117268] wlan: [0:I:ANY] [ASSOC] vap-0(ath2): [06:03:7f:01:59:87]ieee80211_node_join: Number of associated STAs: 1
+[47727.117268]
+[47727.128035] wlan: [0:I:ANY] [ASSOC] vap-0(ath2): [06:03:7f:01:59:87]ieee80211_node_join: STA joined, incremented iv_sta_assoc(2)
+[47727.128035]
+[47727.140030] wlan: [0:I:ANY] [ASSOC] vap-0(ath2): [06:03:7f:01:59:87]ieee80211_node_join: STA joined, incremented iv_sta_assoc(2), ic_sta_assoc=2, peer count=3
+[47727.140030]
+[47727.153199] wlan: [0:I:MLO_MGR] mlo_peer_allocate_primary_umac: MLD ID 0 ML Peer 00:04:3d:22:4d:22 avg RSSI -30 primary umac soc 1
+[47727.168932] wlan: [0:I:ANY] [ASSOC] vap-0(ath1): [06:03:7f:63:a6:78]ieee80211_alloc_node: vap=0x2ced0000, peercount=3, ni=0x2df6ec80, ni_bss_node=0x2df6ec80 bss_ref=2
+[47727.168932]
+[47727.168932]
+[47727.180620] wlan: [0:I:ANY] [MLME] vap-0(ath1):QCN_IE Version|0x1|0x0|, reject code |0x0|
+[47727.180620] Q2Q Feature Capability info: VHT MCS10/11 supp: 0x3, HE 400ns SGI support(B0-B1) | HE 2X LTF supp for 160/80+80(B2) | HE DLOFDMA support(B3) | HE DL MUMIMO support(B4): 0x2fHE MCS12/13 supp: 0
+[47727.212182] wlan: [0:I:ANY] [MLME] vap-0(ath1): [06:03:7f:63:a6:78]Negotiated: txrates = fffa rxrates = fffa
+[47727.212182]
+[47727.224691] wlan: [0:I:ANY] [ASSOC] vap-0(ath1): [06:03:7f:63:a6:78]Received assoc req
+[47727.224691]
+[47727.236113] wlan: [0:I:ANY] [MLME] vap-0(ath1): [06:03:7f:63:a6:78]ieee80211_mlme_recv_assoc_request
+[47727.236113]
+[47727.245306] wlan: [0:I:ANY] [ASSOC] vap-0(ath1): [06:03:7f:63:a6:78]ieee80211_node_join: Number of associated STAs: 1
+[47727.245306]
+[47727.256089] wlan: [0:I:ANY] [ASSOC] vap-0(ath1): [06:03:7f:63:a6:78]ieee80211_node_join: STA joined, incremented iv_sta_assoc(2)
+[47727.256089]
+[47727.268094] wlan: [0:I:ANY] [ASSOC] vap-0(ath1): [06:03:7f:63:a6:78]ieee80211_node_join: STA joined, incremented iv_sta_assoc(2), ic_sta_assoc=2, peer count=3
+[47727.268094]
+[47727.281195] wlan: [0:I:ANY] [MLME] vap-0(ath1): [06:03:7f:63:a6:78]station associated at aid 0: short preamble, short slot time, QoSHE40 cap 0x501
+[47727.281195]
+[47727.281195]
+[47727.296879] wlan: [0:I:MLO_MGR] wlan_mlo_peer_create: MLD ID 0 ML Peer 00:04:3d:22:4d:22 allocated 000000001ecf26e8
+[47727.312970] wlan: [0:I:ANY] [MLME] vap-0(ath2): [06:03:7f:01:59:87]station associated at aid 48: short preamble, short slot time, QoSHE40 cap 0x511
+[47727.312970]
+[47727.312970]
+[47727.324533] wlan: [2076:I:ANY] [AUTH] vap-0(ath2): [06:03:7f:01:59:87]wlan_cfg80211_change_station: unauthorize
+[47727.324533]
+[47727.339548] wlan: [2076:I:ANY] [AUTH] vap-0(ath2): [06:03:7f:01:59:87]ol_ath_node_authorize: authorize:0
+[47727.339548]
+[47727.351483] wlan: [2076:I:ANY] [ASSOC] vap-0(ath2): [06:03:7f:01:59:87][wlan_cfg80211_mgmt_tx] (Re)Assoc Resp
+[47727.351483]
+[47727.361954] wlan: [2076:I:ANY] [MLME] vap-0(ath2): [06:03:7f:01:59:87]wlan_mlme_assoc_resp reason 0 reassoc 0
+[47727.361954]
+[47727.361954]
+[47727.373197] wlan: [2076:I:ANY] [ASSOC] vap-0(ath2): [06:03:7f:01:59:87]ol_ath_send_peer_assoc HE MAC Capabilities info: All bits are 0
+[47727.373197]
+[47727.386296] wlan: [2076:I:ANY] [ASSOC] vap-0(ath2): [06:03:7f:01:59:87]ol_ath_send_peer_assoc VHT Caps=3381f9f6 HT Caps=9ef RX MCS=fffa TX MCS=103fffa
+[47727.386296]
+[47727.388959] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000e24f70d1, mac: 00:03:7f:12:56:13, refcnt: 10
+[47727.388959]
+[47727.399601] wlan: [2076:I:ANY] [ASSOC] vap-0(ath2): [06:03:7f:01:59:87]ol_ath_send_peer_assoc 11ax Param OPS=0  MACInfo[0]=9a08010d MACInfo[1]=1840 MCS_cnt=2 TX_MCS[80]=3fffa TX_MCS[160]=3fffa TX_MCS[80_80]=0 RX_MCS[80]=3fffa RX_MCS[160]=3fffa RX_MCS[80_80]=0 Phyinfo[0]=8940630c Phyinf
+[47727.399601]
+[47727.418593] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 511, wbuf: 0x0000000070d96723
+[47727.418593]
+[47727.432917] wlan: [2076:I:ANY] [ASSOC] vap-0(ath2): [06:03:7f:01:59:87]ol_ath_send_peer_assoc 6GHz Caps: 0 Q2Q PHY Feature Support=2f Peer NSS = 2
+[47727.432917]  Max BSS Idle Option: Protected flag= 0
+[47727.432917]
+[47727.455530] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000e24f70d1, mac: 00:03:7f:12:56:13, refcnt: 10
+[47727.455530]
+[47727.466769] wlan: [2076:I:ANY] [ASSOC] vap-0(ath2): [06:03:7f:01:59:87]fill_assoc_11be_params eht mcs nss set:  320MHz rx 0x0 tx 0x0160MHz rx 0x2222 tx 0x2222 80/20 rx 0x2222 tx 0x2222
+[47727.466769]
+[47727.488838] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 511, wbuf: 0x00000000a2481343
+[47727.488838]
+[47727.500299] wlan: [2076:I:ANY] [ASSOC] vap-0(ath2): [06:03:7f:01:59:87]ol_ath_send_peer_assoc ni phymode=42 peer phymode=28
+[47727.500299]
+[47727.529508] wlan: [2076:I:ANY] [ASSOC] vap-0(ath2): [06:03:7f:01:59:87]ol_ath_send_peer_assoc sending wmi peer assoc, isnew:1
+[47727.529508]
+[47727.542347] wlan: [0:D:MGMT_TXRX] tgt_mgmt_txrx_rx_frame_handler: Rcvd mgmt frame subtype 0 (frame type 0) from 06:03:7f:01:59:87, seq_num = 3, rssi = -33 tsf_delta: 0
+[47727.542436] wlan: [2076:I:ANY] [ASSOC] vap-0(ath1): [06:03:7f:63:a6:78]ol_ath_send_peer_assoc HE MAC Capabilities info: All bits are 0
+[47727.542436]
+[47727.554915] wlan: [0:I:ANY] [ASSOC] vap-0(ath2): [06:03:7f:01:59:87]recv another assoc frame when previous is in progress
+[47727.554915]
+[47727.569716] wlan: [2076:I:ANY] [ASSOC] vap-0(ath1): [06:03:7f:63:a6:78]ol_ath_send_peer_assoc VHT Caps=3381f9f6 HT Caps=9ef RX MCS=fffa TX MCS=103fffa
+[47727.569716]
+[47727.595762] wlan: [2076:I:ANY] [ASSOC] vap-0(ath1): [06:03:7f:63:a6:78]ol_ath_send_peer_assoc 11ax Param OPS=0  MACInfo[0]=9a08010d MACInfo[1]=1840 MCS_cnt=2 TX_MCS[80]=3fffa TX_MCS[160]=3fffa TX_MCS[80_80]=0 RX_MCS[80]=3fffa RX_MCS[160]=3fffa RX_MCS[80_80]=0 Phyinfo[0]=8940630c Phyinf
+[47727.595762]
+[47727.615198] wlan: [2076:I:ANY] [ASSOC] vap-0(ath1): [06:03:7f:63:a6:78]ol_ath_send_peer_assoc 6GHz Caps: 0 Q2Q PHY Feature Support=2f Peer NSS = 2
+[47727.615198]  Max BSS Idle Option: Protected flag= 0
+[47727.615198]
+[47727.637374] wlan: [2076:I:ANY] [ASSOC] vap-0(ath1): [06:03:7f:63:a6:78]fill_assoc_11be_params eht mcs nss set:  320MHz rx 0x0 tx 0x0160MHz rx 0x2222 tx 0x2222 80/20 rx 0x2222 tx 0x2222
+[47727.637374]
+[47727.656860] wlan: [2076:I:ANY] [ASSOC] vap-0(ath1): [06:03:7f:63:a6:78]ol_ath_send_peer_assoc ni phymode=42 peer phymode=28
+[47727.656860]
+[47727.674831] wlan: [2076:I:ANY] [ASSOC] vap-0(ath1): [06:03:7f:63:a6:78]ol_ath_send_peer_assoc sending wmi peer assoc, isnew:1
+[47727.674831]
+[47727.688104] wlan: [2076:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 16, ni: 0x000000002340289e, mac: 06:03:7f:01:59:87, refcnt: 6
+[47727.688104]
+[47727.702290] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 511, wbuf: 0x000000007b355d02
+[47727.702290]
+[47727.713893] wlan: [0:I:ANY] [ASSOC] vap-0(ath2): [06:03:7f:01:59:87]ieee80211_mlme_frame_complete_handler: frame 16 send to 06:03:7f:01:59:87, delayed_clean: 0, leve_ongoing: 0 ts flags 00000000
+[47727.713893]
+[47727.726884] wlan: [2076:I:ANY] [AUTH] vap-0(ath2): [06:03:7f:01:59:87]wlan_cfg80211_change_station: unauthorize
+[47727.726884]
+[47727.744400] wlan: [2076:I:ANY] [AUTH] vap-0(ath2): [06:03:7f:01:59:87]ol_ath_node_authorize: authorize:0
+[47727.744400]
+[47727.756623] wlan: [2076:I:ANY] [AUTH] vap-0(ath1): [06:03:7f:63:a6:78]wlan_cfg80211_change_station: unauthorize
+[47727.756623]
+[47727.767060] wlan: [2076:I:ANY] [AUTH] vap-0(ath1): [06:03:7f:63:a6:78]ol_ath_node_authorize: authorize:0
+[47727.767060]
+[47727.778869] wlan: [2076:I:ANY] [AUTH] vap-0(ath2): [06:03:7f:01:59:87]wlan_cfg80211_change_station: unauthorize
+[47727.778869]
+[47727.789513] wlan: [2076:I:ANY] [AUTH] vap-0(ath2): [06:03:7f:01:59:87]ol_ath_node_authorize: authorize:0
+[47727.789513]
+[47727.802490] wlan: [2076:I:ANY] [AUTH] vap-0(ath2): [06:03:7f:01:59:87]wlan_cfg80211_change_station: unauthorize
+[47727.802490]
+[47727.812013] wlan: [2076:I:ANY] [AUTH] vap-0(ath2): [06:03:7f:01:59:87]ol_ath_node_authorize: authorize:0
+[47727.812013]
+[47727.823815] wlan: [2076:I:ANY] [AUTH] vap-0(ath1): [06:03:7f:63:a6:78]wlan_cfg80211_change_station: unauthorize
+[47727.823815]
+[47727.834485] wlan: [2076:I:ANY] [AUTH] vap-0(ath1): [06:03:7f:63:a6:78]ol_ath_node_authorize: authorize:0
+[47727.834485]
+[47728.368967] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x000000001773a76e, mac: 06:03:7f:63:a6:78, refcnt: 6
+[47728.368967]
+[47728.370666] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 511, wbuf: 0x00000000038a41e0
+[47728.370666]
+[47730.029002] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000df6de369, mac: 00:03:7f:12:42:37, refcnt: 10
+[47730.029002]
+[47730.034164] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 511, wbuf: 0x000000004cf7ee6d
+[47730.034164]
+[47730.050212] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000df6de369, mac: 00:03:7f:12:42:37, refcnt: 10
+[47730.050212]
+[47730.057133] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 511, wbuf: 0x00000000d7fa0add
+[47730.057133]
+[47730.705113] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000e24f70d1, mac: 00:03:7f:12:56:13, refcnt: 10
+[47730.705113]
+[47730.707338] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 511, wbuf: 0x00000000d42ce8bd
+[47730.707338]
+[47730.909912] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000df6de369, mac: 00:03:7f:12:42:37, refcnt: 10
+[47730.909912]
+[47730.916666] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 511, wbuf: 0x00000000c27602be
+[47730.916666]
+[47730.923384] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000df6de369, mac: 00:03:7f:12:42:37, refcnt: 10
+[47730.923384]
+[47730.938009] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 511, wbuf: 0x000000008e7e1e91
+[47730.938009]
+[47731.852039] wlan: [2076:I:ANY] [ASSOC] vap-0(ath2):ieee80211_try_mark_node_for_delayed_cleanup: ni: 0x000000002340289e, mac: 06:03:7f:01:59:87, marked:1, vapid: 0
+[47731.852039]
+[47731.852117] wlan: [2076:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 192, ni: 0x000000002340289e, mac: 06:03:7f:01:59:87, refcnt: 5
+[47731.852117]
+[47731.867733] wlan: [2076:I:ANY] [AUTH] vap-0(ath2): [06:03:7f:01:59:87]wlan_cfg80211_change_station: unauthorize
+[47731.867733]
+[47731.869081] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 511, wbuf: 0x00000000ef2e1297
+[47731.869081]
+[47731.881192] wlan: [2076:I:ANY] [AUTH] vap-0(ath2): [06:03:7f:01:59:87]ol_ath_node_authorize: authorize:0
+[47731.881192]
+[47731.883875] wlan: [0:D:MGMT_TXRX] tgt_mgmt_txrx_rx_frame_handler: Rcvd mgmt frame subtype a0 (frame type 8) from 06:03:7f:63:a6:78, seq_num = 2, rssi = -46 tsf_delta: 0
+[47731.883931] wlan: [0:I:ANY] [ASSOC] vap-0(ath1): [06:03:7f:63:a6:78]Received Disassoc with reason 8
+[47731.883931]
+[47731.883956] wlan: [0:I:ANY] [MLME] vap-0(ath1): [06:03:7f:63:a6:78]ieee80211_mlme_recv_disassoc
+[47731.883956]
+[47731.883956]
+[47731.883990] wlan: [0:I:ANY] [MLME] vap-0(ath2): [06:03:7f:01:59:87]_ieee80211_node_leave: station with aid 48 leaves (refcnt 7)
+[47731.883990]
+[47731.883990]
+[47731.884019] wlan: [0:I:ANY] [ASSOC] vap-0(ath2): [06:03:7f:01:59:87]_ieee80211_node_leave, STA left,  decremented iv_sta_assoc(1)
+[47731.884019]
+[47731.884056] wlan: [0:I:ANY] [ASSOC] vap-0(ath2): [06:03:7f:01:59:87]ieee80211_sta_leave: 0x19de4880
+[47731.884056]
+[47731.884056]
+[47731.884289] wlan: [0:I:ANY] [MLME] vap-0(ath1): [06:03:7f:63:a6:78]_ieee80211_node_leave: station with aid 48 leaves (refcnt 5)
+[47731.884289]
+[47731.884289]
+[47731.884318] wlan: [0:I:ANY] [ASSOC] vap-0(ath1): [06:03:7f:63:a6:78]_ieee80211_node_leave, STA left,  decremented iv_sta_assoc(1)
+[47731.884318]
+[47731.884350] wlan: [0:I:ANY] [ASSOC] vap-0(ath1): [06:03:7f:63:a6:78]ieee80211_sta_leave: 0x2df6ec80
+[47731.884350]
+[47731.884350]
+[47731.888106] wlan: [0:I:ANY] [ASSOC] vap-0(ath1): [06:03:7f:63:a6:78]station free
+[47731.888106]
+[47731.888106]
+[47731.888141] wlan: [0:I:ANY] [ASSOC] vap-0(ath1): [06:03:7f:63:a6:78]_ieee80211_free_node: vap=0x2ced0000, peercount=3, ni=0x2df6ec80, ni_bss_node=0x2ce8ec80
+[47731.888141]
+[47731.888141]
+[47731.892714] wlan: [0:I:ANY] [ASSOC] vap-0(ath2): [06:03:7f:01:59:87]ieee80211_mlme_frame_complete_handler: frame 192 send to 06:03:7f:01:59:87, delayed_clean: 1, leve_ongoing: 1 ts flags 00000000
+[47731.892714]
+[47731.905920] wlan: [2076:I:ANY] [AUTH] vap-0(ath2): [06:03:7f:01:59:87]wlan_cfg80211_change_station: unauthorize
+[47731.905920]
+[47731.916017] wlan: [0:D:MGMT_TXRX] tgt_mgmt_txrx_rx_frame_handler: Rcvd mgmt frame subtype a0 (frame type 8) from 06:03:7f:01:59:87, seq_num = 5, rssi = -31 tsf_delta: 0
+[47731.930587] wlan: [2076:I:ANY] [AUTH] vap-0(ath1): [06:03:7f:63:a6:78]wlan_cfg80211_change_station: unauthorize
+[47731.930587]
+[47731.940862] wlan: [0:I:ANY] [MLME] vap-0(ath2):Dropping mgmt frame with subtype 160 recevied in self peer
+[47731.940862]
+[47731.949912] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000df6de369, mac: 00:03:7f:12:42:37, refcnt: 8
+[47731.949912]
+[47731.950513] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000df6de369, mac: 00:03:7f:12:42:37, refcnt: 10
+[47731.950513]
+[47731.953435] wlan: [2076:I:ANY] [AUTH] vap-0(ath2): [06:03:7f:01:59:87]wlan_cfg80211_change_station: unauthorize
+[47731.953435]
+[47731.955886] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 511, wbuf: 0x000000007ba8bd07
+[47731.955886]
+[47731.956976] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 510, wbuf: 0x000000004fe08e69
+[47731.956976]
+[47731.967368] wlan: [0:I:ANY] [ASSOC] vap-0(ath2): [06:03:7f:01:59:87]station free
+[47731.967368]
+[47731.967368]
+[47731.981231] wlan: [2076:I:ANY] [AUTH] vap-0(ath2): [06:03:7f:01:59:87]wlan_cfg80211_change_station: unauthorize
+[47731.981231]
+[47731.991982] wlan: [0:I:ANY] [ASSOC] vap-0(ath2): [06:03:7f:01:59:87]_ieee80211_free_node: vap=0x2d068000, peercount=3, ni=0x19de4880, ni_bss_node=0x1a5c1280
+[47731.991982]
+[47731.991982]
+[47732.006705] wlan: [2076:I:ANY] [AUTH] vap-0(ath1): [06:03:7f:63:a6:78]wlan_cfg80211_change_station: unauthorize
+[47732.006705]
+[47732.170841] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000df6de369, mac: 00:03:7f:12:42:37, refcnt: 8
+[47732.170841]
+[47732.177325] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000e24f70d1, mac: 00:03:7f:12:56:13, refcnt: 8
+[47732.177325]
+[47732.177833] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000e24f70d1, mac: 00:03:7f:12:56:13, refcnt: 10
+[47732.177833]
+[47732.177881] wlan: [2076:I:ANY] [AUTH] vap-0(ath2): [06:03:7f:01:59:87]wlan_cfg80211_change_station: unauthorize
+[47732.177881]
+[47732.178187] wlan: [2076:I:ANY] [AUTH] vap-0(ath1): [06:03:7f:63:a6:78]wlan_cfg80211_change_station: unauthorize
+[47732.178187]
+[47732.190245] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000df6de369, mac: 00:03:7f:12:42:37, refcnt: 10
+[47732.190245]
+[47732.199986] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 511, wbuf: 0x00000000b27984a4
+[47732.199986]
+[47732.212894] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 510, wbuf: 0x00000000972e5d9e
+[47732.212894]
+[47732.228843] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 509, wbuf: 0x00000000e551576f
+[47732.228843]
+[47732.242193] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 511, wbuf: 0x00000000992436d7
+[47732.242193]
+[47732.353617] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000df6de369, mac: 00:03:7f:12:42:37, refcnt: 8
+[47732.353617]
+[47732.365109] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000df6de369, mac: 00:03:7f:12:42:37, refcnt: 10
+[47732.365109]
+[47732.379253] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000df6de369, mac: 00:03:7f:12:42:37, refcnt: 13
+[47732.379253]
+[47732.393106] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 511, wbuf: 0x000000006f08693c
+[47732.393106]
+[47732.406378] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 510, wbuf: 0x00000000cba55fdc
+[47732.406378]
+[47732.417683] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 509, wbuf: 0x00000000e0935eca
+[47732.417683]
+[47732.792950] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000e24f70d1, mac: 00:03:7f:12:56:13, refcnt: 9
+[47732.792950]
+[47732.798327] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 509, wbuf: 0x00000000d45697f2
+[47732.798327]
+[47732.824395] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000e24f70d1, mac: 00:03:7f:12:56:13, refcnt: 8
+[47732.824395]
+[47732.824848] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000e24f70d1, mac: 00:03:7f:12:56:13, refcnt: 10
+[47732.824848]
+[47732.837468] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 509, wbuf: 0x00000000ed94f0c7
+[47732.837468]
+[47732.851044] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 511, wbuf: 0x0000000015e9af8d
+[47732.851044]
+[47732.874470] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000e24f70d1, mac: 00:03:7f:12:56:13, refcnt: 8
+[47732.874470]
+[47732.874875] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000e24f70d1, mac: 00:03:7f:12:56:13, refcnt: 10
+[47732.874875]
+[47732.888393] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 511, wbuf: 0x000000008bedf1a1
+[47732.888393]
+[47732.901930] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 509, wbuf: 0x0000000090932403
+[47732.901930]
+[47732.913825] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000e24f70d1, mac: 00:03:7f:12:56:13, refcnt: 9
+[47732.913825]
+[47732.929906] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 509, wbuf: 0x000000002e0ff651
+[47732.929906]
+[47732.996365] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000e24f70d1, mac: 00:03:7f:12:56:13, refcnt: 9
+[47732.996365]
+[47733.001409] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 509, wbuf: 0x0000000077bd05d4
+[47733.001409]
+[47733.622618] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000df6de369, mac: 00:03:7f:12:42:37, refcnt: 8
+[47733.622618]
+[47733.627257] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 509, wbuf: 0x0000000020841351
+[47733.627257]
+[47733.640167] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000df6de369, mac: 00:03:7f:12:42:37, refcnt: 8
+[47733.640167]
+[47733.649054] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 509, wbuf: 0x000000007efd51c8
+[47733.649054]
+[47733.817836] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000e24f70d1, mac: 00:03:7f:12:56:13, refcnt: 8
+[47733.817836]
+[47733.820274] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 509, wbuf: 0x000000003d878504
+[47733.820274]
+[47734.527876] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000df6de369, mac: 00:03:7f:12:42:37, refcnt: 8
+[47734.527876]
+[47734.530674] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 509, wbuf: 0x0000000097fba4f9
+[47734.530674]
+[47734.544856] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000df6de369, mac: 00:03:7f:12:42:37, refcnt: 8
+[47734.544856]
+[47734.553590] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 509, wbuf: 0x000000003192ba22
+[47734.553590]
+[47734.658811] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000e24f70d1, mac: 00:03:7f:12:56:13, refcnt: 8
+[47734.658811]
+[47734.661226] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 509, wbuf: 0x0000000028aa0263
+[47734.661226]
+[47735.684227] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000e24f70d1, mac: 00:03:7f:12:56:13, refcnt: 8
+[47735.684227]
+[47735.686474] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 509, wbuf: 0x0000000037707dea
+[47735.686474]
+[47735.961576] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000df6de369, mac: 00:03:7f:12:42:37, refcnt: 8
+[47735.961576]
+[47735.966246] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 509, wbuf: 0x00000000d0e166ee
+[47735.966246]
+[47735.976933] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000df6de369, mac: 00:03:7f:12:42:37, refcnt: 8
+[47735.976933]
+[47735.987314] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 509, wbuf: 0x00000000ff5c7e13
+[47735.987314]
+[47736.727326] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000e24f70d1, mac: 00:03:7f:12:56:13, refcnt: 8
+[47736.727326]
+[47736.731350] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 509, wbuf: 0x00000000b3f66496
+[47736.731350]
+[47736.777411] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000e24f70d1, mac: 00:03:7f:12:56:13, refcnt: 8
+[47736.777411]
+[47736.780368] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 509, wbuf: 0x00000000e75b7e79
+[47736.780368]
+[47736.790744] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000e24f70d1, mac: 00:03:7f:12:56:13, refcnt: 9
+[47736.790744]
+[47736.801935] wlan: [0:D:MGMT_TXRX] tgt_mgmt_txrx_rx_frame_handler: Rcvd mgmt frame subtype b0 (frame type 9) from 06:03:7f:01:59:87, seq_num = 1, rssi = -30 tsf_delta: 0
+[47736.815577] wlan: [0:I:ANY] [AUTH] vap-0(ath2): [06:03:7f:01:59:87]recv auth frame with algorithm 0 seq 1
+[47736.815577]
+[47736.815577]
+[47736.830896] wlan: [0:I:ANY] [ASSOC] vap-0(ath2): [06:03:7f:01:59:87]ieee80211_alloc_node: vap=0x2d068000, peercount=3, ni=0x1ac5ec80, ni_bss_node=0x1ac5ec80 bss_ref=2
+[47736.830896]
+[47736.830896]
+[47736.844004] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 509, wbuf: 0x000000005dbf98e4
+[47736.844004]
+[47736.844642] wlan: [2076:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 176, ni: 0x00000000e2df201a, mac: 06:03:7f:01:59:87, refcnt: 4
+[47736.844642]
+[47736.873333] wlan: [2076:I:ANY] [AUTH] vap-0(ath2): [06:03:7f:01:59:87]wlan_cfg80211_change_station: unauthorize
+[47736.873333]
+[47736.873828] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 511, wbuf: 0x000000000df8a997
+[47736.873828]
+[47736.886731] wlan: [2076:I:ANY] [AUTH] vap-0(ath2): [06:03:7f:01:59:87]ol_ath_node_authorize: authorize:0
+[47736.886731]
+[47736.898251] wlan: [0:I:ANY] [AUTH] vap-0(ath2): [06:03:7f:01:59:87]ieee80211_mgmt_auth_frame_complete_handler: AUTH frame completion handler for ni=0x00000000e2df201a
+[47736.898251]
+[47736.921116] wlan: [0:D:MGMT_TXRX] tgt_mgmt_txrx_rx_frame_handler: Rcvd mgmt frame subtype 0 (frame type 0) from 06:03:7f:01:59:87, seq_num = 2, rssi = -32 tsf_delta: 0
+[47736.937014] wlan: [0:I:ANY] [MLME] vap-0(ath2):QCN_IE Version|0x1|0x0|, reject code |0x0|
+[47736.937014] Q2Q Feature Capability info: VHT MCS10/11 supp: 0x3, HE 400ns SGI support(B0-B1) | HE 2X LTF supp for 160/80+80(B2) | HE DLOFDMA support(B3) | HE DL MUMIMO support(B4): 0x2fHE MCS12/13 supp: 0
+[47736.970294] wlan: [0:I:ANY] [MLME] vap-0(ath2): [06:03:7f:01:59:87]Negotiated: txrates = fffa rxrates = fffa
+[47736.970294]
+[47736.978348] wlan: [0:I:ANY] [ASSOC] vap-0(ath2): [06:03:7f:01:59:87]Received assoc req
+[47736.978348]
+[47736.989741] wlan: [0:I:ANY] [MLME] vap-0(ath2): [06:03:7f:01:59:87]ieee80211_mlme_recv_assoc_request
+[47736.989741]
+[47736.998928] wlan: [0:I:ANY] [ASSOC] vap-0(ath2): [06:03:7f:01:59:87]ieee80211_node_join: Number of associated STAs: 1
+[47736.998928]
+[47737.009694] wlan: [0:I:ANY] [ASSOC] vap-0(ath2): [06:03:7f:01:59:87]ieee80211_node_join: STA joined, incremented iv_sta_assoc(2)
+[47737.009694]
+[47737.021709] wlan: [0:I:ANY] [ASSOC] vap-0(ath2): [06:03:7f:01:59:87]ieee80211_node_join: STA joined, incremented iv_sta_assoc(2), ic_sta_assoc=2, peer count=3
+[47737.021709]
+[47737.034870] wlan: [0:I:MLO_MGR] mlo_peer_allocate_primary_umac: MLD ID 0 ML Peer 00:04:3d:22:4d:22 avg RSSI -29 primary umac soc 1
+[47737.050580] wlan: [0:I:ANY] [ASSOC] vap-0(ath1): [06:03:7f:63:a6:78]ieee80211_alloc_node: vap=0x2ced0000, peercount=3, ni=0x1ac5c880, ni_bss_node=0x1ac5c880 bss_ref=2
+[47737.050580]
+[47737.050580]
+[47737.062251] wlan: [0:I:ANY] [MLME] vap-0(ath1):QCN_IE Version|0x1|0x0|, reject code |0x0|
+[47737.062251] Q2Q Feature Capability info: VHT MCS10/11 supp: 0x3, HE 400ns SGI support(B0-B1) | HE 2X LTF supp for 160/80+80(B2) | HE DLOFDMA support(B3) | HE DL MUMIMO support(B4): 0x2fHE MCS12/13 supp: 0
+[47737.092387] wlan: [0:I:ANY] [MLME] vap-0(ath1): [06:03:7f:63:a6:78]Negotiated: txrates = fffa rxrates = fffa
+[47737.092387]
+[47737.106337] wlan: [0:I:ANY] [ASSOC] vap-0(ath1): [06:03:7f:63:a6:78]Received assoc req
+[47737.106337]
+[47737.117766] wlan: [0:I:ANY] [MLME] vap-0(ath1): [06:03:7f:63:a6:78]ieee80211_mlme_recv_assoc_request
+[47737.117766]
+[47737.126941] wlan: [0:I:ANY] [ASSOC] vap-0(ath1): [06:03:7f:63:a6:78]ieee80211_node_join: Number of associated STAs: 1
+[47737.126941]
+[47737.137733] wlan: [0:I:ANY] [ASSOC] vap-0(ath1): [06:03:7f:63:a6:78]ieee80211_node_join: STA joined, incremented iv_sta_assoc(2)
+[47737.137733]
+[47737.149718] wlan: [0:I:ANY] [ASSOC] vap-0(ath1): [06:03:7f:63:a6:78]ieee80211_node_join: STA joined, incremented iv_sta_assoc(2), ic_sta_assoc=2, peer count=3
+[47737.149718]
+[47737.162843] wlan: [0:I:ANY] [MLME] vap-0(ath1): [06:03:7f:63:a6:78]station associated at aid 0: short preamble, short slot time, QoSHE40 cap 0x501
+[47737.162843]
+[47737.162843]
+[47737.178482] wlan: [0:I:MLO_MGR] wlan_mlo_peer_create: MLD ID 0 ML Peer 00:04:3d:22:4d:22 allocated 00000000e5c9406e
+[47737.194609] wlan: [0:I:ANY] [MLME] vap-0(ath2): [06:03:7f:01:59:87]station associated at aid 48: short preamble, short slot time, QoSHE40 cap 0x511
+[47737.194609]
+[47737.194609]
+[47737.205767] wlan: [2076:I:ANY] [AUTH] vap-0(ath2): [06:03:7f:01:59:87]wlan_cfg80211_change_station: unauthorize
+[47737.205767]
+[47737.221103] wlan: [2076:I:ANY] [AUTH] vap-0(ath2): [06:03:7f:01:59:87]ol_ath_node_authorize: authorize:0
+[47737.221103]
+[47737.233099] wlan: [2076:I:ANY] [ASSOC] vap-0(ath2): [06:03:7f:01:59:87][wlan_cfg80211_mgmt_tx] (Re)Assoc Resp
+[47737.233099]
+[47737.243571] wlan: [2076:I:ANY] [MLME] vap-0(ath2): [06:03:7f:01:59:87]wlan_mlme_assoc_resp reason 0 reassoc 0
+[47737.243571]
+[47737.243571]
+[47737.254847] wlan: [2076:I:ANY] [ASSOC] vap-0(ath2): [06:03:7f:01:59:87]ol_ath_send_peer_assoc HE MAC Capabilities info: All bits are 0
+[47737.254847]
+[47737.267963] wlan: [2076:I:ANY] [ASSOC] vap-0(ath2): [06:03:7f:01:59:87]ol_ath_send_peer_assoc VHT Caps=3381f9f6 HT Caps=9ef RX MCS=fffa TX MCS=103fffa
+[47737.267963]
+[47737.281238] wlan: [2076:I:ANY] [ASSOC] vap-0(ath2): [06:03:7f:01:59:87]ol_ath_send_peer_assoc 11ax Param OPS=0  MACInfo[0]=9a08010d MACInfo[1]=1840 MCS_cnt=2 TX_MCS[80]=3fffa TX_MCS[160]=3fffa TX_MCS[80_80]=0 RX_MCS[80]=3fffa RX_MCS[160]=3fffa RX_MCS[80_80]=0 Phyinfo[0]=8940630c Phyinf
+[47737.281238]
+[47737.300658] wlan: [2076:I:ANY] [ASSOC] vap-0(ath2): [06:03:7f:01:59:87]ol_ath_send_peer_assoc 6GHz Caps: 0 Q2Q PHY Feature Support=2f Peer NSS = 2
+[47737.300658]  Max BSS Idle Option: Protected flag= 0
+[47737.300658]
+[47737.322907] wlan: [2076:I:ANY] [ASSOC] vap-0(ath2): [06:03:7f:01:59:87]fill_assoc_11be_params eht mcs nss set:  320MHz rx 0x0 tx 0x0160MHz rx 0x2222 tx 0x2222 80/20 rx 0x2222 tx 0x2222
+[47737.322907]
+[47737.342580] wlan: [2076:I:ANY] [ASSOC] vap-0(ath2): [06:03:7f:01:59:87]ol_ath_send_peer_assoc ni phymode=42 peer phymode=28
+[47737.342580]
+[47737.360402] wlan: [2076:I:ANY] [ASSOC] vap-0(ath2): [06:03:7f:01:59:87]ol_ath_send_peer_assoc sending wmi peer assoc, isnew:1
+[47737.360402]
+[47737.373213] wlan: [2076:I:ANY] [ASSOC] vap-0(ath1): [06:03:7f:63:a6:78]ol_ath_send_peer_assoc HE MAC Capabilities info: All bits are 0
+[47737.373213]
+[47737.385657] wlan: [2076:I:ANY] [ASSOC] vap-0(ath1): [06:03:7f:63:a6:78]ol_ath_send_peer_assoc VHT Caps=3381f9f6 HT Caps=9ef RX MCS=fffa TX MCS=103fffa
+[47737.385657]
+[47737.399118] wlan: [2076:I:ANY] [ASSOC] vap-0(ath1): [06:03:7f:63:a6:78]ol_ath_send_peer_assoc 11ax Param OPS=0  MACInfo[0]=9a08010d MACInfo[1]=1840 MCS_cnt=2 TX_MCS[80]=3fffa TX_MCS[160]=3fffa TX_MCS[80_80]=0 RX_MCS[80]=3fffa RX_MCS[160]=3fffa RX_MCS[80_80]=0 Phyinfo[0]=8940630c Phyinf
+[47737.399118]
+[47737.418542] wlan: [2076:I:ANY] [ASSOC] vap-0(ath1): [06:03:7f:63:a6:78]ol_ath_send_peer_assoc 6GHz Caps: 0 Q2Q PHY Feature Support=2f Peer NSS = 2
+[47737.418542]  Max BSS Idle Option: Protected flag= 0
+[47737.418542]
+[47737.422332] wlan: [0:D:MGMT_TXRX] tgt_mgmt_txrx_rx_frame_handler: Rcvd mgmt frame subtype 0 (frame type 0) from 06:03:7f:01:59:87, seq_num = 3, rssi = -32 tsf_delta: 0
+[47737.440975] wlan: [2076:I:ANY] [ASSOC] vap-0(ath1): [06:03:7f:63:a6:78]fill_assoc_11be_params eht mcs nss set:  320MHz rx 0x0 tx 0x0160MHz rx 0x2222 tx 0x2222 80/20 rx 0x2222 tx 0x2222
+[47737.440975]
+[47737.460251] wlan: [0:I:ANY] [ASSOC] vap-0(ath2): [06:03:7f:01:59:87]recv another assoc frame when previous is in progress
+[47737.460251]
+[47737.475240] wlan: [2076:I:ANY] [ASSOC] vap-0(ath1): [06:03:7f:63:a6:78]ol_ath_send_peer_assoc ni phymode=42 peer phymode=28
+[47737.475240]
+[47737.493740] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000e24f70d1, mac: 00:03:7f:12:56:13, refcnt: 10
+[47737.493740]
+[47737.505521] wlan: [2076:I:ANY] [ASSOC] vap-0(ath1): [06:03:7f:63:a6:78]ol_ath_send_peer_assoc sending wmi peer assoc, isnew:1
+[47737.505521]
+[47737.522895] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 511, wbuf: 0x00000000dbfeb73e
+[47737.522895]
+[47737.532430] wlan: [2076:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 16, ni: 0x00000000e2df201a, mac: 06:03:7f:01:59:87, refcnt: 6
+[47737.532430]
+[47737.558036] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 509, wbuf: 0x000000001f6f712b
+[47737.558036]
+[47737.570126] wlan: [0:I:ANY] [ASSOC] vap-0(ath2): [06:03:7f:01:59:87]ieee80211_mlme_frame_complete_handler: frame 16 send to 06:03:7f:01:59:87, delayed_clean: 0, leve_ongoing: 0 ts flags 00000000
+[47737.570126]
+[47737.582951] wlan: [2076:I:ANY] [AUTH] vap-0(ath2): [06:03:7f:01:59:87]wlan_cfg80211_change_station: unauthorize
+[47737.582951]
+[47737.600617] wlan: [2076:I:ANY] [AUTH] vap-0(ath2): [06:03:7f:01:59:87]ol_ath_node_authorize: authorize:0
+[47737.600617]
+[47737.612782] wlan: [2076:I:ANY] [AUTH] vap-0(ath1): [06:03:7f:63:a6:78]wlan_cfg80211_change_station: unauthorize
+[47737.612782]
+[47737.623258] wlan: [2076:I:ANY] [AUTH] vap-0(ath1): [06:03:7f:63:a6:78]ol_ath_node_authorize: authorize:0
+[47737.623258]
+[47737.635082] wlan: [2076:I:ANY] [AUTH] vap-0(ath2): [06:03:7f:01:59:87]wlan_cfg80211_change_station: unauthorize
+[47737.635082]
+[47737.645749] wlan: [2076:I:ANY] [AUTH] vap-0(ath2): [06:03:7f:01:59:87]ol_ath_node_authorize: authorize:0
+[47737.645749]
+[47737.658480] wlan: [2076:I:ANY] [AUTH] vap-0(ath2): [06:03:7f:01:59:87]wlan_cfg80211_change_station: unauthorize
+[47737.658480]
+[47737.668221] wlan: [2076:I:ANY] [AUTH] vap-0(ath2): [06:03:7f:01:59:87]ol_ath_node_authorize: authorize:0
+[47737.668221]
+[47737.680002] wlan: [2076:I:ANY] [AUTH] vap-0(ath1): [06:03:7f:63:a6:78]wlan_cfg80211_change_station: unauthorize
+[47737.680002]
+[47737.690703] wlan: [2076:I:ANY] [AUTH] vap-0(ath1): [06:03:7f:63:a6:78]ol_ath_node_authorize: authorize:0
+[47737.690703]
+[47737.696051] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000df6de369, mac: 00:03:7f:12:42:37, refcnt: 10
+[47737.696051]
+[47737.717193] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 509, wbuf: 0x00000000832bf931
+[47737.717193]
+[47737.776798] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x000000002a4af28b, mac: 06:03:7f:63:a6:78, refcnt: 6
+[47737.776798]
+[47737.778456] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 509, wbuf: 0x0000000046faa0a2
+[47737.778456]
+[47737.932295] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000e24f70d1, mac: 00:03:7f:12:56:13, refcnt: 10
+[47737.932295]
+[47737.934816] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 509, wbuf: 0x0000000064eb3a31
+[47737.934816]
+[47738.714274] wlan: [2076:I:ANY] [AUTH] vap-0(ath2): [06:03:7f:01:59:87]wlan_cfg80211_change_station: authorize
+[47738.714274]
+[47738.714591] wlan: [2076:I:ANY] [AUTH] vap-0(ath2): [06:03:7f:01:59:87]ol_ath_node_authorize: authorize:1
+[47738.714591]
+[47738.725031] wlan: [2076:I:ANY] [AUTH] vap-0(ath1): [06:03:7f:63:a6:78]wlan_cfg80211_change_station: authorize
+[47738.725031]
+[47738.735869] wlan: [2076:I:ANY] [AUTH] vap-0(ath1): [06:03:7f:63:a6:78]ol_ath_node_authorize: authorize:1
+[47738.735869]
+[47738.744395] wlan: [0:D:MGMT_TXRX] tgt_mgmt_txrx_rx_frame_handler: Rcvd mgmt frame subtype d0 (frame type 24) from 06:03:7f:63:a6:78, seq_num = 0, rssi = -47 tsf_delta: 0
+[47738.758075] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 208, ni: 0x000000002a4af28b, mac: 06:03:7f:63:a6:78, refcnt: 6
+[47738.758075]
+[47738.774669] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 509, wbuf: 0x0000000083864d0c
+[47738.774669]
+[47740.248395] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000e24f70d1, mac: 00:03:7f:12:56:13, refcnt: 10
+[47740.248395]
+[47740.250651] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 509, wbuf: 0x00000000d0ede3e4
+[47740.250651]
+[47740.588445] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000df6de369, mac: 00:03:7f:12:42:37, refcnt: 10
+[47740.588445]
+[47740.593572] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 509, wbuf: 0x000000009cf889c7
+[47740.593572]
+[47740.603816] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000df6de369, mac: 00:03:7f:12:42:37, refcnt: 10
+[47740.603816]
+[47740.614289] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 509, wbuf: 0x00000000bfb86322
+[47740.614289]
+[47741.282398] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000e24f70d1, mac: 00:03:7f:12:56:13, refcnt: 10
+[47741.282398]
+[47741.287974] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 509, wbuf: 0x00000000213964be
+[47741.287974]
+[47742.556163] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000e24f70d1, mac: 00:03:7f:12:56:13, refcnt: 10
+[47742.556163]
+[47742.557815] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 509, wbuf: 0x000000008e890e16
+[47742.557815]
+[47743.229996] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000df6de369, mac: 00:03:7f:12:42:37, refcnt: 10
+[47743.229996]
+[47743.234658] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 509, wbuf: 0x0000000060d52722
+[47743.234658]
+[47743.280091] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000df6de369, mac: 00:03:7f:12:42:37, refcnt: 10
+[47743.280091]
+[47743.285098] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 509, wbuf: 0x0000000020841351
+[47743.285098]
+[47744.062419] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000e24f70d1, mac: 00:03:7f:12:56:13, refcnt: 10
+[47744.062419]
+[47744.064759] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 509, wbuf: 0x00000000f00fcf29
+[47744.064759]
+[47744.246573] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000df6de369, mac: 00:03:7f:12:42:37, refcnt: 10
+[47744.246573]
+[47744.251930] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 509, wbuf: 0x00000000b211dda1
+[47744.251930]
+[47745.012002] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000e24f70d1, mac: 00:03:7f:12:56:13, refcnt: 10
+[47745.012002]
+[47745.014247] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 509, wbuf: 0x000000005313475a
+[47745.014247]
+[47745.299778] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000e24f70d1, mac: 00:03:7f:12:56:13, refcnt: 10
+[47745.299778]
+[47745.305590] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 509, wbuf: 0x0000000034fc7409
+[47745.305590]
+[47745.564351] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000e24f70d1, mac: 00:03:7f:12:56:13, refcnt: 10
+[47745.564351]
+[47745.568982] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 509, wbuf: 0x00000000930a0ccd
+[47745.568982]
+[47745.965484] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000e24f70d1, mac: 00:03:7f:12:56:13, refcnt: 10
+[47745.965484]
+[47745.970141] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 509, wbuf: 0x00000000986e6fb7
+[47745.970141]
+[47746.014858] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000e24f70d1, mac: 00:03:7f:12:56:13, refcnt: 10
+[47746.014858]
+[47746.016802] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 509, wbuf: 0x000000008ed4f9c7
+[47746.016802]
+[47746.116063] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000e24f70d1, mac: 00:03:7f:12:56:13, refcnt: 10
+[47746.116063]
+[47746.118224] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 509, wbuf: 0x0000000042323fa2
+[47746.118224]
+[47746.165116] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000df6de369, mac: 00:03:7f:12:42:37, refcnt: 10
+[47746.165116]
+[47746.170352] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 509, wbuf: 0x00000000f1e54332
+[47746.170352]
+[47746.179058] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000df6de369, mac: 00:03:7f:12:42:37, refcnt: 10
+[47746.179058]
+[47746.193297] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 509, wbuf: 0x00000000bef11565
+[47746.193297]
+[47749.073656] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000e24f70d1, mac: 00:03:7f:12:56:13, refcnt: 10
+[47749.073656]
+[47749.076470] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 509, wbuf: 0x000000007bf17df2
+[47749.076470]
+[47749.646714] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000df6de369, mac: 00:03:7f:12:42:37, refcnt: 10
+[47749.646714]
+[47749.648390] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 509, wbuf: 0x00000000359b5baf
+[47749.648390]
+[47749.785366] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000e24f70d1, mac: 00:03:7f:12:56:13, refcnt: 10
+[47749.785366]
+[47749.787734] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 509, wbuf: 0x00000000bb7d69c8
+[47749.787734]
+[47750.085456] wlan: [0:I:ANY] [MLME] vap-0(ath1):FILS STA found mac[9c:28:f7:9d:06:5b]
+[47750.085456]
+[47750.085513] wlan: [0:I:ANY] [MLME] vap-0(ath1):FILS Max channel time : 37TU
+[47750.085513]
+[47750.093700] wlan: [0:I:ANY] [MLME] vap-0(ath1): QCN_IE only one attribute present
+[47750.093700]
+[47750.102638] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000df6de369, mac: 00:03:7f:12:42:37, refcnt: 10
+[47750.102638]
+[47750.113063] wlan: [0:I:ANY] [MLME] vap-0(ath1):FILS STA found mac[9c:28:f7:9d:06:5b]
+[47750.113063]
+[47750.124957] wlan: [0:I:ANY] [MLME] vap-0(ath1):FILS Max channel time : 37TU
+[47750.124957]
+[47750.135031] wlan: [0:I:ANY] [MLME] vap-0(ath1):FILS STA found mac[9c:28:f7:9d:06:5b]
+[47750.135031]
+[47750.142736] wlan: [0:I:ANY] [MLME] vap-0(ath1):FILS Max channel time : 37TU
+[47750.142736]
+[47750.152208] wlan: [0:I:ANY] [MLME] vap-0(ath1):FILS STA found mac[9c:28:f7:9d:06:5b]
+[47750.152208]
+[47750.160439] wlan: [0:I:ANY] [MLME] vap-0(ath1):FILS Max channel time : 37TU
+[47750.160439]
+[47750.169982] wlan: [0:I:ANY] [MLME] vap-0(ath1):FILS STA found mac[9c:28:f7:9d:06:5b]
+[47750.169982]
+[47750.178148] wlan: [0:I:ANY] [MLME] vap-0(ath1):FILS Max channel time : 37TU
+[47750.178148]
+[47750.187492] wlan: [0:I:ANY] [MLME] vap-0(ath1):FILS STA found mac[9c:28:f7:9d:06:5b]
+[47750.187492]
+[47750.195830] wlan: [0:I:ANY] [MLME] vap-0(ath1):FILS Max channel time : 37TU
+[47750.195830]
+[47750.205147] wlan: [0:I:ANY] [MLME] vap-0(ath1):FILS STA found mac[9c:28:f7:9d:06:5b]
+[47750.205147]
+[47750.213563] wlan: [0:I:ANY] [MLME] vap-0(ath1):FILS Max channel time : 37TU
+[47750.213563]
+[47750.223235] wlan: [0:I:ANY] [MLME] vap-0(ath1):FILS STA found mac[9c:28:f7:9d:06:5b]
+[47750.223235]
+[47750.231277] wlan: [0:I:ANY] [MLME] vap-0(ath1):FILS Max channel time : 36TU
+[47750.231277]
+[47750.240522] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 509, wbuf: 0x0000000071331141
+[47750.240522]
+[47750.857731] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000e24f70d1, mac: 00:03:7f:12:56:13, refcnt: 10
+[47750.857731]
+[47750.859457] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 509, wbuf: 0x000000007d7af117
+[47750.859457]
+[47751.025665] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000df6de369, mac: 00:03:7f:12:42:37, refcnt: 10
+[47751.025665]
+[47751.031111] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 509, wbuf: 0x000000001c20f061
+[47751.031111]
+[47751.041064] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000df6de369, mac: 00:03:7f:12:42:37, refcnt: 10
+[47751.041064]
+[47751.053767] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 509, wbuf: 0x00000000bf5b7836
+[47751.053767]
+[47751.664704] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000e24f70d1, mac: 00:03:7f:12:56:13, refcnt: 10
+[47751.664704]
+[47751.667652] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 509, wbuf: 0x000000006c0b0f6c
+[47751.667652]
+[47755.251807] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000e24f70d1, mac: 00:03:7f:12:56:13, refcnt: 10
+[47755.251807]
+[47755.255303] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 509, wbuf: 0x0000000075206fd9
+[47755.255303]
+[47755.301744] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000e24f70d1, mac: 00:03:7f:12:56:13, refcnt: 10
+[47755.301744]
+[47755.303904] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 509, wbuf: 0x0000000043a85bb6
+[47755.303904]
+[47755.525080] wlan: [0:I:ANY] [MLME] vap-0(ath1):FILS STA found mac[9c:28:f7:9d:06:5b]
+[47755.525080]
+[47755.525123] wlan: [0:I:ANY] [MLME] vap-0(ath1):FILS Max channel time : 37TU
+[47755.525123]
+[47755.533369] wlan: [0:I:ANY] [MLME] vap-0(ath1): QCN_IE only one attribute present
+[47755.533369]
+[47755.542256] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000df6de369, mac: 00:03:7f:12:42:37, refcnt: 10
+[47755.542256]
+[47755.552915] wlan: [0:I:ANY] [MLME] vap-0(ath1):FILS STA found mac[9c:28:f7:9d:06:5b]
+[47755.552915]
+[47755.564595] wlan: [0:I:ANY] [MLME] vap-0(ath1):FILS Max channel time : 37TU
+[47755.564595]
+[47755.574329] wlan: [0:I:ANY] [MLME] vap-0(ath1):FILS STA found mac[9c:28:f7:9d:06:5b]
+[47755.574329]
+[47755.582372] wlan: [0:I:ANY] [MLME] vap-0(ath1):FILS Max channel time : 37TU
+[47755.582372]
+[47755.592057] wlan: [0:I:ANY] [MLME] vap-0(ath1):FILS STA found mac[9c:28:f7:9d:06:5b]
+[47755.592057]
+[47755.600070] wlan: [0:I:ANY] [MLME] vap-0(ath1):FILS Max channel time : 37TU
+[47755.600070]
+[47755.609373] wlan: [0:I:ANY] [MLME] vap-0(ath1):FILS STA found mac[9c:28:f7:9d:06:5b]
+[47755.609373]
+[47755.617775] wlan: [0:I:ANY] [MLME] vap-0(ath1):FILS Max channel time : 37TU
+[47755.617775]
+[47755.627061] wlan: [0:I:ANY] [MLME] vap-0(ath1):FILS STA found mac[9c:28:f7:9d:06:5b]
+[47755.627061]
+[47755.635454] wlan: [0:I:ANY] [MLME] vap-0(ath1):FILS Max channel time : 36TU
+[47755.635454]
+[47755.644734] wlan: [0:I:ANY] [MLME] vap-0(ath1):FILS STA found mac[9c:28:f7:9d:06:5b]
+[47755.644734]
+[47755.653216] wlan: [0:I:ANY] [MLME] vap-0(ath1):FILS Max channel time : 36TU
+[47755.653216]
+[47755.662715] wlan: [0:I:ANY] [MLME] vap-0(ath1):FILS STA found mac[9c:28:f7:9d:06:5b]
+[47755.662715]
+[47755.670919] wlan: [0:I:ANY] [MLME] vap-0(ath1):FILS Max channel time : 36TU
+[47755.670919]
+[47755.680684] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 509, wbuf: 0x00000000a00a4379
+[47755.680684]
+[47757.669366] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000e24f70d1, mac: 00:03:7f:12:56:13, refcnt: 10
+[47757.669366]
+[47757.671648] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 509, wbuf: 0x00000000992436d7
+[47757.671648]
+[47761.252679] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000df6de369, mac: 00:03:7f:12:42:37, refcnt: 10
+[47761.252679]
+[47761.254833] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 509, wbuf: 0x00000000b713ca2b
+[47761.254833]
+[47762.496297] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000df6de369, mac: 00:03:7f:12:42:37, refcnt: 10
+[47762.496297]
+[47762.502002] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 509, wbuf: 0x00000000e306f021
+[47762.502002]
+[47762.692543] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000e24f70d1, mac: 00:03:7f:12:56:13, refcnt: 10
+[47762.692543]
+[47762.696790] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 509, wbuf: 0x000000003d1af7f5
+[47762.696790]
+[47763.456836] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000df6de369, mac: 00:03:7f:12:42:37, refcnt: 10
+[47763.456836]
+[47763.459855] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 509, wbuf: 0x000000002ec68876
+[47763.459855]
+[47763.470349] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000df6de369, mac: 00:03:7f:12:42:37, refcnt: 10
+[47763.470349]
+[47763.485036] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 509, wbuf: 0x00000000f4172d03
+[47763.485036]
+[47763.818426] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000e24f70d1, mac: 00:03:7f:12:56:13, refcnt: 10
+[47763.818426]
+[47763.819111] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000e24f70d1, mac: 00:03:7f:12:56:13, refcnt: 12
+[47763.819111]
+[47763.831482] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 509, wbuf: 0x00000000c3593674
+[47763.831482]
+[47763.845046] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 511, wbuf: 0x00000000e4005764
+[47763.845046]
+[47764.013419] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000e24f70d1, mac: 00:03:7f:12:56:13, refcnt: 10
+[47764.013419]
+[47764.014987] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 511, wbuf: 0x00000000c695d927
+[47764.014987]
+[47764.542801] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000e24f70d1, mac: 00:03:7f:12:56:13, refcnt: 10
+[47764.542801]
+[47764.546734] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 511, wbuf: 0x0000000031dfa98b
+[47764.546734]
+[47764.567991] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000e24f70d1, mac: 00:03:7f:12:56:13, refcnt: 10
+[47764.567991]
+[47764.570952] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 511, wbuf: 0x000000006770b0c2
+[47764.570952]
+[47764.592904] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000e24f70d1, mac: 00:03:7f:12:56:13, refcnt: 10
+[47764.592904]
+[47764.595042] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 511, wbuf: 0x000000009efcc5c5
+[47764.595042]
+[47764.824892] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000df6de369, mac: 00:03:7f:12:42:37, refcnt: 10
+[47764.824892]
+[47764.830757] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 509, wbuf: 0x000000005e2d9fb0
+[47764.830757]
+[47765.324149] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000e24f70d1, mac: 00:03:7f:12:56:13, refcnt: 10
+[47765.324149]
+[47765.327352] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 511, wbuf: 0x00000000bf662533
+[47765.327352]
+[47765.526776] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000df6de369, mac: 00:03:7f:12:42:37, refcnt: 10
+[47765.526776]
+[47765.530811] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 509, wbuf: 0x00000000c084e696
+[47765.530811]
+[47770.629550] wlan: [0:I:ANY] [MLME] vap-0(ath1):FILS STA found mac[9c:28:f7:9d:06:5b]
+[47770.629550]
+[47770.629607] wlan: [0:I:ANY] [MLME] vap-0(ath1):FILS Max channel time : 37TU
+[47770.629607]
+[47770.637794] wlan: [0:I:ANY] [MLME] vap-0(ath1): QCN_IE only one attribute present
+[47770.637794]
+[47770.646710] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000df6de369, mac: 00:03:7f:12:42:37, refcnt: 10
+[47770.646710]
+[47770.658049] wlan: [0:I:ANY] [MLME] vap-0(ath1):FILS STA found mac[9c:28:f7:9d:06:5b]
+[47770.658049]
+[47770.669035] wlan: [0:I:ANY] [MLME] vap-0(ath1):FILS Max channel time : 37TU
+[47770.669035]
+[47770.679551] wlan: [0:I:ANY] [MLME] vap-0(ath1):FILS STA found mac[9c:28:f7:9d:06:5b]
+[47770.679551]
+[47770.686800] wlan: [0:I:ANY] [MLME] vap-0(ath1):FILS Max channel time : 37TU
+[47770.686800]
+[47770.696175] wlan: [0:I:ANY] [MLME] vap-0(ath1):FILS STA found mac[9c:28:f7:9d:06:5b]
+[47770.696175]
+[47770.704537] wlan: [0:I:ANY] [MLME] vap-0(ath1):FILS Max channel time : 37TU
+[47770.704537]
+[47770.714092] wlan: [0:I:ANY] [MLME] vap-0(ath1):FILS STA found mac[9c:28:f7:9d:06:5b]
+[47770.714092]
+[47770.722251] wlan: [0:I:ANY] [MLME] vap-0(ath1):FILS Max channel time : 37TU
+[47770.722251]
+[47770.731630] wlan: [0:I:ANY] [MLME] vap-0(ath1):FILS STA found mac[9c:28:f7:9d:06:5b]
+[47770.731630]
+[47770.739973] wlan: [0:I:ANY] [MLME] vap-0(ath1):FILS Max channel time : 36TU
+[47770.739973]
+[47770.749845] wlan: [0:I:ANY] [MLME] vap-0(ath1):FILS STA found mac[9c:28:f7:9d:06:5b]
+[47770.749845]
+[47770.757667] wlan: [0:I:ANY] [MLME] vap-0(ath1):FILS Max channel time : 36TU
+[47770.757667]
+[47770.766939] wlan: [0:I:ANY] [MLME] vap-0(ath1):FILS STA found mac[9c:28:f7:9d:06:5b]
+[47770.766939]
+[47770.775367] wlan: [0:I:ANY] [MLME] vap-0(ath1):FILS Max channel time : 36TU
+[47770.775367]
+[47770.784651] wlan: [0:I:ANY] [MLME] vap-0(ath1):FILS STA found mac[9c:28:f7:9d:06:5b]
+[47770.784651]
+[47770.793079] wlan: [0:I:ANY] [MLME] vap-0(ath1):FILS Max channel time : 14TU
+[47770.793079]
+[47770.802187] wlan: [0:I:ANY] [MLME] vap-0(ath1): QCN_IE only one attribute present
+[47770.802187]
+[47770.811133] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000df6de369, mac: 00:03:7f:12:42:37, refcnt: 12
+[47770.811133]
+[47770.820243] wlan: [0:I:ANY] [MLME] vap-0(ath1):FILS STA found mac[9c:28:f7:9d:06:5b]
+[47770.820243]
+[47770.833469] wlan: [0:I:ANY] [MLME] vap-0(ath1):FILS Max channel time : 14TU
+[47770.833469]
+[47770.843370] wlan: [0:I:ANY] [MLME] vap-0(ath1):FILS STA found mac[9c:28:f7:9d:06:5b]
+[47770.843370]
+[47770.851241] wlan: [0:I:ANY] [MLME] vap-0(ath1):FILS Max channel time : 14TU
+[47770.851241]
+[47770.860545] wlan: [0:I:ANY] [MLME] vap-0(ath1):FILS STA found mac[9c:28:f7:9d:06:5b]
+[47770.860545]
+[47770.868946] wlan: [0:I:ANY] [MLME] vap-0(ath1):FILS Max channel time : 14TU
+[47770.868946]
+[47770.878234] wlan: [0:I:ANY] [MLME] vap-0(ath1):FILS STA found mac[9c:28:f7:9d:06:5b]
+[47770.878234]
+[47770.886626] wlan: [0:I:ANY] [MLME] vap-0(ath1):FILS Max channel time : 14TU
+[47770.886626]
+[47770.895907] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 509, wbuf: 0x00000000571f0b72
+[47770.895907]
+[47770.904515] wlan: [0:I:ANY] [MLME] vap-0(ath1):FILS STA found mac[9c:28:f7:9d:06:5b]
+[47770.904515]
+[47770.915928] wlan: [0:I:ANY] [MLME] vap-0(ath1):FILS Max channel time : 14TU
+[47770.915928]
+[47770.925612] wlan: [0:I:ANY] [MLME] vap-0(ath1):FILS STA found mac[9c:28:f7:9d:06:5b]
+[47770.925612]
+[47770.933801] wlan: [0:I:ANY] [MLME] vap-0(ath1):FILS Max channel time : 14TU
+[47770.933801]
+[47770.943999] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 510, wbuf: 0x0000000066cc1173
+[47770.943999]
+[47771.448586] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000e24f70d1, mac: 00:03:7f:12:56:13, refcnt: 10
+[47771.448586]
+[47771.451871] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 511, wbuf: 0x00000000f4452cec
+[47771.451871]
+[47771.706127] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000df6de369, mac: 00:03:7f:12:42:37, refcnt: 10
+[47771.706127]
+[47771.711990] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 510, wbuf: 0x00000000b47f8a31
+[47771.711990]
+[47772.246797] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000e24f70d1, mac: 00:03:7f:12:56:13, refcnt: 10
+[47772.246797]
+[47772.248452] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 511, wbuf: 0x000000005b396f1f
+[47772.248452]
+[47773.563538] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000df6de369, mac: 00:03:7f:12:42:37, refcnt: 10
+[47773.563538]
+[47773.568219] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 510, wbuf: 0x0000000039e727f5
+[47773.568219]
+[47773.583883] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000df6de369, mac: 00:03:7f:12:42:37, refcnt: 10
+[47773.583883]
+[47773.589633] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 510, wbuf: 0x000000001a4d6dac
+[47773.589633]
+[47773.885037] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000e24f70d1, mac: 00:03:7f:12:56:13, refcnt: 10
+[47773.885037]
+[47773.888094] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 511, wbuf: 0x000000002003a849
+[47773.888094]
+[47773.934522] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000e24f70d1, mac: 00:03:7f:12:56:13, refcnt: 10
+[47773.934522]
+[47773.936877] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 511, wbuf: 0x000000003b50ca11
+[47773.936877]
+[47774.980632] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000e24f70d1, mac: 00:03:7f:12:56:13, refcnt: 10
+[47774.980632]
+[47774.982235] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 511, wbuf: 0x000000002b207b39
+[47774.982235]
+[47775.492376] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000e24f70d1, mac: 00:03:7f:12:56:13, refcnt: 10
+[47775.492376]
+[47775.494199] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 511, wbuf: 0x0000000092236263
+[47775.494199]
+[47776.069833] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000e24f70d1, mac: 00:03:7f:12:56:13, refcnt: 10
+[47776.069833]
+[47776.072133] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 511, wbuf: 0x00000000c663c843
+[47776.072133]
+[47778.087914] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000e24f70d1, mac: 00:03:7f:12:56:13, refcnt: 10
+[47778.087914]
+[47778.091912] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 511, wbuf: 0x00000000172781fe
+[47778.091912]
+[47778.346052] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000df6de369, mac: 00:03:7f:12:42:37, refcnt: 10
+[47778.346052]
+[47778.351303] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 510, wbuf: 0x000000007b0f0280
+[47778.351303]
+[47779.901812] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000e24f70d1, mac: 00:03:7f:12:56:13, refcnt: 10
+[47779.901812]
+[47779.903439] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 511, wbuf: 0x000000008337583b
+[47779.903439]
+[47781.273971] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000e24f70d1, mac: 00:03:7f:12:56:13, refcnt: 10
+[47781.273971]
+[47781.276263] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 511, wbuf: 0x00000000cbf0134d
+[47781.276263]
+[47781.507586] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000df6de369, mac: 00:03:7f:12:42:37, refcnt: 10
+[47781.507586]
+[47781.509718] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 510, wbuf: 0x00000000c2163663
+[47781.509718]
+[47782.512577] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000e24f70d1, mac: 00:03:7f:12:56:13, refcnt: 10
+[47782.512577]
+[47782.514265] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 511, wbuf: 0x00000000cdca036e
+[47782.514265]
+[47782.770745] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000df6de369, mac: 00:03:7f:12:42:37, refcnt: 10
+[47782.770745]
+[47782.775835] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 510, wbuf: 0x00000000a8ae8ca2
+[47782.775835]
+[47783.126072] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000e24f70d1, mac: 00:03:7f:12:56:13, refcnt: 10
+[47783.126072]
+[47783.129784] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 511, wbuf: 0x00000000ecc3eabb
+[47783.129784]
+[47783.176069] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000e24f70d1, mac: 00:03:7f:12:56:13, refcnt: 10
+[47783.176069]
+[47783.178158] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 511, wbuf: 0x00000000c0b98349
+[47783.178158]
+[47783.831785] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000df6de369, mac: 00:03:7f:12:42:37, refcnt: 10
+[47783.831785]
+[47783.836936] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 510, wbuf: 0x00000000eaea0dcf
+[47783.836936]
+[47784.035477] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000e24f70d1, mac: 00:03:7f:12:56:13, refcnt: 10
+[47784.035477]
+[47784.037717] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 511, wbuf: 0x00000000f7f04b7d
+[47784.037717]
+[47784.965180] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000e24f70d1, mac: 00:03:7f:12:56:13, refcnt: 10
+[47784.965180]
+[47784.968146] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 511, wbuf: 0x0000000097464d25
+[47784.968146]
+[47785.197748] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000df6de369, mac: 00:03:7f:12:42:37, refcnt: 10
+[47785.197748]
+[47785.203078] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 510, wbuf: 0x00000000b1d98c9a
+[47785.203078]
+[47791.813637] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000e24f70d1, mac: 00:03:7f:12:56:13, refcnt: 10
+[47791.813637]
+[47791.816244] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 511, wbuf: 0x00000000bb114cd6
+[47791.816244]
+[47792.043177] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000df6de369, mac: 00:03:7f:12:42:37, refcnt: 10
+[47792.043177]
+[47792.049060] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 510, wbuf: 0x00000000421f8b39
+[47792.049060]
+[47792.417827] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000e24f70d1, mac: 00:03:7f:12:56:13, refcnt: 10
+[47792.417827]
+[47792.421117] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 511, wbuf: 0x0000000075ca0180
+[47792.421117]
+[47792.467834] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000e24f70d1, mac: 00:03:7f:12:56:13, refcnt: 10
+[47792.467834]
+[47792.470050] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 511, wbuf: 0x00000000832bf931
+[47792.470050]
+[47793.375550] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000df6de369, mac: 00:03:7f:12:42:37, refcnt: 10
+[47793.375550]
+[47793.382341] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 510, wbuf: 0x000000003263b168
+[47793.382341]
+[47793.392582] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000df6de369, mac: 00:03:7f:12:42:37, refcnt: 10
+[47793.392582]
+[47793.401446] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 510, wbuf: 0x000000008d3fd70b
+[47793.401446]
+[47793.517279] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000e24f70d1, mac: 00:03:7f:12:56:13, refcnt: 10
+[47793.517279]
+[47793.519666] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 511, wbuf: 0x0000000067662ff1
+[47793.519666]
+[47795.909237] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000e24f70d1, mac: 00:03:7f:12:56:13, refcnt: 10
+[47795.909237]
+[47795.910933] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 511, wbuf: 0x00000000fb79db9a
+[47795.910933]
+[47796.222505] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000df6de369, mac: 00:03:7f:12:42:37, refcnt: 10
+[47796.222505]
+[47796.227749] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 510, wbuf: 0x00000000171e5437
+[47796.227749]
+[47796.238846] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000df6de369, mac: 00:03:7f:12:42:37, refcnt: 10
+[47796.238846]
+[47796.248324] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 510, wbuf: 0x0000000010dbda71
+[47796.248324]
+[47797.727879] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000e24f70d1, mac: 00:03:7f:12:56:13, refcnt: 10
+[47797.727879]
+[47797.730125] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 511, wbuf: 0x000000004663911d
+[47797.730125]
+[47797.918764] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000e24f70d1, mac: 00:03:7f:12:56:13, refcnt: 10
+[47797.918764]
+[47797.920352] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 511, wbuf: 0x00000000127d3d11
+[47797.920352]
+[47798.004383] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000df6de369, mac: 00:03:7f:12:42:37, refcnt: 10
+[47798.004383]
+[47798.006643] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 510, wbuf: 0x00000000d29a661a
+[47798.006643]
+[47798.019651] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000df6de369, mac: 00:03:7f:12:42:37, refcnt: 10
+[47798.019651]
+[47798.030184] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 510, wbuf: 0x00000000a2481343
+[47798.030184]
+[47798.532147] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000e24f70d1, mac: 00:03:7f:12:56:13, refcnt: 10
+[47798.532147]
+[47798.532796] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000e24f70d1, mac: 00:03:7f:12:56:13, refcnt: 12
+[47798.532796]
+[47798.545159] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 511, wbuf: 0x00000000b195771b
+[47798.545159]
+[47798.558953] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 509, wbuf: 0x00000000957af285
+[47798.558953]
+[47798.657770] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000e24f70d1, mac: 00:03:7f:12:56:13, refcnt: 10
+[47798.657770]
+[47798.660798] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 509, wbuf: 0x00000000dd6dd45e
+[47798.660798]
+[47798.671428] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000e24f70d1, mac: 00:03:7f:12:56:13, refcnt: 10
+[47798.671428]
+[47798.683576] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 509, wbuf: 0x00000000fad93d60
+[47798.683576]
+[47800.237092] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000e24f70d1, mac: 00:03:7f:12:56:13, refcnt: 10
+[47800.237092]
+[47800.241075] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 509, wbuf: 0x000000007ca31798
+[47800.241075]
+[47800.464371] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000df6de369, mac: 00:03:7f:12:42:37, refcnt: 10
+[47800.464371]
+[47800.470147] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 510, wbuf: 0x000000008291ca29
+[47800.470147]
+[47800.479764] wlan: [0:D:MGMT_TXRX] ol_ath_tx_mgmt_wmi_send: frame subtype: 80, ni: 0x00000000df6de369, mac: 00:03:7f:12:42:37, refcnt: 10
+[47800.479764]
+[47800.490192] wlan: [0:D:MGMT_TXRX] ol_ath_mgmt_tx_completion_event_handler: desc_id: 510, wbuf: 0x00000000951a662e
+[47800.490192]

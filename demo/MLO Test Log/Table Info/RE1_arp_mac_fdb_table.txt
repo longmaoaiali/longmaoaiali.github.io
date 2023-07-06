@@ -1,0 +1,22 @@
+root@OpenWrt:/# arp
+IP address       HW type     Flags       HW address            Mask     Device
+192.168.1.99     0x1         0x2         84:a9:38:cf:8d:fd     *        br-lan
+root@OpenWrt:/# brctl showmacs br-lan
+port no mac addr                is local?       ageing timer
+  8     00:03:7f:01:59:56       yes                0.00
+  1     00:03:7f:2c:e1:74       yes                0.00
+  2     00:03:7f:48:1f:ae       yes                0.00
+  3     00:03:7f:59:02:a4       yes                0.00
+  7     00:03:7f:63:a6:85       yes                0.00
+  4     00:03:7f:90:94:c6       yes                0.00
+  6     00:03:7f:a7:54:f3       no                33.55
+  6     00:03:7f:ca:93:e5       no                17.18
+  6     06:03:7f:01:59:56       yes                0.00
+  5     06:03:7f:63:a6:85       yes                0.00
+  6     84:a9:38:cf:8d:fd       no                 0.68
+root@OpenWrt:/# ssdk_sh fdb entry show
+
+ SSDK Init OK!
+total 0 entries
+
+operation done.

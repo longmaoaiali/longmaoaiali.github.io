@@ -1,0 +1,120 @@
+root@OpenWrt:/# arp
+IP address       HW type     Flags       HW address            Mask     Device
+192.168.1.99     0x1         0x2         84:a9:38:cf:8d:fd     *        br-lan
+root@OpenWrt:/# brctl showmacs br-lan
+port no mac addr                is local?       ageing timer
+  5     00:03:7f:12:42:37       yes                0.00
+  6     00:03:7f:12:56:13       yes                0.00
+  6     00:03:7f:2c:e1:74       no                 1.93
+  3     00:03:7f:42:d4:fb       yes                0.00
+  6     00:03:7f:a7:54:f3       no                 8.86
+  4     00:03:7f:b0:1e:31       yes                0.00
+  2     00:03:7f:b0:b7:5c       yes                0.00
+  1     00:03:7f:ca:93:e5       yes                0.00
+  2     84:a9:38:cf:8d:fd       no                 0.42
+root@OpenWrt:/# ssdk_sh fdb entry show
+
+ SSDK Init OK!
+[addr]:84-a9-38-cf-8d-fd [fid]:0 [static]:NO [dest_port]:3
+[dacmd]:FORWARD [sacmd]:FORWARD [leaky]:NO [mirror]:NO [clone]:NO [da_pri]:NO [queue]:0 [cross_pt_state]:NO [white_list_en]:NO [load_balance_en]:NO
+
+total 1 entries
+
+operation done.
+
+root@OpenWrt:/# wifistats wifi2 41
+mac_addr : 00:00:00:01:00:00 | ast_index : 74 | sw_peer_id : 16384 | pdev_id : 3 | vdev_id : 255
+next_hop : 0 | mcast : 0 | monitor_direct :0 | mesh_sta : 0 | mec :0 | intra_bss :0
+
+mac_addr : 06:03:7f:63:a6:78 | ast_index : 327 | sw_peer_id : 8193 | pdev_id : 3 | vdev_id : 255
+next_hop : 0 | mcast : 0 | monitor_direct :0 | mesh_sta : 0 | mec :0 | intra_bss :0
+
+mac_addr : 00:03:7f:12:56:13 | ast_index : 367 | sw_peer_id : 16386 | pdev_id : 0 | vdev_id : 0
+next_hop : 0 | mcast : 1 | monitor_direct :0 | mesh_sta : 0 | mec :0 | intra_bss :0
+
+mac_addr : 06:03:7f:01:59:56 | ast_index : 434 | sw_peer_id : 24578 | pdev_id : 0 | vdev_id : 0
+next_hop : 0 | mcast : 0 | monitor_direct :0 | mesh_sta : 0 | mec :0 | intra_bss :0
+
+mac_addr : 06:03:7f:01:59:87 | ast_index : 494 | sw_peer_id : 24577 | pdev_id : 0 | vdev_id : 0
+next_hop : 0 | mcast : 0 | monitor_direct :0 | mesh_sta : 0 | mec :0 | intra_bss :0
+
+mac_addr : 00:03:7f:2c:e1:74 | ast_index : 714 | sw_peer_id : 24578 | pdev_id : 0 | vdev_id : 0
+next_hop : 1 | mcast : 0 | monitor_direct :0 | mesh_sta : 0 | mec :0 | intra_bss :0
+
+mac_addr : 06:03:7f:63:a6:85 | ast_index : 768 | sw_peer_id : 8194 | pdev_id : 3 | vdev_id : 255
+next_hop : 0 | mcast : 0 | monitor_direct :0 | mesh_sta : 0 | mec :0 | intra_bss :0
+
+mac_addr : 00:04:3d:11:4d:22 | ast_index : 784 | sw_peer_id : 24578 | pdev_id : 0 | vdev_id : 0
+next_hop : 0 | mcast : 0 | monitor_direct :0 | mesh_sta : 0 | mec :0 | intra_bss :0
+
+mac_addr : 00:04:3d:22:4d:22 | ast_index : 921 | sw_peer_id : 24577 | pdev_id : 0 | vdev_id : 0
+next_hop : 0 | mcast : 0 | monitor_direct :0 | mesh_sta : 0 | mec :0 | intra_bss :0
+
+mac_addr : 00:03:7f:a7:54:f3 | ast_index : 969 | sw_peer_id : 24577 | pdev_id : 0 | vdev_id : 0
+next_hop : 1 | mcast : 0 | monitor_direct :0 | mesh_sta : 0 | mec :0 | intra_bss :0
+
+mac_addr : 00:03:7f:12:56:13 | ast_index : 987 | sw_peer_id : 16386 | pdev_id : 0 | vdev_id : 0
+next_hop : 0 | mcast : 0 | monitor_direct :0 | mesh_sta : 0 | mec :0 | intra_bss :0
+
+root@OpenWrt:/# ifconfig ath2
+ath2      Link encap:Ethernet  HWaddr 00:03:7F:12:56:13
+          inet6 addr: fe80::203:7fff:fe12:5613/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:1495 errors:56 dropped:225 overruns:0 frame:0
+          TX packets:7039 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0
+          RX bytes:172405 (168.3 KiB)  TX bytes:635240 (620.3 KiB)
+
+root@OpenWrt:/# wlanconfig ath2 list sta
+ADDR               AID CHAN TXRATE RXRATE RSSI MINRSSI MAXRSSI IDLE  TXSEQ  RXSEQ  CAPS XCAPS ACAPS     ERP    STATE MAXRATE(DOT11) HTCAPS   VHTCAPS ASSOCTIME    IEs   MODE RXNSS TXNSS                   PSMODE
+06:03:7f:01:59:56   49  100   6M   2402M  -38     -38     -36    0      0   65535   EPs  ETWt NULL    0          b        2882400           AWPSM           gGTRs 00:26:43     RSN WME IEEE80211_MODE_11BEA_EHT160  2 2   0
+
+ RSSI is combined over chains in dBm
+ Minimum Tx Power               : 0
+ Maximum Tx Power               : 69
+ HT Capability                  : Yes
+ VHT Capability                 : Yes
+ MU capable                     : Yes
+ SNR                            : 59
+ Operating band                 : 5GHz
+ Current Operating class        : 129
+ Supported Operating classes    : 124  121  125  122  126  126  123  127  127  128  129  130
+ Supported Rates(Mbps)          : 6  9  12  18  24  36  48  54
+ Max STA phymode                : IEEE80211_MODE_11BEA_EHT160
+ MLO                            : Yes
+ MLD Addr                       : 00:04:3d:11:4d:22
+ Num Partner links              : 1
+       Partner link 0: ADDR :06:03:7f:63:a6:85, Link ID: 1
+06:03:7f:01:59:87   48  100   6M   2161M  -31     -32     -29   23      0   65535   EPs  ETWt NULL    0          b        2882400           AWPSM           gGTRs 00:06:52     RSN WME IEEE80211_MODE_11BEA_EHT160  2 2   0
+
+ RSSI is combined over chains in dBm
+ Minimum Tx Power               : 0
+ Maximum Tx Power               : 69
+ HT Capability                  : Yes
+ VHT Capability                 : Yes
+ MU capable                     : Yes
+ SNR                            : 66
+ Operating band                 : 5GHz
+ Current Operating class        : 129
+ Supported Operating classes    : 124  121  125  122  126  126  123  127  127  128  129  130
+ Supported Rates(Mbps)          : 6  9  12  18  24  36  48  54
+ Max STA phymode                : IEEE80211_MODE_11BEA_EHT160
+ MLO                            : Yes
+ MLD Addr                       : 00:04:3d:22:4d:22
+ Num Partner links              : 1
+       Partner link 0: ADDR :06:03:7f:63:a6:78, Link ID: 1
+root@OpenWrt:/# ifconfig wifi2
+wifi2     Link encap:UNSPEC  HWaddr 00-03-7F-12-56-13-30-85-00-00-00-00-00-00-00-00
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:1504 errors:56 dropped:0 overruns:0 frame:0
+          TX packets:7067 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:2699
+          RX bytes:173525 (169.4 KiB)  TX bytes:637881 (622.9 KiB)
+
+root@OpenWrt:/# uci show wireless | grep addr
+wireless.wifi0.macaddr='00:03:7f:12:5e:43'
+wireless.wifi1.macaddr='00:03:7f:12:42:37'
+wireless.wifi2.macaddr='00:03:7f:12:56:13'
+wireless.wifi3.macaddr='00:03:7f:12:ea:f7'
+wireless.mld0.mld_macaddr='00:0A:F5:22:12:31'
+root@OpenWrt:/#

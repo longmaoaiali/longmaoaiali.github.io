@@ -1,0 +1,47 @@
+root@OpenWrt:/# cat /var/run/wpa_supplicant-ath21.conf 
+
+ctrl_interface=/var/run/wpa_supplicant-ath21
+pmf=0
+wps_cross_band_overlap=0
+dot11RSNAConfigPMKLifetime=43200
+wps_cred_add_sae=1
+sta_mld_addr=00:04:3d:11:4d:22
+num_mlo_links=2
+preferred_assoc_link=0
+
+network={
+scan_ssid=1
+ssid="gate"
+key_mgmt=WPA-PSK
+proto=RSN
+ieee80211w=0
+psk="12345678"
+pairwise=CCMP 
+group=CCMP TKIP
+multi_ap_backhaul_sta=
+multi_ap_profile=0
+}
+
+root@OpenWrt:/# cat /var/run/wpa_supplicant-ath11.conf 
+
+ctrl_interface=/var/run/wpa_supplicant-ath11
+pmf=0
+wps_cross_band_overlap=0
+dot11RSNAConfigPMKLifetime=43200
+wps_cred_add_sae=1
+sta_mld_addr=00:04:3d:11:4d:22
+num_mlo_links=2
+preferred_assoc_link=0
+
+network={
+scan_ssid=1
+ssid="gate"
+key_mgmt=WPA-PSK
+proto=RSN
+ieee80211w=0
+psk="12345678"
+pairwise=CCMP 
+group=CCMP TKIP
+multi_ap_backhaul_sta=
+multi_ap_profile=0
+}

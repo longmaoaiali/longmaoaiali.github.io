@@ -1,0 +1,151 @@
+AP////////////////////////////////////////////////////////////////////
+root@OpenWrt:/# cat /etc/config/wireless
+config wifi-device  wifi0
+        option type     qcawificfg80211
+        option channel  auto
+        option macaddr  00:03:7f:63:66:78
+        option hwmode   11beg
+        # REMOVE THIS LINE TO ENABLE WIFI:
+        option disabled 1
+
+config wifi-iface
+        option device   wifi0
+        option network  lan
+        option mode     ap
+        option ssid     OpenWrt
+        option encryption none
+
+config wifi-device  wifi1
+        option type     qcawificfg80211
+        option channel  auto
+        option macaddr  00:03:7f:63:a6:78
+        option hwmode   11bea
+        # REMOVE THIS LINE TO ENABLE WIFI:
+        option disabled 1
+
+config wifi-iface
+        option device   wifi1
+        option network  lan
+        option mode     ap
+        option ssid     OpenWrt
+        option encryption none
+
+config wifi-device 'wifi3'
+        option type 'qcawificfg80211'
+        option channel 'auto'
+        option macaddr '00:03:7f:12:06:06'
+        option hwmode '11bea'
+        option htmode 'EHT320'
+        option band '3'
+
+config wifi-iface
+        option device 'wifi3'
+        option network 'lan'
+        option mode 'ap'
+        option ssid 'OpenWrt_ml0'
+        option mld 'mld0'
+        option en_6g_sec_comp '0'
+        option encryption 'none'
+        option ppe_vp 'ds'
+        option cactimeout '0'
+
+config wifi-device 'wifi2'
+        option type 'qcawificfg80211'
+        option channel 'auto'
+        option macaddr '00:03:7f:12:e0:e0'
+        option hwmode '11bea'
+        option htmode 'EHT160'
+
+config wifi-iface
+        option device 'wifi2'
+        option network 'lan'
+        option mode 'ap'
+        option ssid 'OpenWrt_ml0'
+        option encryption 'none'
+        option mld 'mld0'
+        option ppe_vp 'ds'
+        option cactimeout '0'
+
+config wifi-mld 'mld0'
+        option mld_macaddr '00:0a:f5:22:12:31'
+        option ml_ssid 'OpenWrt_ml0'
+
+config qcawifi 'qcawifi'
+        option ppeds_wifi_soc_cfg '0xfc'
+
+
+STA////////////////////////////////////////////////////////////////////
+root@OpenWrt:/# cat /etc/config/wireless
+config wifi-device  wifi0
+        option type     qcawificfg80211
+        option channel  auto
+        option macaddr  00:03:7f:12:c5:eb
+        option hwmode   11beg
+        # REMOVE THIS LINE TO ENABLE WIFI:
+        option disabled 1
+
+config wifi-iface
+        option device   wifi0
+        option network  lan
+        option mode     ap
+        option ssid     OpenWrt
+        option encryption none
+
+config wifi-device  wifi1
+        option type     qcawificfg80211
+        option channel  auto
+        option macaddr  00:03:7f:12:91:b7
+        option hwmode   11bea
+        # REMOVE THIS LINE TO ENABLE WIFI:
+        option disabled 1
+
+config wifi-iface
+        option device   wifi1
+        option network  lan
+        option mode     ap
+        option ssid     OpenWrt
+        option encryption none
+
+config wifi-device 'wifi3'
+        option type 'qcawificfg80211'
+        option channel 'auto'
+        option macaddr '00:03:7f:12:0d:0d'
+        option hwmode '11bea'
+        option htmode 'EHT320'
+        option band '3'
+
+config wifi-iface
+        option device 'wifi3'
+        option network 'lan'
+        option mode 'sta'
+        option wds '1'
+        option ssid 'OpenWrt_ml0'
+        option mld 'mld0'
+        option en_6g_sec_comp '0'
+        option encryption 'none'
+        option ppe_vp 'ds'
+        option cactimeout '0'
+
+config wifi-device 'wifi2'
+        option type 'qcawificfg80211'
+        option channel 'auto'
+        option macaddr '00:03:7f:12:37:37'
+        option hwmode '11bea'
+        option htmode 'EHT160'
+
+config wifi-iface
+        option device 'wifi2'
+        option network 'lan'
+        option mode 'sta'
+        option wds '1'
+        option ssid 'OpenWrt_ml0'
+        option mld 'mld0'
+        option encryption 'none'
+        option cactimeout '0'
+        option ppe_vp 'ds'
+
+config wifi-mld 'mld0'
+        option mld_macaddr '00:1a:f5:22:12:31'
+        option ml_ssid 'OpenWrt_ml0'
+        option mld_ref '0'
+root@OpenWrt:/#
