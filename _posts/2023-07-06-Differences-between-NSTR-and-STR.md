@@ -14,6 +14,9 @@ tags:
 
 ### 1.Acronyms
 
+### 2.Management frame
+
+> The AP affiliated with an **NSTR** mobile AP MLD and that is operating on the nonprimary link does not send a **Beacon** frame or respond to a **Probe Request frame**.  
 
 
 ----------
