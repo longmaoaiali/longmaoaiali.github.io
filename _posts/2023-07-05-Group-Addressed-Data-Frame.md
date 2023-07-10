@@ -14,7 +14,63 @@ tags:
 
 ### 1.Acronyms
 
+**HMMC**: host-managed multicast   
 
+
+----------
+
+### 2.Multicast Enhancement(Group addressed Data frame)
+
+#### 2.1.Multicast Enhancement Background
+
+> A STA transmitting an HE PPDU that carries a broadcast frame shall set the value of the **TXVECTOR parameter NOMINAL_PACKET_PADDING** to 16 µs. A STA transmitting an HE PPDU that carries a group addressed, but not broadcast, frame shall not set the value of the TXVECTOR parameter NOMINAL_PACKET_PADDING to a value that is less than that required for any of the recipients in the group.  
+> 
+> Additional rules for group addressed frames. **An AP that transmits group addressed frames with an <HE-MCS, NSS> tuple where the HE-MCS is a mandatory HE-MCS and NSS = 1.**
+
+Group addressed Data frame only be sent with mandatory MCS and NSS=1, this is the reason why we transmit multicast to unicast function (**multicast enhancement**) in Host Driver. For High band group addressed traffic, mandatory MCS and NSS=1 can't meet the throughput requirement.  
+
+----------
+
+#### 2.2.Multicast Enhancement Feature
+
+**Configure host-managed multicast transmission:**
+
+- Enable multicast enhancement: cfg80211tool athX mcastenhance 6
+- Add entry into the HMMC list: wlanconfig athX hmmc add 224.0.67.67 240.0.0.0
+- Dump the entries from the HMMC list: wlanconfig athX hmmc dump   
+
+
+**DMA MAP operation modify dst mac address:** 
+
+	dp_tx_me_send_convert_ucast()
+	
+	for (new_mac_idx = 0; new_mac_idx < new_mac_cnt; new_mac_idx++) {
+		dstmac = newmac[new_mac_idx];
+		qdf_mem_copy(mc_uc_buf->data, dstmac, QDF_MAC_ADDR_SIZE);
+		// qdf_mem_map_nbytes_single() - Map memory for DMA, 
+		// QDF_DMA_TO_DEVICE: data going from device to memory
+		/**
+		* qdf_mem_map_nbytes_single - Map memory for DMA
+		* @osdev: pomter OS device context
+		* @buf: pointer to memory to be dma mapped
+		* @dir: DMA map direction
+		* @nbytes: number of bytes to be mapped.
+		* @phy_addr: ponter to recive physical address.
+		*
+		* Return: success/failure
+		*/
+		status = qdf_mem_map_nbytes_single(vdev->osdev, mc_uc_buf->data, QDF_DMA_TO_DEVICE, QDF_MAC_ADDR_SIZE, &paddr_mcbuf);
+			
+	}
+	
+	//the msdu_info include multiple unicast frame, each seg_info_new is a unicast frame from multicast frame transition
+	seg_info_new->frags[0].vaddr =  (uint8_t *)mc_uc_buf;
+	seg_info_tail->next = seg_info_new
+	msdu_info.u.sg_info.curr_seg = seg_info_head;
+	msdu_info.num_seg = curr_mac_cnt;
+	msdu_info.frm_type = dp_tx_frm_me;
+	//send the msdu frame 
+	dp_tx_send_msdu_multiple(vdev, nbuf, &msdu_info);
 
 ----------
 
