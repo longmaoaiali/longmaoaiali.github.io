@@ -15,6 +15,7 @@ tags:
 ### 1.Acronyms
 
 **HMMC**: host-managed multicast   
+**PE**: Packet Extension
 
 
 ----------
@@ -23,8 +24,6 @@ tags:
 
 #### 2.1.Multicast Enhancement Background
 
-> A STA transmitting an HE PPDU that carries a broadcast frame shall set the value of the **TXVECTOR parameter NOMINAL_PACKET_PADDING** to 16 µs. A STA transmitting an HE PPDU that carries a group addressed, but not broadcast, frame shall not set the value of the TXVECTOR parameter NOMINAL_PACKET_PADDING to a value that is less than that required for any of the recipients in the group.  
-> 
 > Additional rules for group addressed frames. **An AP that transmits group addressed frames with an <HE-MCS, NSS> tuple where the HE-MCS is a mandatory HE-MCS and NSS = 1.**
 
 Group addressed Data frame only be sent with mandatory MCS and NSS=1, this is the reason why we transmit multicast to unicast function (**multicast enhancement**) in Host Driver. For High band group addressed traffic, mandatory MCS and NSS=1 can't meet the throughput requirement.  
@@ -74,9 +73,25 @@ Group addressed Data frame only be sent with mandatory MCS and NSS=1, this is th
 
 ----------
 
-### 3.MLO Multicast(Group addressed Data frame)
+### 3.Packet Extension
 
-#### 3.1.AP MLD duplicate multicast on both link
+#### 3.1.Multicast Packet Extension
+
+> A STA transmitting an HE PPDU that carries a broadcast frame shall set the value of the **TXVECTOR parameter NOMINAL_PACKET_PADDING** (nominal packet padding) to **16 µs**. A STA transmitting an HE PPDU that carries a group addressed, but not broadcast, frame shall not set the value of the TXVECTOR parameter NOMINAL_PACKET_PADDING to a value that is less than that required for any of the recipients in the group. The nominal packet padding is used in computing the PE field duration (see 27.3.13).
+
+> A PE field of duration 0 µs, 4 µs, 8 µs, 12 µs, or 16 µs is present in an HE PPDU. **The PE field provides additional receive processing time at the end of the HE PPDU. If packet extension and/or signal extension is applied, the PHY entity shall wait until the packet extension and/or signal extension expires before returning to the RX IDLE state, as shown in Figure 27-63.**
+
+<font color="#FF8C00">A typical state machine implementation of the receive PHY:  </font> 
+<img src="/img/post/2023-07-10-state-machine-of-the-receive-PHY.png"/>
+
+
+> A STA transmitting an HE PPDU to a receiving STA shall include post-FEC padding determined by the pre-FEC padding factor (see 27.3.12); and after including the post-FEC padding,** the transmitting STA shall include a packet extension with a duration** indicated by the TXVECTOR parameter NOMINAL_PACKET_PADDING (see 27.3.13).
+
+> If **BCC encoding **is used, the Data field shall consist of the SERVICE field, the PSDU, the pre-FEC PHY padding bits, the tail bits, and the post-FEC padding bits. If **LDPC encoding** is used, the Data field shall consist of the SERVICE field, the PSDU, the pre-FEC PHY padding bits, and the post-FEC padding bits. No tail bits are present if LDPC encoding is used. 
+
+### 4.MLO Multicast(Group addressed Data frame)
+
+#### 4.1.AP MLD duplicate multicast on both link
 
 As per standard AP must duplicate multicast/broadcast packet on both link.  
 Impact: Duplicate Rx packet at Station   
@@ -90,7 +105,7 @@ Standard Approach: MLD station to be configured to receive multicast/broadcast o
 
 ----------
 
-#### 3.2.NSTR mobile AP MLD TX multicast only on the primary link
+#### 4.2.NSTR mobile AP MLD TX multicast only on the primary link
 
 >35.3.19 NSTR mobile AP MLD operation  
 
