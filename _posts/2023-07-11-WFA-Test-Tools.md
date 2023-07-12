@@ -55,7 +55,7 @@ The QuickTrack Test Tool software provides conformance testing based on Wi-Fi Al
 
 The QuickTrack Test Tool is tailored to test and certify products based on Qualified Solutions that **have already completed full Wi-Fi® functionality testing—modules, chipsets, and other solutions developed by Solution Providers**, which have undergone the prerequisite interoperabilty and conformance testing.   
 
-A separate “ctrl app dut” binary for Quick Track which is a control application for Quick Track test cases.   
+A separate “ctrl app dut” binary for Quick Track which is a control application for Quick Track test cases. Refer to ***QuickTrack API Specification v2.1***      
 
 	ctrl_app_dut running on DUT to parse QuickTrack message and configure AP DUT:
 	usage: For wifi2 is 6G, wifi0 – 5G and wifi1 – 2.4Ghz – below is the command to start the app application. 
@@ -70,4 +70,8 @@ A separate “ctrl app dut” binary for Quick Track which is a control applicat
 	register_api(API_AP_CONFIGURE, NULL, configure_ap_handler);
 	int configure_ap_handler(struct packet_wrapper *req, struct packet_wrapper *resp)
 	int generate_hostapd_config(char *output, int output_size, struct packet_wrapper *wrapper, struct interface_info* wlanp)
+
+
+<font color="#FF8C00">Sample API message transaction and TLVs:  </font> 
+<img src="/img/post/2023-07-12-QuickTrack-API-message-transaction-and-TLVs.png"/>   
 
