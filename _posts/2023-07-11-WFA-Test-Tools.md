@@ -16,6 +16,12 @@ tags:
 
 **WFA**: Wi-Fi Alliance  
 **WTS**: Wi-Fi Test Suite  
+**CA**: Control Agent  
+**DUT**: Device under test  
+**STAUT**: Station under Test  
+**TA**: Traffic Agent  
+**UCC**: Unified CAPI Command Console  
+**CAPI**: Control API  
 
 ----------
 
@@ -45,7 +51,44 @@ Wi-Fi Test Suite is an integrated platform that automates testing Wi-Fi componen
     Test - Execute test scripts by controlling test bed device operation.
     Results Analysis - Determine pass/fail results based on a given test case or script criteria.
 
-A separate “sigma-dut” binary for WTS which is a control application for WTS test cases.  
+A separate “sigma-dut” binary for WTS which is a control application for WTS test cases.   
+
+----------
+
+#### 3.1.WTS Basic communication paradigm  
+
+**The Control Agent performs a passive TCP open on a selected port and waits for the UCC to connect to it.** The UCC is configured to perform an active TCP open to the Control Agent. Once the TCP connection is established, any API calls made by the UCC are sent to the Control Agent as ASCII formatted commands over the TCP connection. The UCC must handle one, and only one, command at a time.  
+    
+Each command is terminated by a new-line (CR+LF). The Control Agent uses the same format for sending responses. If the TCP connection terminates for any reason, the Control Agent should wait passively for the next connection attempt from the UCC.   
+  
+**A typical CAPI command sequence is shown below:**    
+
+	UCC: device_list_interfaces,interfaceType,802.11
+	CA: status,RUNNING
+	CA: status,COMPLETE,interfaceType,802.11,interfaceID,interfaceId_1 interfaceId_2
+	UCC: sta_get_info,interface,interfaceId_1
+	CA: status,RUNNING
+	CA: status,COMPLETE,vendorInfo_1,value_1,vendorInfo_2,value_2   
+
+Commands are executed sequentially. In this example, the UCC will not respond with “STA_GET_INFO” until the device CA responds with the completed device list.  
+Note that users need to append the characters line feed \r\n to every response so that a new line will separate the commands on the UCC console output or the logs.  
+
+----------
+
+#### 3.2.sigma-dut  
+
+Take **8.23 AP_SET_WIRELESS** as an example, simga-dut code path as below:
+
+	int main(int argc, char *argv[])
+	open_socket(&sigma_dut, port) //Init socket server
+	run_loop()
+	process_conn()
+	recv(conn->s, conn->buf + conn->pos, MAX_CMD_LEN + 5 - conn->pos, 0);
+	process_cmd(dut, conn, conn->buf);
+	res = h->process(dut, conn, &c);
+	
+	sigma_dut_reg_cmd("ap_set_wireless", NULL, cmd_ap_set_wireless);
+	static enum sigma_cmd_result cmd_ap_set_wireless()
 
 ----------
 
@@ -55,7 +98,21 @@ The QuickTrack Test Tool software provides conformance testing based on Wi-Fi Al
 
 The QuickTrack Test Tool is tailored to test and certify products based on Qualified Solutions that **have already completed full Wi-Fi® functionality testing—modules, chipsets, and other solutions developed by Solution Providers**, which have undergone the prerequisite interoperabilty and conformance testing.   
 
+----------
+
+#### 4.1.QuickTrack API messages Architecture
+
+Each message may have any number of TLVs based on its requirements up to 1400 bytes. TLVs may arrive in any order provided the TLV is completely intact. Any TLV not understood by the DUT Control App or the QuickTrack Test Tool can be ignored and further processing of any following TLVs should continue.  
+
+<font color="#FF8C00">Sample API message transaction and TLVs:  </font> 
+<img src="/img/post/2023-07-12-QuickTrack-API-message-transaction-and-TLVs.png"/> 
+
+----------
+
+#### 4.2.Ctrl APP
+
 A separate “ctrl app dut” binary for Quick Track which is a control application for Quick Track test cases. Refer to ***QuickTrack API Specification v2.1***      
+Take API message ***AP_CONFIGURE*** as an example, ctrl-app code path as below:
 
 	ctrl_app_dut running on DUT to parse QuickTrack message and configure AP DUT:
 	usage: For wifi2 is 6G, wifi0 – 5G and wifi1 – 2.4Ghz – below is the command to start the app application. 
@@ -72,6 +129,5 @@ A separate “ctrl app dut” binary for Quick Track which is a control applicat
 	int generate_hostapd_config(char *output, int output_size, struct packet_wrapper *wrapper, struct interface_info* wlanp)
 
 
-<font color="#FF8C00">Sample API message transaction and TLVs:  </font> 
-<img src="/img/post/2023-07-12-QuickTrack-API-message-transaction-and-TLVs.png"/>   
+  
 
