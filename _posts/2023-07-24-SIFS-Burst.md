@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      SIFS burst  
+title:      SIFS Burst  
 subtitle:   SIFS spaced bursting    
 date:       2023-07-24
 author:     BuBu

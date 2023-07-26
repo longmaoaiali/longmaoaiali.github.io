@@ -50,7 +50,7 @@ The capability is introduced to measure the jitter per client and per TID. Jitte
 statistical variance of the RTP (Real Time protocol) data packet inter-arrival time. In the Real Time 
 Protocol, jitter is measured in timestamp units.
 
-
+#### Link metrics  
 Vendors use several metrics to determine the performance of each Wi-Fi link in a network.  
  PHY rates
  RSSI/SNR
@@ -59,6 +59,7 @@ peerratestats <wifiX> &  //Need to run traffic flow
 
 Mirrored Stream Classification Service (MSCS)
 
+#### VxLAN  
 VxLAN is a technology devised to create more overlay virtual networks then what could be 
 supported by VLANs. VLANs have an inherent limitation due to the 12-bit ID field such that these 
 can only support 4094 virtual networks.
@@ -66,4 +67,34 @@ VxLAN uses the 24-bit Virtual Network ID (VNI) and hence can support up to 16 mi
 networks.
 
 
+#### QCache  
+
+The purpose of QCache feature is to enable more peers in the system. Assuming that many of the peers are inactive most of the time, the firmware would swap out their state information into the host memory, freeing up the precious target memory to be used by more active peers. When an inactive peer starts to receive or send data, it transitions to an active state, and its state information is brought back from the host memory to the target memory.
+
+
+#### 1.16 Dynamic bandwidth for 160MHz single user TxBF
+DOC: 80-19560-3d 
+CBF: Compressed Beamforming  
+TxBF: Transmit beamforming    
+`MACTX_BF_PARAMS_PER_USER, MACTX_BF_PARAMS_COMMON`     
+`struct hwsch_su_tqm_desc`  
+
+TQM bypass PPDU： MPDU don't from TQM
+ 
+TAC: transmit access control
+IST: interrupt services task
+
+
+#### Spur mitigation
+Spur is a tonal interference caused by harmonics of on-chip and/or off-chip clocks getting coupled to the received signal. This interference affects the WLAN system performance by degrading the sensitivity as well as increasing the false-detection rate. Degraded sensitivity affects the range, while increased false-detects hurts the system throughput. The chips mitigate the impact of spurs by performing a signal-processing technique called spur mitigation.
+
+#### Dual sub-carrier modulation (DCM)
+
+DCM is an optional modulation scheme. The basic idea is to duplicate each tone in two subcarriers. It is expected to be supported only in lower order modulation schemes and only for a limited number of streams.
+
+#### FILS capability 
+
+Support has been introduced for compatibility with the IEEE 802.11ai protocol to enable the implementation of fast initial link setup (FILS) capability on the proprietary Wi-Fi driver and the hostapd application.   
+
+FILS protocol defined in 802.11ai specification is helpful to reduce the connection delay. WLAN initial connection delay is reduced without any compromise on security. FILS uses EAP-RP protocol for authentication and key derivation. Association to a FILS-capable AP always occurs through a full EAP exchange. The subsequent connections use the FILS authentication algorithm to minimize the delay in connection.   
 
