@@ -52,6 +52,18 @@ This section explains the configuration of ATF SSID grouping functionality. BSSI
 
 ATF implementation also supports per SSID scheduling policy configuration. The configuration change is to mark/configure any SSIDs that should follow **strict scheduling policy**. By default, all SSIDs will be configured to follow the **fair scheduling policy**. A user must enter a command to configure a particular SSID in Strict mode. This configuration will come into effect only when radio level ATF scheduling policy is set to Fair.  
 
+----------
 
+### 3.ATF allocation
 
+	ucfg_atf_set_max_txbufs(): API to set maximum number of tx buffers for atf
+	ucfg_atf_set_airtime_tput() - API to set atf throughput
 
+	firmware:
+	struct wlan_lmac_if_atf_tx_ops {}
+	struct wlan_lmac_if_atf_rx_ops {}
+
+	wlanconfig ath0 addsta 000102030405 10 vap1 //Assign 10% airtime to specified MAC when associated to VAP1  
+	IEEE80211_IOCTL_ATF_ADDSTA  
+	esp_estimate_hdlr() //E_airtimePercentage
+	
