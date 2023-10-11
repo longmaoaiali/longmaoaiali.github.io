@@ -47,6 +47,36 @@ Communication across links <font color="#FF0000">using different frequency bands
 - Increased peak throughput: Packets of the same flow can be sent over multiple links.  
 - Improved latency: Due to increased channel access opportunities on multiple links.
 
+#### 2.3.MLO architecture  
+
+Before the implementation of MLO, MAC service data units (MSDUs) belonging to the same traffic flow cannot be transmitted across different bands. As a result, stations are tied to a single band, preventing a dynamic and seamless inter-band operation. That is, one link is selected between transmitter and receiver to carry out data exchanges, remaining the other unused.   
+
+To enable a concurrent operation across multiple interfaces, 11be introduces the concept of multi-link capable device (MLD), which consists of a single device with multiple wireless PHY interfaces that provides a unique MAC instance to the upper layers.   
+
+In other words, the upper-layer protocols consider the MLD as a single device. Despite having multiple physical radio interfaces, MLD has a single MAC address, and the sequence numbers are generated uniquely from the same sequence number space.   
+This solution simplifies fragments and packets reassembly, duplication detection, and dynamic link switching. They allow packet retransmission on any link regardless of the link of the initial transmission of the packet.   
+
+**The unified upper MAC (UMAC) performs link agnostic operations such as A-MSDU aggregation/de-aggregation and sequence number assignment. It implements a queue that buffers the traffic received from the upper-layers. That is, traffic awaits in the UMAC before it is assigned to a specific interface to be transmitted. Also, the UMAC provides some management functions such as multi-link setup, association and authentication.**    
+
+**The independent lower MAC (LMAC) performs link specific functionalities. There, we find the link specific EDCA queues (one for each access category) that hold the traffic until its transmission. Also, procedures such as MAC header and cyclic redundancy check (CRC) creation/validation, in addition to management (e.g., beacons) and control (e.g., RTS/CTS and ACKs) frame generation are implemented at the LMAC.**  
+
+An MLD has a single MLD MAC address that identifies the MLD Management Entity (MME). Each STA (MAC/PHY instance) has its own per-link attributes.  
+**MME (Upper MAC)**  
+ Single interface to upper layer  
+ MSDU Buffering, Re-sequencing, replay-attack check  
+ Single BA session: Shared sequence # space per TID, tracks BA score-board  
+ Security: Authentication, Shared PN# per TID across links  
+ Management signaling, Association, AID assignment  
+**STA /AP (Lower MAC)**   
+ Channel contention (CCA, EDCA Back-off)    
+ Time critical control responses (Acknowledgments, CTS)    
+ Power-save states (Doze, Awake)    
+ Fragmentation, encryption, message integrity-check    
+ PPDU formation and transmission (MCS, SS#, PPDU duration)   
+**Beacon is sent per link basis**  
+ All power save and other things are taking place in per-link basis. So, beacons are sent on per-link basis.  
+ For the discovery, you need to discover the whole multi-link device. So, the beacons in one link need to carry basic info about the other links, so that other mechanisms such as probe request/response or listening on the other channels for the other beacons may be used to discover complete info about all the links.  
+ 
 ----------
 
 ### 3.MLO modes
@@ -213,3 +243,52 @@ The transmitting MLD consolidates (ORs) the BA reports from different STAs to up
 <img src="/img/post/2023-07-04-BA-procedure-with-multi-link.png"/>  
 
 ----------
+
+#### 7.Workflow of MLO operations  
+
+- Multi-Link Discovery: AP MLD advertises Cap and Op parameters for each link in beacons and probe responses (subject to optimizations to reduce bloat – work in progress).  
+- Multi-Link Setup: Initiated by non-AP MLD with an exchange of Cap and Op parameters for all links, negotiation of some parameters. A single association context is used across multiple links.  
+- Security: Common PTK across links for unicast and per-link GTK for multicast/broadcast.   
+- Multi-link BA setup: Set up of common BA session for a TID across multiple links with mapping of TID to links.  
+- Remapping of TIDs: Perform ADDBA to remap a TID to a different (set of) link(s)  
+
+----------
+
+#### 8.TID-to-Link Mapping infrastructure  
+
+Compliance with IEEE 802.11be draft version 2.1 has been implemented for T2LM.   
+Support is introduced for broadcast advertisement of T2LM in beacon/probe response to announce that a link is temporarily unavailable for all the non-AP STAs associated with the unavailable AP. Both **peer-to-peer TID-to-link (T2LM) **mapping negotiation and broadcast T2LM negotiation are supported.  
+
+The TID-to-link mapping mechanism allows an AP MLD and a non-AP MLD that performed or are performing multi-link setup to determine how UL and DL Qos traffic corresponding to TID values between 0 and 7 will be assigned to the setup links for the non-AP MLD.  
+
+
+##### 8.1.Negotiation of TID-to-link mapping (T2LM)    
+
+ An MLD that supports TID-to-link mapping negotiation shall set to a nonzero value the TID-to-link Mapping Negotiation Support subfield in the MLD Capabilities and Operations field of the Basic Multi-Link element that it transmits.   
+ During a multi-link (re)setup procedure, a non-AP MLD may initiate a TID-to-link mapping negotiation by including the TID-to-link Mapping element in the (Re)Association Request frame if an AP MLD has indicated a support of TID-to-link mapping negotiation.  
+ After the multi-link (re)setup is successful and 4-way handshake is complete (if RSNA is required), to negotiate a new TID-to-link mapping, an initiating non-AP MLD shall send an individually addressed TID-to-link Mapping Request frame to a responding MLD that has indicated support of TID-to-link mapping negotiation.    
+ An AP MLD that initiates a TID-to-link mapping negotiation may perform one of the following:  
+a. Send an individually addressed TID-to-link Mapping Request frame to a non-AP MLD  
+b. Advertise a TID-to-link mapping by including a TID-To-Link Mapping element in Beacon and Probe Response frames.  
+
+----------
+
+#### 9.Provision MLD  
+
+RM is new user application that provides improved network management toolbox by using an underlying protocol of MLO and enhanced admission control per band. It uses TID-to-Link Map (T2LM) protocol and telemetry to provision MLD clients.   
+
+The Resource Manager user application will be responsible for processing periodic statistics and running link provisioning algorithms. It will inform link provisioning decisions via cfg80211 Netlink commands to Wi-Fi driver.
+
+RM decision making algorithms   
+Resource manager’s provisioned-MLO service will trigger link provision in two scenarios:   
+1. when new MLO capable client associates   
+2. when congestion metrics crosses threshold on specific link   
+**Association handling—Handling of client association in RM app.** When new MLO capable client associates, available capacity for all links is computed based on client and link capabilities. If client has not requested any specific link in its association request, RM will provision this client on highest capacity link via T2LM message.  
+**Load Balancing or Network Optimization** handling—Periodic stats received from Telemetry agent will be used to evaluate if any links have crossed Congestion thresholds. Once congestion threshold is crossed, load balancing algorithm will be triggered to perform link load balancing.  
+
+	Enable resource manager application and PMLO service
+	uci set rsrcmgr.config.Enable=1
+	uci set rsrcmgr.pmlo.Enable=1
+	uci set rsrcmgr.config.Respawn=1
+	uci commit
+
